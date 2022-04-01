@@ -580,25 +580,49 @@ else:
  
 
 ```
-# 10. Write the following expression in a Java / Python / in your program****
+# 10. Write the following expression in a Java / Python / in your program
 
 ## Exercise
 Write the following expression in a Java / Python / in your program
 **(v^2-u^2)/2as**
 <p align="center">
-        <img src="https://github.com/Subham-Maity/HTML-Tutorial-for-Beginners/blob/master/5.Images(ignore)/5.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/java_python_problem_solving-series/blob/master/Image(ignore)/10.png?raw=true"/>
         </p>
 
 
 ## Approach:
 ```javascript
-
+So here we did like this
+Just do this
+(v*v) - (u*u))/ (2*a*s)
 ```
 ## Solution
 
 ### Java :
 
 ```java
+ 
+import java.util.Scanner;
+ 
+public class CodeXam {
+    public static void main(String[] args) {
+        double v,u,a,s;
+ 
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Equation is (v^2 -u^2)/(2as)");
+        System.out.println("Enter your value of v");
+        v = sc.nextInt();
+        System.out.println("Enter your value of u");
+        u = sc.nextInt();
+        System.out.println("Enter your value of a");
+        a = sc.nextInt();
+        System.out.println("Enter your value of s");
+        s = sc.nextInt();
+ 
+        double d = ((v*v) - (u*u))/ (2*a*s) ;
+        System.out.println("your result is "+d);
+ 
+    }}
 
 
 ```
@@ -608,7 +632,15 @@ Write the following expression in a Java / Python / in your program
 
 ```python
 
+ print("\nEquation is (v^2 -u^2)/(2as)")
  
+v = int(input("\nEnter the value of v: "))
+u = int(input("Enter the value of u: "))
+a = int(input("Enter the value of a: "))
+s = int(input("Enter the value of s: "))
+ 
+result = ((v*v) - (u*u))/ (2*a*s)
+print("Your result is :", result)
 
 ```
 # 
