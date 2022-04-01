@@ -13,7 +13,7 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
 *******
 
 ### Problem List 
-* [1.Board Percentage Calculator :](#1board-percentage-calculator-)
+* [**1.Board Percentage Calculator :**](#1board-percentage-calculator-)
 
 
 # 1.Board Percentage Calculator :
