@@ -17,16 +17,26 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
 *******
 
 ### Problem List 
+#### Operators
 * [**1.Board Percentage Calculator :**](#1board-percentage-calculator-)
 * [**2.Sum of three numbers :**](#2sum-of-three-numbers-)
 * [**3.Calculate CGPA :**](#3calculate-cgpa-)
-* [**4.Asks the user to enter his/her name and greets them with “Hello , have a good day” text.**](#4asks-the-user-to-enter-hisher-name-and-greets-them-with-hello-name-have-a-good-day-text)
 * [**5.Convert Kilometers to miles**](#5convert-kilometers-to-miles)
-* [**6.Detects whether a number entered by the user is an integer or not.**](#6-detects-whether-a-number-entered-by-the-user-is-an-integer-or-not)
 * [**7.Multiplication table, from any number to any number**](#7-multiplication-table-from-any-number-to-any-number)
-* [**8.(Type Casting) Encrypt a grade by adding a number to it. Decrypt it to show the correct grade.**](#8-type-casting-encrypt-a-grade-by-adding-a-number-to-it-decrypt-it-to-show-the-correct-grade)
 * [**9.Comparison operators to find out whether a given number is greater than the user entered number or not.**](#9comparison-operators-to-find-out-whether-a-given-number-is-greater-than-the-user-entered-number-or-not)
 * [**10. Write the following expression in a Java / Python / in your program**](#10-write-the-following-expression-in-a-java--python--in-your-program)
+*****
+#### String
+* [**4.Asks the user to enter his/her name and greets them with “Hello , have a good day” text.**](#4asks-the-user-to-enter-hisher-name-and-greets-them-with-hello-name-have-a-good-day-text)
+
+*****
+#### Checking Related Problems
+* [**6.Detects whether a number entered by the user is an integer or not.**](#6-detects-whether-a-number-entered-by-the-user-is-an-integer-or-not)
+#### Type Casting
+* [**8.(Type Casting) Encrypt a grade by adding a number to it. Decrypt it to show the correct grade.**](#8-type-casting-encrypt-a-grade-by-adding-a-number-to-it-decrypt-it-to-show-the-correct-grade)
+*****
+
+
 
 # 1.Board Percentage Calculator :
 
