@@ -16,9 +16,9 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
 * [**1.Board Percentage Calculator :**](#1board-percentage-calculator-)
 * [**2.Sum of three numbers :**](#2sum-of-three-numbers-)
 * [**3.Calculate CGPA :**](#3calculate-cgpa-)
-* [**4. Asks the user to enter his/her name and greets them with “Hello , have a good day” text.**](#4asks-the-user-to-enter-hisher-name-and-greets-them-with-hello-name-have-a-good-day-text)
+* [**4.Asks the user to enter his/her name and greets them with “Hello , have a good day” text.**](#4asks-the-user-to-enter-hisher-name-and-greets-them-with-hello-name-have-a-good-day-text)
 * [**5.Convert Kilometers to miles**](#5convert-kilometers-to-miles)
-* [**6. Detects whether a number entered by the user is an integer or not.**](#6-detects-whether-a-number-entered-by-the-user-is-an-integer-or-not)
+* [**6.Detects whether a number entered by the user is an integer or not.**](#6-detects-whether-a-number-entered-by-the-user-is-an-integer-or-not)
 
 # 1.Board Percentage Calculator :
 
@@ -351,21 +351,53 @@ print(user_input.isnumeric())
  
 
 ```
-# 
+# 7. Multiplication table, from any number to any number
 
 ## Exercise
 
-
+printing multiplication table for any number, from any number to any number (all given in input) (Forward and reverse order multiplication should be implemented in the program)
 
 ## Approach:
 ```javascript
-
+So here we did like this
+ 
+Forward : Run a incrementing for loop from Start to end and print the value of the given number what you want 
+to get a multiplication table (note: Start < End ) 
+Reverse : Run a decrementing for loop from Start to end and print the value of the given number what you want 
+to get a multiplication table
+(note: Start > End ) 
 ```
 ## Solution
 
 ### Java :
 
 ```java
+import java.util.Scanner;
+public class CodeXam
+{
+    public static void main(String[] args)
+    {
+        Scanner s = new Scanner(System.in);
+        System.out.print(" Enter the number you want to get a multiplication table of : ");
+        int n=s.nextInt();
+        System.out.print("From where : ");
+        int start=s.nextInt();
+        System.out.print("To where : ");
+        int end=s.nextInt();
+ 
+        if (start <= end )
+        for(int i=start; i <= end; i++)
+        {
+            System.out.println(n+" * "+i+" = "+n*i);
+        }
+        else{
+            for(int i=start; i >=  end; i--){
+                System.out.println(n+" * "+i+" = "+n*i);
+            }
+ 
+        }
+    }
+}
 
 
 ```
@@ -375,17 +407,55 @@ print(user_input.isnumeric())
 
 ```python
 
+ value = int(input("Enter the number you want to get a multiplication table of : "))
+start = int(input("From where : "))
+end = int(input("To where : "))
  
+ 
+if start <= end:
+    for i in range(start, end+1):
+        print(f"{value} * {i} = {value * i}")
+elif start > end:
+    for o in range(start, end-1, -1):
+        print(f"{value} * {o} = {value * o}")
+
 
 ```
-# 
+# 8. (Type Casting) Encrypt a grade by adding a number to it. Decrypt it to show the correct grade.
 
 ## Exercise
-
+Write a program to the first user input his/her exam grade. Now the program asks for a code number to encrypt your grade by adding the number with your grade. Now the program asks you if you want to decrypt your grade press y or if no type n (note: Y/y or N/n case must be ignored and user can type the capital letter or small letter your program should understand)and if yes program will start decrypting your grade and show you your original grade otherwise program will print “ sorry sir/mam, we can't crack your grade “
 
 
 ## Approach:
 ```javascript
+So here we did like this
+Java: 1. First take a input as a char (letter like : A B C D ) 
+      2. Take a input as an integer value 
+      3. Type cast them because if we do any operation between char and int, it returns int (it’s called numaric Promotion Rules 
+1.Byte + Short = Int  
+2.Short + Int  = Int
+3.Long + Float = Float
+4.Character + Int = Int (here we use this)
+5.Character + Short = Int
+6.Long + Double = Double
+7.Float + Double = Double)So we must have to cast them into char 
+      4.Take a input as a string value (yes for y No for n) 
+      6.we check the input letter(y/n) and also ignore case by equalsIgnoreCase 
+      7.Type cast again and do this : Your given grade - Your given number 
+ 
+==========================================================================
+ 
+Python : To install “Click” package simply go to any terminal and type “pip install click”
+ 
+1. We used 'Click' module by this command "import click"
+2. Take a input as a string for your grade
+3. Take a input as an string for your code
+4. use 'click' for take yes or no on input
+       
+Python click module is used to create command-line (CLI) applications.
+It is an easy-to-use alternative to the standard optparse and argparse modules.
+ 
 
 ```
 ## Solution
@@ -393,6 +463,36 @@ print(user_input.isnumeric())
 ### Java :
 
 ```java
+import java.util.Scanner;
+public class CodeXam {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println(" Enter Your Exam Grade ");
+        char grade = sc.next().charAt(0);
+        System.out.println("Enter Your Code Number We Will Encrypt Your Grade ");
+        int a = sc.nextInt();
+
+        // Encrypting the grade
+        grade = (char)(grade + a);
+        System.out.println("So Now Your Grade is : " + grade);
+
+        // Ask User
+        System.out.println("Sir/Mam, Do you want to decrypt your grade? If yes type " + " y/Y " + " If no type " + " n/N ") ;
+        String answer = sc.next();
+
+        // Decrypting the grade
+        if ( (answer.equalsIgnoreCase("Y") ) ) {
+            grade = (char) (grade - a);
+            System.out.println("Your actual Grade is " + grade);
+        }
+        else
+        {
+            System.out.println("sorry Sir/mam, we can't crack your grade");
+        }
+
+    }
+}
 
 
 ```
@@ -402,17 +502,34 @@ print(user_input.isnumeric())
 
 ```python
 
+ import click
  
+result = input("Please Enter Your Exam Grade: ")
+code = input("Please Enter Your Encryption Code: ")
+ 
+print("\nNow Your Grade is 'F'")
+ 
+if click.confirm("\nSir/Ma'am, Do You Want to Decrypt Your Grade ? If Yes type 'Y/y' or 'N/n' for No :\n>> ",
+                 default=True):
+    print("Your Actual Grade is ", result)
+else:
+    print("Grade Decryption Aborted")
 
 ```
-# 
+# 9.Comparison operators to find out whether a given number is greater than the user entered number or not.
+
 
 ## Exercise
+Use comparison operators to find out whether a given number 28/56 is greater than the user entered number or not.
 
 
 
 ## Approach:
 ```javascript
+So here we did like this
+ 
+Take a number from the user and compare them using < / > and store it in the boolean data type because 
+if you compare two operators it returns true or false
 
 ```
 ## Solution
@@ -420,6 +537,27 @@ print(user_input.isnumeric())
 ### Java :
 
 ```java
+import java.util.Scanner;
+public class CodeXam {
+    public static void main(String[] args) {
+ 
+        Scanner ab = new Scanner(System.in);
+        int a1 = 28;
+        System.out.println("Given number is " + a1);
+ 
+        System.out.println("Enter number = ");
+ 
+        int a = ab.nextInt();
+        System.out.println(a);
+        boolean bool = (a1 >= a);
+        if (bool){
+            System.out.println("given number 28 is greater than your entered number ");
+        }
+        else {
+            System.out.println("given number 28 is less than your entered number ");
+        }
+    }
+}
 
 
 ```
@@ -428,14 +566,28 @@ print(user_input.isnumeric())
 ### Python :
 
 ```python
-
+given_number = 56
+print("The given number is", given_number)
+ 
+user_input = int(input("Enter your number : \n"))
+ 
+if user_input < given_number:
+    print("Given number is greater than the entered number")
+elif user_input == given_number:
+    print("Both are same number")
+else:
+    print("Given number", given_number, "is less than the entered number")
  
 
 ```
-# 
+# 10. Write the following expression in a Java / Python / in your program****
 
 ## Exercise
-
+Write the following expression in a Java / Python / in your program
+**(v^2-u^2)/2as**
+<p align="center">
+        <img src="https://github.com/Subham-Maity/HTML-Tutorial-for-Beginners/blob/master/5.Images(ignore)/5.png?raw=true"/>
+        </p>
 
 
 ## Approach:
