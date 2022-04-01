@@ -1,9 +1,11 @@
 # JAVA- Python Problem Series For Beginners
 ## I cover all type of problems of Java-Python from Basic to Pro Level
 # Writer Intro
-I am **Subham Maity.**
+## **[Subham Maity](https://github.com/Subham-Maity)** who is contributing on **Java** part
+## **[Subhasish Negel](https://github.com/Subhasish-Negel)** who is contributing on **Python** part
 
-**Welcome to this book on "Learning HTML In 4 Steps".
+
+**Welcome to this book on "Learning JAVA- Python Problem Series For Beginners".
 I love Programming. One of the aims I had when I started ```CodeXam``` was to make learning programming easy.**
 
 **At ```CodeXam```, we ask ourselves one question every day: "How do we create awesome learning experiences?"**
