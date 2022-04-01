@@ -14,7 +14,11 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
 
 ### Problem List 
 * [**1.Board Percentage Calculator :**](#1board-percentage-calculator-)
-
+* [**2.Sum of three numbers :**](#2sum-of-three-numbers-)
+* [**3.Calculate CGPA :**](#3calculate-cgpa-)
+* [**4. Asks the user to enter his/her name and greets them with “Hello , have a good day” text.**](#4-asks-the-user-to-enter-hisher-name-and-greets-them-with-hello-name-have-a-good-day-text)
+* [**5.Convert Kilometers to miles**](#5convert-kilometers-to-miles)
+* [**6. Detects whether a number entered by the user is an integer or not.**](#6-detects-whether-a-number-entered-by-the-user-is-an-integer-or-not)
 
 # 1.Board Percentage Calculator :
 
@@ -197,7 +201,7 @@ print("Total marks :", total, "out of 300")
 print("Your CGPA is", total/30)
 
 ```
-#4. Asks the user to enter his/her name and greets them with “Hello <name>, have a good day” text.
+# 4. Asks the user to enter his/her name and greets them with “Hello <name>, have a good day” text.
 
 ## Exercise
 
