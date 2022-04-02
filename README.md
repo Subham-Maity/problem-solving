@@ -1272,6 +1272,34 @@ P.S. To uninstall any kinda pip package just type â€œpip uninstall package_nameâ
 ### Java :
 
 ```java
+ 
+import java.util.Scanner;
+class CodeXam {
+    public static void main(String[] args) {
+        boolean isPrime = false;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter any number to check prime or not:");
+        int n = sc.nextInt();
+ 
+        if (n == 1 || n ==0) {
+            System.out.println(n + " is not prime number");
+        } else {
+            for (int i = 2; i <= n / 2; ++i) {
+                // condition for non-prime number
+                if (n % i == 0) {
+                    isPrime = true;
+                    break;
+ 
+                }
+            }
+            if (!isPrime)
+                System.out.println(n + " is a prime number.");
+            else
+                System.out.println(n + " is not a prime number.");
+        }
+    }
+}
+ 
 
 
 
@@ -1281,6 +1309,30 @@ P.S. To uninstall any kinda pip package just type â€œpip uninstall package_nameâ
 ### Python :
 
 ```python
+ 
+num = int(input("Enter Your Number :\n"))
+if num > 1:
+ 
+    for i in range(2, int(num / 2) + 1):
+        if (num % i) == 0:
+            print(num, "is not a prime number")
+            break
+    else:
+        print(num, "is a prime number")
+ 
+else:
+    print(num, "is not a prime number")
+ 
+ 
+#2nd approach
+from sympy import *
+ 
+x = int(input("Enter a number to check whether it's a Prime number or not:\n"))
+ 
+if isprime(x):
+    print(x, "is a prime number indeed")
+else:
+    print(x, "is not a prime number")
 
 ```
 
