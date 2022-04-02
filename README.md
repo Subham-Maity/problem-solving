@@ -665,19 +665,51 @@ print("Your result is :", result)
 
 ## Exercise
 Why does this happen?
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/11.png?raw=true"/>
+        </p>
 
 
 
 
 ## Approach:
 ```javascript
+So here we did like this for result we need to define the floating point
+7/4 it always return an integer so 7/4 = 1 
+                                Then 9/2 = 4
+                                Then 1*4 = 4 (this is the reason why then 
+ Our program return 4 instead of 7.875) 
+```
 
+# 12. Convert a string to lowercase.
+
+
+## Exercise
+Write a program to convert a string to lowercase. This string is given by the user.
+
+
+
+## Approach:
+```javascript
+So here we did like this
+Java : in java The toLowerCase() method converts a string to lower case letters
+Python : in Python, the “ .lower” method is used to convert a string in lower case !
 ```
 ## Solution
 
 ### Java :
 
 ```java
+import java.util.Scanner;
+public class CodeXam {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter any sentence or word: ");
+        String string = sc.nextLine();
+        string = string.toLowerCase();
+        System.out.println("In lower case this word or sentence looks like this : " + "\n" + string);
+    }
+}
 
 
 ```
@@ -686,6 +718,54 @@ Why does this happen?
 ### Python :
 
 ```python
+given_str = input("Enter any sentence or word : ")
+ 
+print("In lower case this word or sentence looks like this :", given_str.lower())
+
+ 
+
+```
+# 13. Replace spaces with underscores.
+
+## Exercise
+
+Write a program to replace spaces with underscores. This string is given by the user.
+
+## Approach:
+```javascript
+
+So here we did like this
+Java : The replace() method searches a string for a specified character, and
+returns a new string where the specified character(s) are replaced.
+Python : It's the same as Java, just use the .replace method.
+```
+## Solution
+
+### Java :
+
+```java
+import java.util.Scanner;
+public class CodeXam {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter any sentence with space: ");
+        String string = sc.nextLine();
+        string = string.replace(" ", "_");
+        System.out.println("This sentence with underscores looks like this : " + "\n" + string);}}
+
+
+```
+
+
+### Python :
+
+```python
+txt = input("Enter your sentence with space : \n")
+ 
+x = txt.replace(" ", "_")
+ 
+print("This sentence with underscores looks like this:\n",x)
+
 
  
 
@@ -695,9 +775,9 @@ Why does this happen?
 ## Exercise
 
 
-
 ## Approach:
 ```javascript
+
 
 ```
 ## Solution
@@ -707,6 +787,7 @@ Why does this happen?
 ```java
 
 
+
 ```
 
 
@@ -714,7 +795,32 @@ Why does this happen?
 
 ```python
 
- 
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
 
 ```
 # 
@@ -722,9 +828,9 @@ Why does this happen?
 ## Exercise
 
 
-
 ## Approach:
 ```javascript
+
 
 ```
 ## Solution
@@ -734,6 +840,7 @@ Why does this happen?
 ```java
 
 
+
 ```
 
 
@@ -741,9 +848,4169 @@ Why does this happen?
 
 ```python
 
- 
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
 
 ```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+
+### Python :
+
+```python
+
+```
+
+
+
+
 
 
 
