@@ -221,7 +221,7 @@ print("Your CGPA is", total/30)
 ```
 
 
-#  4.Asks the user to enter his/her name and greets them with “Hello <name>, have a good day” text.
+#  4.Asks the user to enter his/her name and greets them with “Hello ```<name>```, have a good day” text.
 
 
 ## Exercise
