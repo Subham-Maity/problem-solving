@@ -834,10 +834,18 @@ print(output.replace('<|Name|>', name))
 
 ## Exercise
 Write a  program to detect the index of double and triple spaces in a string given by the user.
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/15.png?raw=true"/>
+        </p>
 
 ## Approach:
 ```javascript
-
+So here we did like this
+Java: The indexOf() method returns the position of the first occurrence 
+of specified character(s) in a string
+ 
+Python : The .index() method return the position of first occurrence 
+of specified character(s) in a string
 
 ```
 ## Solution
@@ -845,6 +853,16 @@ Write a  program to detect the index of double and triple spaces in a string giv
 ### Java :
 
 ```java
+import java.util.*;
+public class code_xam {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter your Sentence ");
+        String str1 = sc.nextLine();
+        System.out.println(str1.indexOf("  "));
+        System.out.println(str1.indexOf("   "));
+    }
+}
 
 
 
@@ -854,15 +872,37 @@ Write a  program to detect the index of double and triple spaces in a string giv
 ### Python :
 
 ```python
+txt = input("Enter Your sentence with 2 and 3 spaces:\n")
+print(txt.index("  "))
+print(txt.index("   "))
 
 ```
-# 
+# 16. Check if a String contains only whitespaces
 
 ## Exercise
-
+Check if a String given by the user contains only whitespaces or not if the string has only whitespace print 
+“ It is only whitespace” if not print “It’s a sentence ”
 
 ## Approach:
 ```javascript
+So here we did like this
+Java:
+ 
+The Java String class trim() method eliminates leading and trailing spaces
+he Java String class isEmpty() method checks if the input string is empty or not
+ 
+Get the String to be checked in str1
+We can use the trim() method of String class to remove the leading whitespaces in the string.
+Syntax:
+str1.trim()
+Then we can use the isEmpty() method of String class to check if the resultant string is empty or not. If the string contained only whitespaces, then this method will return true
+Syntax:
+str.isEmpty()
+Combine the use of both methods using Method Chaining.
+str.trim().isEmpty()
+Print true if the above condition is true. Else print false.
+ 
+Python : We’re simply using if, else conditions here ! 
 
 
 ```
@@ -871,6 +911,18 @@ Write a  program to detect the index of double and triple spaces in a string giv
 ### Java :
 
 ```java
+import java.util.*;
+class CodeXam {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter your Sentence");
+        String str1 = sc.nextLine();
+        {
+            if (str1.trim().isEmpty())
+                System.out.println("It is only whitespace");
+            else
+                System.out.println("It's a sentence");
+        }}}
 
 
 
@@ -880,13 +932,22 @@ Write a  program to detect the index of double and triple spaces in a string giv
 ### Python :
 
 ```python
+input_str = input("Please enter your sentence : \n")
+ 
+if  input_str:
+    print("It's a sentence")
+else:
+    print("It's only Whitespace")
 
 ```
 
-# 
+# 17.(Escape sequence) format the following sentence using escape sequence characters only
 
 ## Exercise
-
+format the following sentence using escape sequence characters only
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/11.png?raw=true"/>
+        </p>
 
 ## Approach:
 ```javascript
