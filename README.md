@@ -946,11 +946,36 @@ else:
 ## Exercise
 format the following sentence using escape sequence characters only
 <p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/11.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/17.png?raw=true"/>
         </p>
 
 ## Approach:
 ```javascript
+So here we did like this
+Java :
+Escape Sequence :
+ 
+\t  Inserts a tab in the text at this point.
+\b  Inserts a backspace in the text at this point.
+\n  Inserts a newline in the text at this point.
+\r  Inserts a carriage return in the text at this point.
+\f  Inserts a form feed in the text at this point.
+\'  Inserts a single quote character in the text at this point.
+\"  Inserts a double quote character in the text at this point.
+\\  Inserts a backslash character in the text at this point.
+ 
+Python :
+ 
+\'	Single Quote
+\”    Double Quote	
+\\	Backslash	
+\n	New Line	
+\r	Carriage Return	
+\t	Tab	
+\b	Backspace	
+\f	Form Feed	
+\ooo	Octal value	
+\xhh	Hex value
 
 
 ```
@@ -959,6 +984,13 @@ format the following sentence using escape sequence characters only
 ### Java :
 
 ```java
+ 
+class CodeXam {
+    public static void main(String[] args) {
+        String myLetter = "Dear Xam,\n\tThis question answer sheet is very helpful for me .\n Thanks!";
+        System.out.println(myLetter);
+    }
+     }
 
 
 
@@ -968,16 +1000,32 @@ format the following sentence using escape sequence characters only
 ### Python :
 
 ```python
+output = "Dear Suvo,\n\tThis question answer sheet is very helpful for me.\n Thanks!"
+ 
+print(output)
+```
+
+# 18.Make a Calculator.
+
+## Exercise
+Make a Calculator. Take 2 integer numbers (a & b) from the user and an operation as follows
+```javascript
+Press 1 : + (Addition) a + b 
+Press 2 : - (Subtraction) a - b 
+Press 3 : * (Multiplication) a * b 
+Press 4 : / (Division) a / b 
+Press 5 : % (Modulo or remainder) a % b 
+Calculate the result according to the operation given and display it to the user
 
 ```
 
-# 
-
-## Exercise
-
-
 ## Approach:
 ```javascript
+So here we did like this
+Java : using case switch and take the integer input from the user and operation to them as 
+the instructions are given in the question 
+ 
+Python : We take all int value as input and simply use if elif method
 
 
 ```
@@ -986,6 +1034,51 @@ format the following sentence using escape sequence characters only
 ### Java :
 
 ```java
+import java.util.*;
+ 
+public class CodeXam {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter Your First Number");
+        int a = sc.nextInt();
+        System.out.println("Enter Your Second Number");
+        int b = sc.nextInt();
+        System.out.println("Press 1 : + (Addition):  " +  a + " + " + b + "\nPress 2 :  - (Subtraction):  " +  a + " - " + b + "\nPress 3 :  * (Multiplication):  " +  a + " * " + b +"\nPress 4 :   / (Division):  " +  a + " / " + b +"\nPress 5 :  % (Modulo or remainder):  " +  a + " % " + b );
+ 
+        int operator = sc.nextInt();
+ 
+          /**
+         * 1 -> +
+         * 2 -> -
+         * 3 -> *
+         * 4 -> /
+         * 5 -> %
+           */
+ 
+        switch(operator) {
+            case 1 : System.out.println(a+b);
+                break;
+            case 2 : System.out.println(a-b);
+                break;
+            case 3 : System.out.println(a*b);
+                break;
+            case 4 : if(b == 0) {
+                System.out.println("Invalid Division");
+            } else {
+                System.out.println(a/b);
+            }
+                break;
+            case 5 : if(b == 0) {
+                System.out.println("Invalid Division");
+            } else {
+                System.out.println(a%b);
+            }
+                break;
+            default : System.out.println("Invalid Operator");
+        }
+    }
+}
+
 
 
 
@@ -995,17 +1088,46 @@ format the following sentence using escape sequence characters only
 ### Python :
 
 ```python
+a = int(input("Enter your 1st number: "))
+b = int(input("Enter your 2nd number: "))
+ 
+print(f"""
+Press 1 : + (Addition): {a} + {b}
+Press 2 :  - (Subtraction): {a} - {b}
+Press 3 :  * (Multiplication): {a} * {b}
+Press 4 :   / (Division): {a} / {b}
+Press 5 :  % (Modulo or remainder): {a} % {b}""")
+ 
+user_input = int(input())
+ 
+if user_input == 1:
+    print(a+b)
+elif user_input == 2:
+    print(a-b)
+elif user_input == 3:
+    print(a*b)
+elif user_input == 4:
+    print(a / b)
+elif user_input == 5:
+    print(a % b)
+else:
+    print("Invalid Input :(") 
 
 ```
 
-# 
+# 19.Print the name of the month.
+
 
 ## Exercise
+Ask the user to enter the number of the month & print the name of the month. For eg - For ‘1’ print ‘January’, ‘2’ print ‘February’ & so on
 
 
 ## Approach:
 ```javascript
-
+So here we did like this
+Java : using case switch and take the integer input from the user and print according to the number
+Python:Same as Java, we’re using Case switch method here, “match-case”.Python 3.10 (2021) introduced the
+match-case statement which provides a first-class implementation of a "switch" for Python.
 
 ```
 ## Solution
@@ -1013,6 +1135,47 @@ format the following sentence using escape sequence characters only
 ### Java :
 
 ```java
+import java.util.*;
+ 
+public class CodeXam {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+ 
+        System.out.println("Enter the number of the month \n(Press : 1 -12 only) " );
+ 
+        int operator = sc.nextInt();
+        String sentence = "The name of the month according to your number is: ";
+ 
+        switch(operator) {
+            case 1 : System.out.println(sentence + "January");
+                break;
+            case 2 : System.out.println(sentence + "February");
+                break;
+            case 3 : System.out.println(sentence + "March");
+                break;
+            case 4 : System.out.println(sentence + "April");
+                break;
+            case 5 : System.out.println(sentence + "May");
+                break;
+            case 6 : System.out.println(sentence + "June");
+                break;
+            case 7 : System.out.println(sentence + "July");
+                break;
+            case 8 : System.out.println(sentence + "August");
+                break;
+            case 9 : System.out.println(sentence + "September");
+                break;
+            case 10 : System.out.println(sentence + "October");
+                break;
+            case 11 : System.out.println(sentence + "November");
+                break;
+            case 12 : System.out.println(sentence + "December ");
+                break;
+            default : System.out.println("Invalid Number");
+        }
+    }
+}
+ 
 
 
 
@@ -1022,19 +1185,88 @@ format the following sentence using escape sequence characters only
 ### Python :
 
 ```python
+x = int(input("Please enter the no. of your month: \n"))
+ 
+sentence = "The name of the month according to your number is:"
+match x:
+    case 1:
+        print(f"{sentence} January")
+    case 2:
+        print(f"{sentence} February")
+    case 3:
+        print(f"{sentence} March")
+    case 4:
+        print(f"{sentence} April")
+    case 5:
+        print(f"{sentence} May")
+    case 6:
+        print(f"{sentence} June")
+    case 7:
+        print(f"{sentence} July")
+    case 8:
+        print(f"{sentence} August")
+    case 9:
+        print(f"{sentence} September")
+    case 10:
+        print(f"{sentence} October")
+    case 11:
+        print(f"{sentence} November")
+    case 12:
+        print(f"{sentence} December")  
 
 ```
 
-# 
+# 20.Prime or not (input from the user)
+
 
 ## Exercise
+Print if a number is prime or not (Input n from the user). (without creating a method or recursion using if else and for loop or do while loop only)
 
 
 ## Approach:
 ```javascript
-
-
+ Note : To find if a number is prime, why is checking till n/2 ?
+            
+Well, whenever you find a number which is Prime or not , you check it till n/2. That is true, and there is no problem checking it till n. But we don’t check it because there is no possibility of getting a number x which is divisible by n and which lies on the second half of the number (n/2).
+ 
+Let’s check what I am talking about.
+ 
+Consider the number 17. Check whether it is prime or not.
+ 
+17%2≠0 (%=Modulus or Remainder)
+ 
+17%3≠0
+ 
+17%4≠0
+ 
+17%5≠0
+ 
+17%6≠0
+ 
+17%7≠0
+ 
+17%8≠0
+ 
+17%9≠0 (Consider this which lies on the second half in the n/2).
+ 
+You won’t find any more numbers which can produce the result.
+ 
+The minimum number that can be divided by 17 is 2, and if you divide 17/9 which can’t give you the number which is less than 2. (We don’t consider 1 as minimum since 1 is divisible with every other number).
+ 
+So, it is a waste of time to check further for any other number, or it is an inefficient algorithm in terms of computer programming.
+ 
+ 
+ 
+Python : 
+1st approach = Just same as Java approach mentioned above
+ 
+2nd Approach = In python we can simply use pip(package manager)  to install a python package which is called “sympy” , just go to your terminal(for windows CMD or Powershell or Windows Terminal for Win 11, system terminal for MaxOS and any Linux Based OS) and type “pip install sympy”, it will automatically download and install sympy. After that, type “from sympy import *” on your IDE (see the 1st line of the python solution mentioned below). Then we can use the isprime() method which we imported from sympy !
+ 
+P.S. To uninstall any kinda pip package just type “pip uninstall package_name”
 ```
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/20.png?raw=true"/>
+        </p>
 ## Solution
 
 ### Java :
