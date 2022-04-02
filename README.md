@@ -661,9 +661,11 @@ result = ((v*v) - (u*u))/ (2*a*s)
 print("Your result is :", result)
 
 ```
-# 
+# 11.(Java)What will be the result of the following expression
 
 ## Exercise
+Why does this happen?
+
 
 
 
