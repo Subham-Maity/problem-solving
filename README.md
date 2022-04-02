@@ -24,20 +24,29 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
 * [**5.Convert Kilometers to miles**](#5convert-kilometers-to-miles)
 * [**7.Multiplication table, from any number to any number**](#7-multiplication-table-from-any-number-to-any-number)
 * [**9.Comparison operators to find out whether a given number is greater than the user entered number or not.**](#9comparison-operators-to-find-out-whether-a-given-number-is-greater-than-the-user-entered-number-or-not)
-* [**10. Write the following expression in a Java / Python / in your program**](#10-write-the-following-expression-in-a-java--python--in-your-program)
+* [**10.Write the following expression in a Java / Python / in your program**](#10-write-the-following-expression-in-a-java--python--in-your-program)
+* [**11.(Java)What will be the result of the following expression**](#11javawhat-will-be-the-result-of-the-following-expression)
+
 *****
 #### String
 * [**4.Asks the user to enter his/her name and greets them with “Hello , have a good day” text.**](#4asks-the-user-to-enter-hisher-name-and-greets-them-with-hello-name-have-a-good-day-text)
-
+* [**12.Convert a string to lowercase.**](#12-convert-a-string-to-lowercase)
+* [**13.Replace spaces with underscores.**](#13-replace-spaces-with-underscores)
+* [**14.Fill in a letter template which looks like below:**](#14-fill-in-a-letter-template-which-looks-like-below)
+* [**15.Detects double and triple spaces in a string.**](#15-detects-double-and-triple-spaces-in-a-string)
+* [**16. Check if a String contains only whitespaces**](#16-check-if-a-string-contains-only-whitespaces)
 *****
-#### Checking Related Problems
+#### Checking Related Problems(If-Else)
 * [**6.Detects whether a number entered by the user is an integer or not.**](#6-detects-whether-a-number-entered-by-the-user-is-an-integer-or-not)
+* [**20.Prime or not (input from the user)**](#20prime-or-not-input-from-the-user)
 #### Type Casting
 * [**8.(Type Casting) Encrypt a grade by adding a number to it. Decrypt it to show the correct grade.**](#8-type-casting-encrypt-a-grade-by-adding-a-number-to-it-decrypt-it-to-show-the-correct-grade)
 *****
-
-
-
+#### Escape sequence
+* [**17.(Escape sequence) format the following sentence using escape sequence characters only**](#17escape-sequence-format-the-following-sentence-using-escape-sequence-characters-only)
+#### Case Switch 
+* [**19.Print the name of the month.**](#19print-the-name-of-the-month)
+* [**18.Make a Calculator.**](#18make-a-calculator)
 # 1.Board Percentage Calculator :
 
 ## Exercise 
