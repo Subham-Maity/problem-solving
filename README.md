@@ -770,13 +770,31 @@ print("This sentence with underscores looks like this:\n",x)
  
 
 ```
-# 
+# 14. Fill in a letter template which looks like below:
 
 ## Exercise
+Write a program to fill in a letter template which looks like below:
+```javascript
+Sentence =      “Dear <|name|>, Thanks a lot” 
+ 
+Replace =      <|name|> with a string (some name)
 
+```
 
 ## Approach:
 ```javascript
+So here we did like this
+Java : We use replace method but if we just do like this 
+        String sentences = sc.nextLine();
+        String sentence = "Dear <|name|>, Thanks a lot!";
+        sentence.replace("<|name|>", sentences);
+        System.out.println(sentence);
+ It will execute this : Enter your name: Subham
+                        Dear <|name|>, Thanks a lot!
+If we want to change a string we need convert a string by storing it in 
+another string variable
+ 
+Python : We will use the .replace() method again and unlike java , we don’t need to store the string in another variable !
 
 
 ```
@@ -785,6 +803,17 @@ print("This sentence with underscores looks like this:\n",x)
 ### Java :
 
 ```java
+import java.util.Scanner;
+public class CodeXam {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter your name: ");
+        String sentences = sc.nextLine();
+        String sentence = "Dear <|name|>, Thanks a lot!";
+        sentence =  sentence.replace("<|name|>", sentences);
+        System.out.println(sentence);
+    }
+}
 
 
 
@@ -794,13 +823,17 @@ print("This sentence with underscores looks like this:\n",x)
 ### Python :
 
 ```python
-
+name = input("Enter your name: ")
+ 
+output = "Dear <|Name|>, Thanks a Lot !"
+ 
+print(output.replace('<|Name|>', name))
 ```
 
-# 
+# 15. Detects double and triple spaces in a string.
 
 ## Exercise
-
+Write a  program to detect the index of double and triple spaces in a string given by the user.
 
 ## Approach:
 ```javascript
