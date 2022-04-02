@@ -65,7 +65,7 @@ Marks Percentage =
 
 ```java
 import java.util.Scanner;
-public class CodeXam { //our class 
+public class CodeXam { //our class is CodeXam
     public static void main(String[] args) {
         System.out.println("Enter The Maximum Marks Of One Subject (example: Physics 100) ");
         Scanner sc = new Scanner(System.in);
