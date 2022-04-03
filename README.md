@@ -44,14 +44,17 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
 * [**21.Pass or fail**](#21pass-or-fail)
 * [**22.Calculate income tax**](#22calculate-income-tax)
 * [**23.Leap year or not.**](#23leap-year-or-not)
+*****
 #### Type Casting
 * [**8.(Type Casting) Encrypt a grade by adding a number to it. Decrypt it to show the correct grade.**](#8-type-casting-encrypt-a-grade-by-adding-a-number-to-it-decrypt-it-to-show-the-correct-grade)
 *****
 #### Escape sequence
 * [**17.(Escape sequence) format the following sentence using escape sequence characters only**](#17escape-sequence-format-the-following-sentence-using-escape-sequence-characters-only)
+*****
 #### Case Switch 
 * [**19.Print the name of the month.**](#19print-the-name-of-the-month)
 * [**18.Make a Calculator.**](#18make-a-calculator)
+*****
 #### Loop
 ##### Pattern Problems
 * [**1.(Solid Rectangle)**](#1solid-rectangle)
