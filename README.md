@@ -1713,10 +1713,14 @@ print("Your username is:", user_name)
 
 ```
 
-# 
+# 1.(Solid Rectangle)
 
 ## Exercise
+Print the pattern using for loop
 
+<p align="center">
+        <img src="https://github.com/Subham-Maity/HTML-Tutorial-for-Beginners/blob/master/5.Images(ignore)/10.png?raw=true"/>
+        </p>
 
 ## Approach:
 ```javascript
