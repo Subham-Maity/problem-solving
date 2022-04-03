@@ -1341,7 +1341,7 @@ x = int(input("Enter a number to check whether it's a Prime number or not:\n"))
 if isprime(x):
     print(x, "is a prime number indeed")
 else:
-    print(x, "is not a prime number")
+    print(x, "is not a prime number ")
 
 ```
 
