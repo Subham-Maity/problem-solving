@@ -1436,13 +1436,50 @@ Python : Simple use of if, elif, else methods
 
 ```
 <p align="center">
-        <img src="https://github.com/Subham-Maity/HTML-Tutorial-for-Beginners/blob/master/5.Images(ignore)/22.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/22.png?raw=true"/>
         </p>
+
+
 ## Solution
 
 ### Java :
 
 ```java
+import java.util.Scanner;
+class CodeXam
+{
+    public static void main(String [] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Income Slab                 Tax\n" +
+                "2.5L –  5.0L                5% \n" +
+                "5.0L – 10.0L                20%\n" +
+                "Above  10.0L                30%\n" +
+                ": Note that there is no tax below 2.5L :\n");
+        System.out.println("Enter your annual income ");
+        double tax = 0f;
+        double income = sc.nextDouble();
+        if(income<=250000f){
+            tax = tax + 0;
+        }
+        else if(income>250000f && income <= 500000f){
+            tax = tax + 0.05f * (income - 250000f);
+        }
+        else if(income>500000f && income <= 1000000f){
+            tax = tax + 0.05f * (500000f - 250000f);
+            tax = tax + 0.2f * (income - 500000f);
+        }
+        else if(income>1000000f){
+            tax = tax + 0.05f * (500000f - 250000f);
+            tax = tax + 0.2f * (1000000f - 500000f);
+            tax = tax + 0.3f * (income - 1000000f);
+        }
+ 
+        System.out.println("The total tax paid by you is: " + tax);
+       
+ 
+  }
+}
 
 
 
@@ -1452,7 +1489,7 @@ Python : Simple use of if, elif, else methods
 ### Python :
 
 ```python
-    print("""         Income Slab                Tax
+print("""         Income Slab                Tax
          ============                ====
          2.5L –  5.0L                5%
          5.0L – 10.0L                20%
@@ -1479,14 +1516,18 @@ print(sentence, tax)
 
 ```
 
-# 
+# 23.Leap year or not.
 
 ## Exercise
+Write a program to find whether a year entered by the user is a leap year or not.
+
 
 
 ## Approach:
 ```javascript
-
+So here we did like this
+Check if the year is divisible by 400 or 4 but not 100, DISPLAY "is a leap year",
+Otherwise, DISPLAY ": is not a leap year.""
 
 ```
 ## Solution
@@ -1494,6 +1535,19 @@ print(sentence, tax)
 ### Java :
 
 ```java
+import java.util.Scanner;
+public class CodeXam {
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        int year = sc.nextInt();
+        if ((year % 400 == 0) || ((year % 4 == 0) && (year % 100 != 0))) {
+            System.out.println(year + " : is a leap year");
+        }
+        else {System.out.println(year + " : is not a leap year.");
+        }
+    }
+}
 
 
 
@@ -1503,16 +1557,39 @@ print(sentence, tax)
 ### Python :
 
 ```python
+year = int(input("Enter your Year:\n"))
+ 
+leap_year = "It's a leap year !"
+common_year = "It's not a leap year"
+if year % 4 == 0:
+    if year % 100 != 0:
+        print(leap_year)
+    elif year % 400 == 0:
+        print(leap_year)
+    else:
+        print(common_year)
+else:
+    print(common_year)
 
 ```
 
-# 
+# 24.Type of website
 
 ## Exercise
+* Write a program to find out the type of website from the URL:
+
+* .com – commercial website
+
+* .org – organization website
+
+* .in – Indian website
 
 
 ## Approach:
 ```javascript
+So here we did like this
+Java : The Java String class endsWith() method checks if this string ends with a given suffix. It returns true if this string ends with the given suffix; else returns false.
+Python : Same like Java, we’re using endswith() method in python as well
 
 
 ```
@@ -1522,6 +1599,24 @@ print(sentence, tax)
 
 ```java
 
+import java.util.Scanner;
+public class CodeXam {
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter Your Website: ");
+        String website = sc.next();
+        if(website.endsWith(".org")){
+            System.out.println("This is an Organizational website");
+        }
+        else if(website.endsWith(".com")){
+            System.out.println("This is a Commercial website");
+        }
+        else if(website.endsWith(".in")){
+            System.out.println("This is an Indian website");
+        }
+        }
+    }
 
 
 ```
@@ -1530,17 +1625,34 @@ print(sentence, tax)
 ### Python :
 
 ```python
+user_input = input("Please Enter Your URL:\n")
+ 
+if user_input.endswith(".com"):
+    print("It's an Commercial Website")
+elif user_input.endswith(".org"):
+    print("It's an Organization Website")
+elif user_input.endswith(".in"):
+    print("It's an Indian Website")
+else:
+    print("Not Found !")
 
 ```
 
-# 
+# 25.Email by deleting the part
 
 ## Exercise
+Input an email from the user. You have to create a username from the email by deleting the part that comes after ‘@’. Display that username to the user.
+Example :
+
+email = “codexam@gmail.com” ; username = “codexam”
+
+email = “helloWorld123@gmail.com”; username = “helloWorld123”
 
 
 ## Approach:
 ```javascript
-
+Python: In python we're simply using slicing, 
+we're printing from index 0 to (index of '@') -1
 
 ```
 ## Solution
