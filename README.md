@@ -1276,6 +1276,7 @@ P.S. To uninstall any kinda pip package just type â€œpip uninstall package_nameâ
 <p align="center">
         <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/20.png?raw=true"/>
         </p>
+    
 ## Solution
 
 ### Java :
