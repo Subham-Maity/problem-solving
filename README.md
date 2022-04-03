@@ -35,10 +35,15 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
 * [**14.Fill in a letter template which looks like below:**](#14-fill-in-a-letter-template-which-looks-like-below)
 * [**15.Detects double and triple spaces in a string.**](#15-detects-double-and-triple-spaces-in-a-string)
 * [**16. Check if a String contains only whitespaces**](#16-check-if-a-string-contains-only-whitespaces)
+* [**24.Type of website**](#24type-of-website)
+* [**25.Email by deleting the part**](#25email-by-deleting-the-part)
 *****
 #### Checking Related Problems(If-Else)
 * [**6.Detects whether a number entered by the user is an integer or not.**](#6-detects-whether-a-number-entered-by-the-user-is-an-integer-or-not)
 * [**20.Prime or not (input from the user)**](#20prime-or-not-input-from-the-user)
+* [**21.Pass or fail**](#21pass-or-fail)
+* [**22.Calculate income tax**](#22calculate-income-tax)
+* [**23.Leap year or not.**](#23leap-year-or-not)
 #### Type Casting
 * [**8.(Type Casting) Encrypt a grade by adding a number to it. Decrypt it to show the correct grade.**](#8-type-casting-encrypt-a-grade-by-adding-a-number-to-it-decrypt-it-to-show-the-correct-grade)
 *****
@@ -47,6 +52,10 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
 #### Case Switch 
 * [**19.Print the name of the month.**](#19print-the-name-of-the-month)
 * [**18.Make a Calculator.**](#18make-a-calculator)
+#### Loop
+##### Pattern Problems
+* [**1.(Solid Rectangle)**](#1solid-rectangle)
+
 # 1.Board Percentage Calculator :
 
 ## Exercise 
@@ -1418,7 +1427,7 @@ else:
 
 
 ## Exercise
-```java
+```javascript
 Calculate income tax paid by you to the government as per the slabs mentioned below:
         
 Income Slab	        Tax
