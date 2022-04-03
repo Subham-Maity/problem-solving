@@ -1345,13 +1345,19 @@ else:
 
 ```
 
-# 
+# 21.Pass or fail
 
 ## Exercise
-
+Write a program to find out whether a student is pass or fail; if it requires a total of 40% and at least 33% in each subject to pass. Assume 3 subjects and take marks as input from the user
 
 ## Approach:
 ```javascript
+So here we did like this
+         
+        avg = (subject1 + subject2 + subject3)/3.0
+        If Conditions: avg>=40 && subject1>=33 && subject2>=33 && subject3>=33
+           print"Congratulations, You have been promoted"
+        Else print"Sorry, You have not been promoted! Please try again."
 
 
 ```
@@ -1360,6 +1366,32 @@ else:
 ### Java :
 
 ```java
+import java.util.Scanner;
+class CodeXam
+{
+    public static void main(String [] args)
+    {
+        byte m1, m2, m3;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter your marks in Physics");
+        m1 = sc.nextByte();
+ 
+        System.out.println("Enter your marks in Chemistry");
+        m2= sc.nextByte();
+ 
+        System.out.println("Enter your marks in Mathematics");
+        m3 = sc.nextByte();
+        float avg = (m1+m2+m3)/3.0f; //you can do this also Marks Percentage = (What is the total number you got in the exam / The sum of the all subjects highest number ) X 100
+       
+        System.out.println("Your Overall percentage is: " + avg);
+        if(avg>=40 && m1>=33 && m2>=33 && m3>=33){
+            System.out.println("Congratulations, You have been promoted");
+        }
+        else{
+            System.out.println("Sorry, You have not been promoted! Please try again.");
+        }
+    }
+}
 
 
 
@@ -1369,7 +1401,16 @@ else:
 ### Python :
 
 ```python
-
+physics = int(input("Enter your score in Physics:\n"))
+chemistry = int(input("Enter your score in Chemistry:\n"))
+mathematics = int(input("Enter your score in Mathematics:"))
+ 
+result = (physics+chemistry+mathematics) / 3
+print("\nYour overall percentage is", result)
+if result >= 40 and physics >= 33 and chemistry >= 33 and mathematics >= 33:
+    print("Congratulations ! You've been promoted ")
+else:
+    print("Ah , You've failed this year ! See you never :)")
 ```
 
 # 
