@@ -1655,11 +1655,46 @@ Python: In python we're simply using slicing,
 we're printing from index 0 to (index of '@') -1
 
 ```
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/25.png?raw=true"/>
+        </p>
+
+
 ## Solution
 
 ### Java :
 
 ```java
+import java.util.*;
+ 
+public class CodeXam {
+    public static void main(String args[]) {
+        System.out.println("Enter Your Gmail");
+        Scanner sc = new Scanner (System.in);
+        String email = sc.next();
+        String userName = "";
+ 
+        /* //You can use this too
+ 
+        for(int i=0; i<email.length(); i++) {
+            if(email.charAt(i) == '@') {
+                break;
+            } else {
+                userName += email.charAt(i);
+            }
+        }
+        */
+ 
+        for(int i=0; i<email.length(); i++) {
+            if(email.charAt(i) == '@')
+                break;
+               userName = userName+email.charAt(i);
+        }
+ 
+        System.out.println("Your username is: " + userName);
+    }
+}
+ 
 
 
 
@@ -1669,6 +1704,12 @@ we're printing from index 0 to (index of '@') -1
 ### Python :
 
 ```python
+user = input("Please enter your email id:\n")
+ 
+x = user.index("@")
+ 
+user_name = user[0:x]
+print("Your username is:", user_name)
 
 ```
 
