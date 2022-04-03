@@ -1719,13 +1719,14 @@ print("Your username is:", user_name)
 Print the pattern using for loop
 
 <p align="center">
-        <img src="https://github.com/Subham-Maity/HTML-Tutorial-for-Beginners/blob/master/5.Images(ignore)/10.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/1%20p.png?raw=true"/>
         </p>
 
 ## Approach:
 ```javascript
-
-
+So here we did like this
+Row range:0-4 
+Column range:0-5
 ```
 ## Solution
 
