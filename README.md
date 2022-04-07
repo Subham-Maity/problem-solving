@@ -58,6 +58,8 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
 #### Loop
 ##### Pattern Problems
 * [**1.(Solid Rectangle)**](#1solid-rectangle)
+* [**2.(Hollow Rectangle)**](#2hollow-rectangle)
+* [**3.(Half Pyramid)**](#3half-pyramid)
 
 # 1.Board Percentage Calculator :
 
