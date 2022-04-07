@@ -1836,7 +1836,9 @@ Print the pattern using for loop
 <p align="center">
         <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/3p.png?raw=true"/>
         </p>
+
 ## Approach:
+
 <p align="center">
         <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/3pa.png?raw=true"/>
         </p>
