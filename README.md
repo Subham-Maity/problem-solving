@@ -54,9 +54,11 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
 #### Case Switch 
 * [**19.Print the name of the month.**](#19print-the-name-of-the-month)
 * [**18.Make a Calculator.**](#18make-a-calculator)
+* [**27. Rock, Paper Scissors game**](#27-rock-paper-scissors-game)
 *****
 #### Loop
-* [26.Pattern Problems](#26-pattern)
+  #### for loop
+* [26.For Loop - Pattern Problems](#26-pattern)
   * [**1.Solid Rectangle**](#1solid-rectangle)
   * [**2.Hollow Rectangle**](#2hollow-rectangle)
   * [**3.Half Pyramid**](#3half-pyramid)
@@ -76,6 +78,16 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
   * [**17.Print Pascal’s Triangle.**](#17print-pascals-triangle)
   * [**18.Print half Pyramid.**](#18print-half-pyramid)
   * [**19.Print Inverted Half Pyramid.**](#19print-inverted-half-pyramid)
+* [**33. Calculate the sum of the numbers occurring in the multiplication table**](#33-calculate-the-sum-of-the-numbers-occurring-in-the-multiplication-table)
+* [**34. Create an array of 5 floats and calculate their sum.**](#34-create-an-array-of-5-floats-and-calculate-their-sum)
+   #### Do While and While Loop 
+  * [**28. Do-while loop , while loop.**](#28-do-while-loop--while-loop)
+  #### Break
+  * [**29. Break in For and Do While Loop 1**](#29-break-in-for-and-do-while-loop-1)
+  #### Continue
+  * [**30. Continue in For and Do While Loop 1**](#30-continue-in-for-and-do-while-loop-1)
+  * [**31. Sum first n even numbers using a while loop**](#31-sum-first-n-even-numbers-using-a-while-loop)
+  * [**32. Corresponding Series**](#32-corresponding-series)
   
 
 # 1.Board Percentage Calculator :
