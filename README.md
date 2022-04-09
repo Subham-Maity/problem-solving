@@ -2023,7 +2023,7 @@ for i in range(1, 5):
 
 ```
 
-# 6.( half Pyramid with Numbers)
+# 6.Half Pyramid with Numbers
 
 ## Exercise
 Print the pattern using for loop
