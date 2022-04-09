@@ -1780,6 +1780,10 @@ for i in range(1, 5):
 
 # 2.(Hollow Rectangle)
 
+# 1 to 9 all Pattern Quality Loss canvas Download [here](https://raw.githubusercontent.com/Subham-Maity/java-python-problem-solving-series/master/Image(ignore)/Total%209%20pattern%20problem%20in%201%20canvas%20.svg)
+# 9 to 19 all Pattern Quality Loss canvas Download [here](https://raw.githubusercontent.com/Subham-Maity/java-python-problem-solving-series/master/Image(ignore)/9-19%20all%20pattern%20canvas%20.svg)
+
+
 ## Exercise
 Print the pattern using for loop
 <p align="center">
@@ -1835,6 +1839,10 @@ for i in range(1, 5):
 
 # 3.(Half Pyramid)
 
+# 1 to 9 all Pattern Quality Loss canvas Download [here](https://raw.githubusercontent.com/Subham-Maity/java-python-problem-solving-series/master/Image(ignore)/Total%209%20pattern%20problem%20in%201%20canvas%20.svg)
+# 9 to 19 all Pattern Quality Loss canvas Download [here](https://raw.githubusercontent.com/Subham-Maity/java-python-problem-solving-series/master/Image(ignore)/9-19%20all%20pattern%20canvas%20.svg)
+
+
 ## Exercise
 Print the pattern using for loop
 
@@ -1883,6 +1891,10 @@ for i in range(0, 5):
 
 # 4.(Inverted half Pyramid )
 
+# 1 to 9 all Pattern Quality Loss canvas Download [here](https://raw.githubusercontent.com/Subham-Maity/java-python-problem-solving-series/master/Image(ignore)/Total%209%20pattern%20problem%20in%201%20canvas%20.svg)
+# 9 to 19 all Pattern Quality Loss canvas Download [here](https://raw.githubusercontent.com/Subham-Maity/java-python-problem-solving-series/master/Image(ignore)/9-19%20all%20pattern%20canvas%20.svg)
+
+
 ## Exercise
 Print the pattern using for loop
 
@@ -1930,6 +1942,10 @@ for i in range(4, 0, -1):
 
 ```
 # 5.(Inverted & Rotated Half Pyramid )
+
+# 1 to 9 all Pattern Quality Loss canvas Download [here](https://raw.githubusercontent.com/Subham-Maity/java-python-problem-solving-series/master/Image(ignore)/Total%209%20pattern%20problem%20in%201%20canvas%20.svg)
+# 9 to 19 all Pattern Quality Loss canvas Download [here](https://raw.githubusercontent.com/Subham-Maity/java-python-problem-solving-series/master/Image(ignore)/9-19%20all%20pattern%20canvas%20.svg)
+
 
 ## Exercise
 Print the pattern using for loop
@@ -2028,6 +2044,10 @@ for i in range(1, 5):
 
 # 6.Half Pyramid with Numbers
 
+# 1 to 9 all Pattern Quality Loss canvas Download [here](https://raw.githubusercontent.com/Subham-Maity/java-python-problem-solving-series/master/Image(ignore)/Total%209%20pattern%20problem%20in%201%20canvas%20.svg)
+# 9 to 19 all Pattern Quality Loss canvas Download [here](https://raw.githubusercontent.com/Subham-Maity/java-python-problem-solving-series/master/Image(ignore)/9-19%20all%20pattern%20canvas%20.svg)
+
+
 ## Exercise
 Print the pattern using for loop
 
@@ -2081,6 +2101,10 @@ for i in range(0, 5):
 ```
 
 # 7.Inverted half Pyramid with Numbers
+
+
+# 1 to 9 all Pattern Quality Loss canvas Download [here](https://raw.githubusercontent.com/Subham-Maity/java-python-problem-solving-series/master/Image(ignore)/Total%209%20pattern%20problem%20in%201%20canvas%20.svg)
+# 9 to 19 all Pattern Quality Loss canvas Download [here](https://raw.githubusercontent.com/Subham-Maity/java-python-problem-solving-series/master/Image(ignore)/9-19%20all%20pattern%20canvas%20.svg)
 
 
 ## Exercise
@@ -2138,6 +2162,10 @@ for i in range(5, 0, -1):
 # 8.Floyd’s triangle
 
 
+# 1 to 9 all Pattern Quality Loss canvas Download [here](https://raw.githubusercontent.com/Subham-Maity/java-python-problem-solving-series/master/Image(ignore)/Total%209%20pattern%20problem%20in%201%20canvas%20.svg)
+# 9 to 19 all Pattern Quality Loss canvas Download [here](https://raw.githubusercontent.com/Subham-Maity/java-python-problem-solving-series/master/Image(ignore)/9-19%20all%20pattern%20canvas%20.svg)
+
+
 ## Exercise
 Print the pattern using for loop
 
@@ -2188,6 +2216,10 @@ for i in range(1, 6):
 ```
 
 # 9.(0-1) Triangle
+
+# 1 to 9 all Pattern Quality Loss canvas Download [here](https://raw.githubusercontent.com/Subham-Maity/java-python-problem-solving-series/master/Image(ignore)/Total%209%20pattern%20problem%20in%201%20canvas%20.svg)
+# 9 to 19 all Pattern Quality Loss canvas Download [here](https://raw.githubusercontent.com/Subham-Maity/java-python-problem-solving-series/master/Image(ignore)/9-19%20all%20pattern%20canvas%20.svg)
+
 
 
 ## Exercise
@@ -2252,6 +2284,10 @@ for i in range(1, 6):
 ```
 
 # 10.ButterFly
+
+
+# 1 to 9 all Pattern Quality Loss canvas Download [here](https://raw.githubusercontent.com/Subham-Maity/java-python-problem-solving-series/master/Image(ignore)/Total%209%20pattern%20problem%20in%201%20canvas%20.svg)
+# 9 to 19 all Pattern Quality Loss canvas Download [here](https://raw.githubusercontent.com/Subham-Maity/java-python-problem-solving-series/master/Image(ignore)/9-19%20all%20pattern%20canvas%20.svg)
 
 
 ## Exercise
@@ -2403,6 +2439,10 @@ for i in range(-n, n+1):
 
 # 11.Solid Rhombus
 
+# 1 to 9 all Pattern Quality Loss canvas Download [here](https://raw.githubusercontent.com/Subham-Maity/java-python-problem-solving-series/master/Image(ignore)/Total%209%20pattern%20problem%20in%201%20canvas%20.svg)
+# 9 to 19 all Pattern Quality Loss canvas Download [here](https://raw.githubusercontent.com/Subham-Maity/java-python-problem-solving-series/master/Image(ignore)/9-19%20all%20pattern%20canvas%20.svg)
+
+
 ## Exercise
 Print the pattern using for loop
 
@@ -2508,6 +2548,10 @@ for i in range(1, n + 1):
 
 # 12.Number Pyramid
 
+# 1 to 9 all Pattern Quality Loss canvas Download [here](https://raw.githubusercontent.com/Subham-Maity/java-python-problem-solving-series/master/Image(ignore)/Total%209%20pattern%20problem%20in%201%20canvas%20.svg)
+# 9 to 19 all Pattern Quality Loss canvas Download [here](https://raw.githubusercontent.com/Subham-Maity/java-python-problem-solving-series/master/Image(ignore)/9-19%20all%20pattern%20canvas%20.svg)
+
+
 ## Exercise
 Print the pattern using for loop
 
@@ -2565,6 +2609,10 @@ for i in range(1, n + 1):
 ```
 
 # 13.Palindromic Pattern
+
+# 1 to 9 all Pattern Quality Loss canvas Download [here](https://raw.githubusercontent.com/Subham-Maity/java-python-problem-solving-series/master/Image(ignore)/Total%209%20pattern%20problem%20in%201%20canvas%20.svg)
+# 9 to 19 all Pattern Quality Loss canvas Download [here](https://raw.githubusercontent.com/Subham-Maity/java-python-problem-solving-series/master/Image(ignore)/9-19%20all%20pattern%20canvas%20.svg)
+
 
 ## Exercise
 Print the pattern using for loop
@@ -2635,6 +2683,10 @@ for i in range(1, n+1):
 ```
 
 # 14.Diamond Pattern
+
+# 1 to 9 all Pattern Quality Loss canvas Download [here](https://raw.githubusercontent.com/Subham-Maity/java-python-problem-solving-series/master/Image(ignore)/Total%209%20pattern%20problem%20in%201%20canvas%20.svg)
+# 9 to 19 all Pattern Quality Loss canvas Download [here](https://raw.githubusercontent.com/Subham-Maity/java-python-problem-solving-series/master/Image(ignore)/9-19%20all%20pattern%20canvas%20.svg)
+
 
 
 ## Exercise
@@ -2846,6 +2898,10 @@ for i in range(n, 0, -1):
 
 # 15.Hollow butterfly
 
+# 1 to 9 all Pattern Quality Loss canvas Download [here](https://raw.githubusercontent.com/Subham-Maity/java-python-problem-solving-series/master/Image(ignore)/Total%209%20pattern%20problem%20in%201%20canvas%20.svg)
+# 9 to 19 all Pattern Quality Loss canvas Download [here](https://raw.githubusercontent.com/Subham-Maity/java-python-problem-solving-series/master/Image(ignore)/9-19%20all%20pattern%20canvas%20.svg)
+
+
 ## Exercise
 
 Print the pattern using for loop
@@ -2969,6 +3025,10 @@ for i in range(n, 0, -1):
 
 # 16.Hollow Rhombus
 
+# 1 to 9 all Pattern Quality Loss canvas Download [here](https://raw.githubusercontent.com/Subham-Maity/java-python-problem-solving-series/master/Image(ignore)/Total%209%20pattern%20problem%20in%201%20canvas%20.svg)
+# 9 to 19 all Pattern Quality Loss canvas Download [here](https://raw.githubusercontent.com/Subham-Maity/java-python-problem-solving-series/master/Image(ignore)/9-19%20all%20pattern%20canvas%20.svg)
+
+
 ## Exercise
 Print the pattern using for loop
 
@@ -3055,6 +3115,10 @@ for i in range(1, n + 1):
 
 # 17.Print Pascal’s Triangle.
 
+# 1 to 9 all Pattern Quality Loss canvas Download [here](https://raw.githubusercontent.com/Subham-Maity/java-python-problem-solving-series/master/Image(ignore)/Total%209%20pattern%20problem%20in%201%20canvas%20.svg)
+# 9 to 19 all Pattern Quality Loss canvas Download [here](https://raw.githubusercontent.com/Subham-Maity/java-python-problem-solving-series/master/Image(ignore)/9-19%20all%20pattern%20canvas%20.svg)
+
+
 ## Exercise
 Print the pattern using for loop
 
@@ -3118,6 +3182,10 @@ for i in range(0, n + 1):
 
 # 18.Print half Pyramid.
 
+# 1 to 9 all Pattern Quality Loss canvas Download [here](https://raw.githubusercontent.com/Subham-Maity/java-python-problem-solving-series/master/Image(ignore)/Total%209%20pattern%20problem%20in%201%20canvas%20.svg)
+# 9 to 19 all Pattern Quality Loss canvas Download [here](https://raw.githubusercontent.com/Subham-Maity/java-python-problem-solving-series/master/Image(ignore)/9-19%20all%20pattern%20canvas%20.svg)
+
+
 
 ## Exercise
 
@@ -3165,6 +3233,10 @@ for i in range(0, n + 1):
 ```
 
 # 19.Print Inverted Half Pyramid.
+
+# 1 to 9 all Pattern Quality Loss canvas Download [here](https://raw.githubusercontent.com/Subham-Maity/java-python-problem-solving-series/master/Image(ignore)/Total%209%20pattern%20problem%20in%201%20canvas%20.svg)
+# 9 to 19 all Pattern Quality Loss canvas Download [here](https://raw.githubusercontent.com/Subham-Maity/java-python-problem-solving-series/master/Image(ignore)/9-19%20all%20pattern%20canvas%20.svg)
+
 
 ## Exercise
 Print the pattern using for loop
