@@ -4000,6 +4000,11 @@ print(f"First ( 1 -  {n} ) Sum of even numbers is {sum_of_evenNumbers}")
         </p>
 
 ## Approach:
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/321.png?raw=true"/>
+        </p>
+
 ```javascript
 
 
