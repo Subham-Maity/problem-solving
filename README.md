@@ -2030,7 +2030,7 @@ Print the pattern using for loop
 
 
 <p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/6p.png?raw=true"/>
         </p>
 
 ## Approach:
