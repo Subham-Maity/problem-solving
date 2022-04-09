@@ -79,7 +79,7 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
   * [**18.Print half Pyramid.**](#18print-half-pyramid)
   * [**19.Print Inverted Half Pyramid.**](#19print-inverted-half-pyramid)
 * [**33. Calculate the sum of the numbers occurring in the multiplication table**](#33-calculate-the-sum-of-the-numbers-occurring-in-the-multiplication-table)
-* [**34. Create an array of 5 floats and calculate their sum.**](#34-create-an-array-of-5-floats-and-calculate-their-sum)
+
    #### Do While and While Loop 
   * [**28. Do-while loop , while loop.**](#28-do-while-loop--while-loop)
   #### Break
@@ -88,6 +88,18 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
   * [**30. Continue in For and Do While Loop 1**](#30-continue-in-for-and-do-while-loop-1)
   * [**31. Sum first n even numbers using a while loop**](#31-sum-first-n-even-numbers-using-a-while-loop)
   * [**32. Corresponding Series**](#32-corresponding-series)
+*****
+#### Array  
+* [**34. Create an array of 5 floats and calculate their sum.**](#34-create-an-array-of-5-floats-and-calculate-their-sum)
+* [**35. Integer is present in an array or not**](#35-integer-is-present-in-an-array-or-not)
+* [**36. Averages from an array**](#36-averages-from-an-array)
+* [**37. Two matrices of size 2x3 (2D)**](#37-two-matrices-of-size-2x3-2d)
+* [**38. Reverse an array Iterative way.**](#38-reverse-an-array-iterative-way)
+* [**39.find the maximum element in an array.**](#39find-the-maximum-element-in-an-array)
+* [**40.Find the minimum element in an array.**](#40find-the-minimum-element-in-an-array)
+* [**41.Find whether an array is sorted or not.**](#41find-whether-an-array-is-sorted-or-not)
+
+*****
   
 
 # 1.Board Percentage Calculator :
