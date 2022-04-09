@@ -56,10 +56,27 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
 * [**18.Make a Calculator.**](#18make-a-calculator)
 *****
 #### Loop
-##### Pattern Problems
-* [**1.(Solid Rectangle)**](#1solid-rectangle)
-* [**2.(Hollow Rectangle)**](#2hollow-rectangle)
-* [**3.(Half Pyramid)**](#3half-pyramid)
+* [26.Pattern Problems](#26-pattern)
+  * [**1.Solid Rectangle**](#1solid-rectangle)
+  * [**2.Hollow Rectangle**](#2hollow-rectangle)
+  * [**3.Half Pyramid**](#3half-pyramid)
+  * [**4.Inverted half Pyramid**](#4inverted-half-pyramid-)
+  * [**5.Inverted & Rotated Half Pyramid**](#5inverted--rotated-half-pyramid-)
+  * [**6.half Pyramid with Numbers**](#6half-pyramid-with-numbers)
+  * [**7.Inverted half Pyramid with Numbers**](#7inverted-half-pyramid-with-numbers)
+  * [**8.Floyd’s triangle**](#8floyds-triangle)
+  * [**9.(0-1) Triangle**](#90-1-triangle)
+  * [**10.ButterFly**](#10butterfly)
+  * [**11.Solid Rhombus**](#11solid-rhombus)
+  * [**12.Number Pyramid**](#12number-pyramid)
+  * [**13.Palindromic Pattern**](#13palindromic-pattern)
+  * [**14.Diamond Pattern**](#14diamond-pattern)
+  * [**15.Hollow butterfly**](#15hollow-butterfly)
+  * [**16.Hollow Rhombus**](#16hollow-rhombus)
+  * [**17.Print Pascal’s Triangle.**](#17print-pascals-triangle)
+  * [**18.Print half Pyramid.**](#18print-half-pyramid)
+  * [**19.Print Inverted Half Pyramid.**](#19print-inverted-half-pyramid)
+  
 
 # 1.Board Percentage Calculator :
 
@@ -1726,6 +1743,8 @@ user_name = user[0:x]
 print("Your username is:", user_name)
 
 ```
+
+# 26. Pattern
 
 # 1.(Solid Rectangle)
 
