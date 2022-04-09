@@ -3506,15 +3506,48 @@ Write a program to print first n natural numbers using a do-while loop and while
         </p>
 
 
-```javascript
 
-
-```
 ## Solution
 
 ### Java :
 
 ```java
+//While loop
+import java.util.Scanner;
+public class CodeXam{
+   public static void main(String[] args) {
+       Scanner sc = new Scanner(System.in);
+ 
+       // Take number from user
+       System.out.print("Enter any number : ");
+       int num = sc.nextInt();
+       System.out.println("\nNatural numbers from 1 to " + num);
+       int i = 1; //initialization
+       while (i <= num) { //condition check
+           System.out.print(i + " ");// if true execute the statement this with update
+           i++; // update
+       }
+   }
+}
+//Do-While loop
+public class CodeXam{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        // Take number from user
+        System.out.print("Enter any number : ");
+        int num = sc.nextInt();
+        System.out.println("\nNatural numbers from 1 to " + num);
+        int i = 1; //initialization
+        do {
+            System.out.print(i + " ");// the statement
+
+            i++; // update
+        }
+        while (i <= num) ;//condition check if condition is true execute the statement
+    }
+}
+
 
 
 
@@ -3525,15 +3558,391 @@ Write a program to print first n natural numbers using a do-while loop and while
 
 ```python
 
+# While Loop
+ 
+"""A while loop will run a piece of code while a condition is True. It will keep executing the desired
+set of code statements until that condition is no longer True. A while loop will always first check the condition
+before running"""
+ 
+num = int(input("Please Enter Your Number: "))
+n = 1
+print(f"Natural Numbers from {n} to {num} is :")
+while n <= num:
+   print(n, end=" ")
+   n += 1
+ 
+ 
+ # Do While Loop
+ 
+"""What is unique in Do While loops is the fact that the code in the loop block will be executed at least one time.The code in the statement runs one time and then the condition is checked only after the code is executed 
+As Do While Loop doesn't really exist in python , so we're going to modify a simple while loop into a Do While Loop"""
+ 
+ 
+num = int(input("\nPlease Enter Your Number: "))
+n = 1
+print(f"Natural Numbers from {n} to {num} is :")
+while True:
+   print(n, end=" ")
+   n += 1
+   if n > num:
+       break
+
+
 ```
 
-# 
+# 29. Break in For and Do While Loop 1
 
 ## Exercise
+```javascript
+Print " user entered name " 10 times but if user would like to break the loop then print his/her name at that number of times and print "You want to stop at " user’s enter number " so I stop "
+*Do it in for loop and do while loop
+Enter Your Name
+Xam
+In order to stop printing at any number of times before 10 times printing your name, you can enter yes then enter number otherwise type no for 10 times printing your name 
+yes
+Enter the number
+6
+Xam
+Xam
+Xam
+Xam
+Xam
+Xam
+You want to stop at 6 so I stop here
+
+
+```
+
+## Approach:
+```javascript
+So here we did like this
+In a Nutshell …break statement completely exits the loop
+The break statement is used to exit the loop irrespective of whether the condition is true or false.
+Whenever a ‘break’ is encountered inside the loop, the control is sent outside the loop.
+Syntax : 
+
+```
+
+
+
+### Java :
+
+```java
+// For Loop
+
+import java.util.Scanner;
+public class CodeXam{
+   public static void main(String[] args) {
+       Scanner sc = new Scanner(System.in);
+       System.out.println("Enter Your Name");
+       String name = sc.nextLine();
+       System.out.println("In order to stop printing at any number of times before 10 times printing your name, you can enter yes then enter number otherwise type no for 10 times printing your name ");
+       String answer_1 = sc.next();
+       if ( (answer_1.equalsIgnoreCase("Yes"))) {
+           System.out.println("Enter the number");
+           int n = sc.nextInt();
+           for (int i = 1; i <= 10; i++) {
+               System.out.println(name);
+               if (i == n) {
+                   break;   //break the loop
+               }
+           }
+           System.out.println("You want to stop at " + n + " so I stop here");
+       }
+       else  {
+           System.out.println();
+           for (int i = 1; i <= 10; i++) {
+               System.out.println(name);
+           }
+       }
+   }
+   }
+
+    // Do While Loop
+import java.util.Scanner;
+public class CodeXam{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter Your Name");
+        String name = sc.nextLine();
+        System.out.println("In order to stop printing at any number of times before 10 times printing your name, you can enter yes then enter number otherwise type no for 10 times printing your name ");
+        String answer_1 = sc.next();
+        if ( (answer_1.equalsIgnoreCase("Yes"))) {
+            System.out.println("Enter the number");
+            int n = sc.nextInt();
+            int i = 0;
+            do {
+                i++;
+
+                if (i == n) {
+
+                    System.out.println("You want to stop at " + n + " so I stop here");
+                    break;   //break the loop
+                }
+                System.out.println(name);
+            }
+            while (i < 10);
+        }
+        else {
+
+            int i = 1;
+            do {
+                i++;
+                System.out.println(name);
+            }
+
+            while (i <= 10) ;
+        }
+
+    }
+
+
+```
+
+
+### Python :
+
+```python
+# For Loop : 
+name = input("Enter Your Name : ")
+yes_no = input("""In order to stop printing your name at any number of
+times below 10,enter 'Y/y' for yes and then enter the
+number otherwise type 'N/n' for no to print your name 10 times : """)
+if yes_no.lower() == "y":
+   num = int(input("How many times you want to print your name: "))
+   for i in range(1, 11):
+       print(i, name)
+       if i == num:
+           break
+elif yes_no.lower() == "n":
+   for i in range(1, 11):
+       print(i, name)
+else:
+   print("error ! Please Enter your ans 'yes' or 'no' as y/n")
+
+
+# Do While Loop :
+
+name = input("Enter Your Name : ")
+yes_no = input("""In order to stop printing your name at any number of
+times below 10,enter 'Y/y' for yes and then enter the
+number otherwise type 'N/n' for no to print your name 10 times : """)
+i = 1
+if yes_no.lower() == "y":
+   num = int(input("How many times you want to print your name: "))
+   while i <= 11:
+       print(i, name)
+       i += 1
+       if i == num+1:
+           break
+ 
+elif yes_no.lower() == "n":
+   while i <= 10:
+       print(i, name)
+       i += 1
+ 
+else:
+   print("error ! Please Enter your answer 'yes' or 'no' as y/n")
+ 
+
+```
+
+# 30. Continue in For and Do While Loop 1
+
+
+## Exercise
+print "user entered name" 10 times but if the user wants to skip his name at any number of times and print " You skip your “user entered name” at "user entered number" “ and then continue looping and print the remaining user entered name
+*Do it in for loop and do while loop
+```javascript
+Enter Your Name
+Xam
+In order to skip printing at any number of times before 10 times printing your name, you can enter yes then enter number otherwise type no for 10 times printing your name 
+yes
+Enter the number
+5
+Xam
+Xam
+Xam
+Xam
+You skip Xam at 5
+Xam
+Xam
+Xam
+Xam
+Xam
+
+```
+
+## Approach:
+```javascript
+So here we did like this
+In a Nutshell …continue statement skips the particular iteration of the loop.
+The continue statement is used to immediately move to the next iteration of the loop.
+The control is taken to the next iteration thus skipping everything below ‘continue’ inside the loop for that iteration.
+
+```
+## Solution
+
+### Java :
+
+```java
+
+//For Loop 
+import java.util.Scanner;
+public class CodeXam{
+   public static void main(String[] args) {
+       Scanner sc = new Scanner(System.in);
+       System.out.println("Enter Your Name");
+       String name = sc.nextLine();
+       System.out.println("In order to skip printing at any number of times before 10 times printing your name, you can enter yes then enter number otherwise type no for 10 times printing your name ");
+       String answer_1 = sc.next();
+       if ( (answer_1.equalsIgnoreCase("Yes"))) {
+           System.out.println("Enter the number");
+           int n = sc.nextInt();
+           for (int i = 1; i <= 10; i++) {
+ 
+               if (i == n) {
+                   System.out.println("You skip " + name + " at " + n);
+                   continue;   
+               }
+               System.out.println(name);
+           }
+       }
+       else  {
+           for (int i = 1; i <= 10; i++)
+           System.out.println(name);
+           }
+       }
+   }
+ 
+ 
+
+// Do While Loop 
+import java.util.Scanner;
+public class CodeXam{
+   public static void main(String[] args) {
+       Scanner sc = new Scanner(System.in);
+       System.out.println("Enter Your Name");
+       String name = sc.nextLine();
+       System.out.println("In order to skip printing at any number of times before 10 times printing your name, you can enter yes then enter number otherwise type no for 10 times printing your name ");
+       String answer_1 = sc.next();
+       if ( (answer_1.equalsIgnoreCase("Yes"))) {
+           System.out.println("Enter the number");
+           int n = sc.nextInt();
+           int i =0;
+           do {
+               i++;
+ 
+               if (i == n) {
+                   System.out.println("You skip " + name + " at " + n);
+                   continue;
+ 
+               }
+               System.out.println(name);
+           }
+           while (i<10);
+ 
+ 
+       }
+       else {
+ 
+           int i = 1;
+           do {
+               i++;
+               System.out.println(name);
+           }
+ 
+               while (i <= 10) ;
+           }
+ 
+       }
+   }
+
+
+
+```
+
+
+### Python :
+
+```python
+# For Loop 
+ 
+name = input("Enter Your Name : ")
+yes_no = input("""In order to skip printing your name at any number below 10,
+enter 'Y/y' for yes and then enter the number otherwise
+type 'N/n' for no to print your name 10 times : """)
+if yes_no.lower() == "y":
+   num = int(input("How many times you want to print your name: "))
+   for i in range(1, 11):
+       if i == num:
+           print(i, "You skip", name, "at", num)
+           continue
+       print(i, name)
+ 
+elif yes_no.lower() == "n":
+   for i in range(1, 11):
+       print(i, name)
+else:
+   print("error ! Please Enter your answer 'yes' or 'no' as y/n")
+   
+# Do While Loop 
+name = input("Enter Your Name : ")
+yes_no = input("""In order to skip printing your name at any number below 10,
+enter 'Y/y' for yes and then enter the number otherwise
+type 'N/n' for no to print your name 10 times : """)
+i = 0
+if yes_no.lower() == "y":
+   num = int(input("How many times you want to print your name: "))
+   while i <= 9:
+       i += 1
+       if i == num:
+           print(i, "You skip", name, "at", num)
+           continue
+       print(i, name)
+ 
+elif yes_no.lower() == "n":
+   while i <= 10:
+	  i += 1
+       print(i, name)
+ 
+       
+else:
+   print("error ! Please Enter your answer 'yes' or 'no' as y/n")
+ 
+
+
+```
+
+# 31. Sum first n even numbers using a while loop
+
+## Exercise
+Write a program to sum first n(1 to n) even numbers using a while loop.
+
+n= 4 means 2+4+6+8
 
 
 ## Approach:
 ```javascript
+So here we did like this
+Using While loop here
+ 
+Work Process:
+            sum = sum + evenNumber where sum = 0
+             0 =  0 +  2  <-(1)  
+             2 =  2 +  4  <-(2) 
+             6 =  6 +  6  <-(3) 
+            12 = 12 +  8  <-(4) 
+            
+           Sum of even numbers is = 20 (12 + 8 (4))
+ 
+            evenNumber = even number + 2
+           (1)->  2 = 2 + 2 
+           (2)->  4 = 4 + 2
+           (3)->  6 = 6 + 2
+           (4)->  8 = 8 + 2
+ 
+             
 
 
 ```
@@ -3542,35 +3951,25 @@ Write a program to print first n natural numbers using a do-while loop and while
 ### Java :
 
 ```java
-
-
-
-```
-
-
-### Python :
-
-```python
-
-```
-
-# 
-
-## Exercise
-
-
-## Approach:
-```javascript
-
-
-```
-## Solution
-
-### Java :
-
-```java
-
-
+import java.util.*;
+public class CodeXam_SumOfEvenNumber {
+   public static void main(String[] args) {
+       int sum = 0, evenNumber = 2;
+       int count = 1;
+       System.out.println("Enter Number");
+       Scanner sc = new Scanner(System.in);
+       int n = sc.nextInt();
+       while (count <= n) {
+ 
+             sum += evenNumber;
+ 
+             evenNumber += 2;
+ 
+             count++;
+             }
+             System.out.println("First ( 1 - " + n + " ) Sum of even numbers is " + sum);
+   }
+}
 
 ```
 
@@ -3578,40 +3977,27 @@ Write a program to print first n natural numbers using a do-while loop and while
 ### Python :
 
 ```python
+n = int(input("Enter Your Number: "))
+sum_of_evenNumbers = 0
+even_numbers = 2
+count = 1
+while count <= n:
+   sum_of_evenNumbers += even_numbers
+   even_numbers += 2
+   count += 1
+print(f"First ( 1 -  {n} ) Sum of even numbers is {sum_of_evenNumbers}")
+ 
 
 ```
 
-# 
+# 32. Corresponding Series
+
 
 ## Exercise
 
-
-## Approach:
-```javascript
-
-
-```
-## Solution
-
-### Java :
-
-```java
-
-
-
-```
-
-
-### Python :
-
-```python
-
-```
-
-# 
-
-## Exercise
-
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/32.png?raw=true"/>
+        </p>
 
 ## Approach:
 ```javascript
