@@ -4006,6 +4006,17 @@ print(f"First ( 1 -  {n} ) Sum of even numbers is {sum_of_evenNumbers}")
         </p>
 
 ```javascript
+In java
+ 
+Using math function 
+ 
+ a +=(int)Math.pow(2,j)*b 
+ System.out.print(a + " ")
+ 
+Or 
+ a = a+b;
+ System.out.print(a + " ");
+ b = b*2;
 
 
 ```
@@ -4014,6 +4025,414 @@ print(f"First ( 1 -  {n} ) Sum of even numbers is {sum_of_evenNumbers}")
 ### Java :
 
 ```java
+//Approach 1
+ 
+import java.util.Scanner;
+ 
+public class CodeXam {
+   public static void main(String []argh){
+       Scanner in = new Scanner(System.in);
+ 
+       int t=in.nextInt();
+       for(int i=0;i<t;i++){
+ 
+           int a = in.nextInt();
+           int b = in.nextInt();
+           int n = in.nextInt();
+ 
+           for (int j = 0; j < n ; j++){
+ 
+ 
+               a +=(int)Math.pow(2,j)*b ;
+               System.out.print(a + " ");
+           }
+           System.out.println();
+       }
+       in.close();
+   }
+}
+ 
+//Approach 2
+ 
+import java.util.Scanner;
+ 
+public class CodeXam {
+   public static void main(String []argh){
+       Scanner in = new Scanner(System.in);
+ 
+       int t=in.nextInt();
+       for(int i=0;i<t;i++){
+ 
+           int a = in.nextInt();
+           int b = in.nextInt();
+           int n = in.nextInt();
+ 
+           for (int j = 0; j < n ; j++){
+ 
+               a = a+b;
+ 
+               System.out.print(a + " ");
+               b = b*2;
+           }
+           System.out.println();
+       }
+       in.close();
+   }
+}
+ 
+
+
+
+```
+
+
+### Python :
+
+```python
+t = int(input("How many times you want to get the output ?\n"))
+for i in range(1, t+1):
+   a = int(input("Enter the value of a: "))
+   b = int(input("Enter the value of b: "))
+   n = int(input("Enter the value of n: "))
+ 
+   for j in range(0, n):
+       a += b
+ 
+       print(a, end=" ")
+       b *= 2
+   print()
+
+```
+
+# 33. Calculate the sum of the numbers occurring in the multiplication table
+
+## Exercise
+Write a program to calculate the sum of the numbers occurring in the multiplication table of given number
+
+If Number  = 2 ,  ( 2 * 1 = 2)  + ( 2 * 2 = 4)  + ( 2 * 3 = 6)  + ( 2 * 4 = 8)  + ( 2 * 5 = 10)  + ( 2 * 6  = 12)  + ( 2 * 7 = 14)  + ( 2 * 8 = 16)  + ( 2 * 9 = 18)  + ( 2 * 10 = 20)
+
+2+4+6+8+10+12+14+16+18+20 = 110
+
+## Approach:
+```javascript
+So here we did like this
+Sum += n*i
+0 = 2*1
+2 = 2*2
+4 = 2*3
+6 = 2*4
+8 = 2*5
+10 = 2*6
+12 = 2*7
+14 = 2*8
+16 = 2*9
+18 = 2*10
+20 = sum
+
+
+```
+## Solution
+
+### Java :
+
+```java
+import java.util.Scanner;
+public class CodeXam{
+   public static void main(String[] args) {
+       Scanner sc = new Scanner(System.in);
+       System.out.println("Enter the number: ");
+       int n = sc.nextInt();
+       int sum = 0;
+       for(int i=1;i<=10;i++){
+           sum += n*i;
+ 
+       }
+       System.out.println("The sum of the numbers in the multiplication"+ "[ (" + n + " x 1)" + "to.." + "(" + n + " x 10) ]"  + "table of "+ n + " is "+ sum);
+ 
+   }
+}
+
+
+
+```
+
+
+### Python :
+
+```python
+n = int(input("Which multiplication table it is ?\n-> "))
+total_sum = 0
+for i in range(1, 11):
+   total_sum += (n * i)
+print(f"The sum of the numbers in the multiplication [({n} * 1) to ({n} * 10)] table {n} is {total_sum}"
+
+```
+
+#  34. Create an array of 5 floats and calculate their sum.
+
+
+## Exercise
+Create an array of 5 floats and calculate their sum.
+
+
+## Approach:
+```javascript
+So here we did like this
+Java : Float number 45.7, 67.8, 63.4, 99.2, 100.0
+sum = sum + element
+Then using for each loop for print the array 
+
+
+```
+## Solution
+
+### Java :
+
+```java
+public class CodeXam {
+   public static void main(String args[]) {
+       float[]numbers = {45.7f, 67.8f, 63.4f, 99.2f, 100.0f};
+       float sum = 0;
+       for(float element:numbers){ //for each loop
+           sum = sum + element;
+       }
+       System.out.println("The value of sum is " + sum);
+   }
+}
+ 
+
+
+
+
+```
+
+
+### Python :
+
+```python
+arr = [45.7, 67.8, 63.4, 99.2, 100.0]
+total_sum = 0
+for i in arr:
+   total_sum += i
+print("The value of sum is", total_sum)
+
+
+```
+
+# 35. Integer is present in an array or not
+
+
+## Exercise
+Write a program to find out whether the user given floating value is present in an array of 45.7, 67.8, 63.4, 99.2, 100.0 or not
+
+## Approach:
+```javascript
+So here we did like this
+Java: 
+1.Making Array of 45.7f, 67.8f, 63.4f, 99.2f, 100.0f
+2.Taking number from the user 
+3.Default Boolean value as false store in isInArray 
+4.For each loop is used to traverse the array 
+5.While traversing if any element match with entered number 
+returning true will store in isInArray.
+6.if not then simple print The value is not present in the array
+ 
+ 
+
+
+```
+## Solution
+
+### Java :
+
+```java
+import java.util.Scanner;
+public class CodeXam {
+   public static void main(String args[]) {
+       float [] marks = {45.7f, 67.8f, 63.4f, 99.2f, 100.0f};
+       Scanner sc = new Scanner(System.in);
+       System.out.println("Enter number");
+       float num = sc.nextFloat();
+       boolean isInArray = false;
+       for(float element:marks){
+           if(num==element){
+               isInArray = true;
+               break;
+           }
+       }
+       if(isInArray){
+           System.out.println("The value is present in the array");
+       }
+       else{
+           System.out.println("The value is not present in the array");
+       }
+   }
+}
+
+
+
+```
+
+
+### Python :
+
+```python
+# approach 1
+n = float(input("Please enter your value : "))
+arr = [45.7, 67.8, 63.4, 99.2, 100.0]
+ 
+if n in arr:
+   print(f"The Value is present in the array at the index {arr.index(n)}")
+else:
+   print("The value isn't present in the array")
+ 
+ 
+# approach 2
+n = float(input("Please enter your value : "))
+arr = [45.7, 67.8, 63.4, 99.2, 100.0]
+in_arr = False
+for i in arr:
+   if i == n:
+       in_arr = True
+       break
+ 
+if in_arr:
+   print(f"The Value is present in the array at the index {arr.index(n)}")
+else:
+   print("The value isn't present in the array")
+ 
+
+```
+
+# 36. Averages from an array
+
+## Exercise
+Calculate the average marks from an array containing marks(45.7, 67.8, 63.4, 99.2, 100.0 )  of all students in physics using a for-each loop in java and normal for loop in python.
+
+
+## Approach:
+```javascript
+So here we did like this
+Sum = 0 default 
+Sum = sum + element (45.7f, 67.8f, 63.4f, 99.2f, 100.0f)
+Sum / marks.length (n size means here 5) 
+
+
+```
+## Solution
+
+### Java :
+
+```java
+public class CodeXam {
+   public static void main(String[] args) {
+ 
+       {
+           float[] marks = {45.7f, 67.8f, 63.4f, 99.2f, 100.0f};
+           float sum = 0;
+           for (float element : marks) {//for each loop
+               sum = sum + element;
+           }
+           System.out.println("The value of average marks is " + sum / marks.length);
+             }
+           }
+       }
+
+
+
+```
+
+
+### Python :
+
+```python
+arr = [45.7, 67.8, 63.4, 99.2, 100.0]
+total_sum = 0
+for i in arr:
+   total_sum += i
+print(f"The average value of sum in the array {arr} is {total_sum/len(arr)}")
+ 
+
+```
+
+# 37. Two matrices of size 2x3 (2D)
+
+
+## Exercise
+Create a program to add two matrices of size 2x3.
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/37.png?raw=true"/>
+        </p>
+
+
+## Approach:
+```javascript
+So here we did like this
+ 
+java:
+1.Three multidimensional Arrays create mat1 ,mat2 , mat3  
+         
+ Mat1 = 5 10 20 (row1)   
+        8 6 5 (row2) 
+ Mat2 = 3 8 5(row1) 
+        2 9 3 (row2) 
+ Mat3 = Result Default zero so , 0 0 0(row1) 
+                                 0 0 0(row2) 
+ 
+ 
+ 
+2.first loop run for setting the value of i and j [matrix format] for result
+Like this
+ 
+ 
+ First loop for row (0-mat1.length)(2 arrays so 0 to 1)
+ 
+ Second Loop for column (0-mat1[i].length)(here mat1[i] is first 5 10 20 means 3 element so run this loops for 0-2)  
+```
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/371.png?raw=true"/>
+        </p>
+
+```javascript
+3.Now just adding result[i][j] = mat1[i][j] + mat2[i][j]
+ 
+ 
+4.Third loop run for printing the output  
+ 
+
+
+```
+## Solution
+
+### Java :
+
+```java
+public class CodeXam {
+   public static void main(String[] args) {
+       {
+           int[][] mat1 = {{5, 10, 20}, //Multidimensional Arrays
+                           {8, 6, 5}};
+           int[][] mat2 = {{3, 8, 5},
+                           {2, 9, 3}};
+ 
+           int[][] result = {{0, 0, 0},
+                            {0, 0, 0}};
+ 
+           for (int i = 0; i < mat1.length; i++) { // row number of times
+               for (int j = 0; j < mat1[i].length; j++) { // column number of time
+                   System.out.format(" Setting value for i=%d and j=%d\n", i, j);
+                   result[i][j] = mat1[i][j] + mat2[i][j];
+               }
+           }
+           for (int i = 0; i < mat1.length; i++) { // row number of times
+               for (int j = 0; j < mat1[i].length; j++) { // column number of time
+                   System.out.print(result[i][j]+" ");
+                   result[i][j] = mat1[i][j] + mat2[i][j];}
+               System.out.println();
+           }
+       }
+   }}
 
 
 
@@ -4026,21 +4445,65 @@ print(f"First ( 1 -  {n} ) Sum of even numbers is {sum_of_evenNumbers}")
 
 ```
 
-# 
+# 38. Reverse an array Iterative way.
+
 
 ## Exercise
+Write a program to reverse an array using swapping technique only (Iterative way)
 
 
 ## Approach:
 ```javascript
+So here we did like this
+ 
+Find only mid point and swap the elements 
+```
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/38.png?raw=true"/>
+        </p>
 
+```javascript
+Java : use this function for finding the mid Math.floorDiv(lengths, 2)
+Return Value: This method returns the largest (closest to positive infinity) integer value that is less than or equal to the algebraic quotient.
 
 ```
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/381.png?raw=true"/>
+        </p>
+ 
+
+
+
 ## Solution
 
 ### Java :
 
 ```java
+public class CodeXam {
+   public static void main(String[] args) {
+       {
+           int [] arr = {1, 21, 3, 4, 5, 34, 67};
+           int lengths = arr.length;
+           //we can use this also int n = lengths/2;
+           int n = Math.floorDiv(lengths, 2); //mid find
+ 
+           int temp;
+ 
+           for(int i=0; i<n; i++){
+               // Swap a[i] and a[l-1-i]
+               // a   b   temp
+               // |4| |3| ||
+               temp = arr[i];
+               arr[i] = arr[lengths-i-1];
+               arr[lengths-i-1] = temp;
+           }
+ 
+           for(int element: arr){
+               System.out.print(element + " ");
+           }
+           }
+       }
+   }
 
 
 
@@ -4050,24 +4513,73 @@ print(f"First ( 1 -  {n} ) Sum of even numbers is {sum_of_evenNumbers}")
 ### Python :
 
 ```python
+arr = [98, 90, 87, 76, 65, 54, 43, 32, 21, 12]
+start = 0
+end = len(arr) - 1
+print(f"Your default arr is :{arr}")
+ 
+while start < end:
+   arr[start], arr[end] = arr[end], arr[start]
+   start += 1
+   end -= 1
+ 
+print(f"Your reversed list is :{arr}")
 
 ```
 
-# 
+# 39.find the maximum element in an array.
+
 
 ## Exercise
+Write a program to find the maximum element in an array using function and without function
 
 
 ## Approach:
 ```javascript
-
-
+So here we did like this
+Set Max as a zero.
+Traverse to arr length.
+Now if any element is greater than Max then stop and make it Max 
 ```
 ## Solution
 
 ### Java :
 
 ```java
+// Without Function 
+ 
+public class CodeXam  {
+   public static void main(String[] args) {
+       int [] arr = {1, 2100, 3, 455, 5, 34, 67,565569};
+       int max = arr[0];
+       for(int e: arr){ //for each loop
+ 
+           /* We also write like this
+              for (int i = 0; i < arr.length; i++) {
+              if(arr[i] > max)
+              max = arr[i];
+              */
+ 
+           if(e>max){
+               max = e;
+ 
+           }}
+       System.out.println("The value of the maximum element in this array is: "+ max);
+ 
+   }
+   }
+ 
+ 
+
+// Using function
+
+import java.util.Arrays;
+public class CodeXam  {
+   public static void main(String[] args) {
+       int [] arr = {1, 2100, 3, 455, 5, 34, 67,565569};
+       System.out.println("The value of the maximum element in this array is: " + Arrays.stream(arr).max().getAsInt());
+   }
+   }
 
 
 
@@ -4077,16 +4589,28 @@ print(f"First ( 1 -  {n} ) Sum of even numbers is {sum_of_evenNumbers}")
 ### Python :
 
 ```python
+arr = [1, 2100, 3, 455, 5, 34, 67, 565569, 9756545, 5, 12]
+max_value = 0
+for i in arr:
+   if i > max_value:
+       max_value = i
+print(f"The Element with the maximum value in the array is: {max_value}")
 
 ```
 
-# 
+# 40.Find the minimum element in an array.
+
 
 ## Exercise
+Write a program to find the minimum element in an array using function and without function
 
 
 ## Approach:
 ```javascript
+So here we did like this
+Set min as a zero.
+Traverse to arr length.
+Now if any element is less than min then stop and make it min 
 
 
 ```
@@ -4095,6 +4619,40 @@ print(f"First ( 1 -  {n} ) Sum of even numbers is {sum_of_evenNumbers}")
 ### Java :
 
 ```java
+//Without Function 
+public class CodeXam  {
+   public static void main(String[] args) {
+       int [] arr = { 2100, 3, 455, 5, 34, 67,565569};
+       int min = arr[0];
+       for(int e: arr){ //for each loop
+ 
+          /* We also write like this
+             for (int i = 0; i < arr.length; i++) {
+             if(arr[i] < min)
+             min = arr[i];
+             */
+ 
+           if(e<min){
+               min = e;
+ 
+           }}
+       System.out.println("The value of the minimum element in this array is: "+ min);
+ 
+   }
+}
+ 
+ 
+ 
+
+//Using function
+import java.util.Arrays;
+public class CodeXam  {
+   public static void main(String[] args) {
+       int [] arr = {2100, 3, 455, 5, 34, 67,565569};
+       System.out.println("The value of the maximum element in this array is: " + Arrays.stream(arr).min().getAsInt());
+   }
+}
+ 
 
 
 
@@ -4104,16 +4662,28 @@ print(f"First ( 1 -  {n} ) Sum of even numbers is {sum_of_evenNumbers}")
 ### Python :
 
 ```python
+arr = [2100, 37, 455, 57, 34, 67, 7, 565569, 9756545, 53, 12]
+min_value = arr[0]
+for i in arr:
+   if i < min_value:
+       min_value = i
+print(f"The Element with the minimum value in the array is: {min_value}")
 
 ```
 
-# 
+# 41.Find whether an array is sorted or not.
+
 
 ## Exercise
+Write a program to find whether an array is sorted or not without function.
 
 
 ## Approach:
 ```javascript
+So here we did like this
+
+
+It is always shorter than i+1. If it's false and comes out to the loop then it's not started.
 
 
 ```
@@ -4122,6 +4692,27 @@ print(f"First ( 1 -  {n} ) Sum of even numbers is {sum_of_evenNumbers}")
 ### Java :
 
 ```java
+public class CodeXam  {
+   public static void main(String[] args) {
+       boolean isSorted = true;
+       int [] arr = {1, 2, 3, 4, 5, 34, 67};
+//we can’t compare for 67 with something, so we have to decrease the length one
+       for(int i=0;i<arr.length-1;i++){
+ 
+ 
+           if(arr[i] > arr[i+1]){
+               isSorted = false;
+               break;
+           }
+       }
+       if(isSorted){
+           System.out.println("The Array is sorted");
+       }
+       else{
+           System.out.println("The Array is not sorted");
+       }
+   }
+}
 
 
 
@@ -4131,16 +4722,34 @@ print(f"First ( 1 -  {n} ) Sum of even numbers is {sum_of_evenNumbers}")
 ### Python :
 
 ```python
+arr = [1, 2, 3, 4, 5, 34, 67, 73]  # use any array as your choice
+isSorted = True
+i = 1
+while i < len(arr) - 1:
+   if arr[i - 1] > arr[i]:
+       isSorted = False
+   i += 1
+ 
+ 
+if isSorted:
+   print(f"The array{arr} is sorted.")
+else:
+   print(f"The array{arr} isn't sorted.")
 
 ```
 
-# 
+# 42.Matrix size as an input and printing its elements.
+
 
 ## Exercise
+Taking a matrix size as an input and printing its elements(taking from the user) .
 
 
 ## Approach:
 ```javascript
+So here we did like this
+Taking row size then column size then initialize the range according to the row column then place elements according to the row size and column size
+ 
 
 
 ```
@@ -4149,141 +4758,37 @@ print(f"First ( 1 -  {n} ) Sum of even numbers is {sum_of_evenNumbers}")
 ### Java :
 
 ```java
-
-
-
-```
-
-
-### Python :
-
-```python
-
-```
-
-# 
-
-## Exercise
-
-
-## Approach:
-```javascript
-
-
-```
-## Solution
-
-### Java :
-
-```java
-
-
-
-```
-
-
-### Python :
-
-```python
-
-```
-
-# 
-
-## Exercise
-
-
-## Approach:
-```javascript
-
-
-```
-## Solution
-
-### Java :
-
-```java
-
-
-
-```
-
-
-### Python :
-
-```python
-
-```
-
-# 
-
-## Exercise
-
-
-## Approach:
-```javascript
-
-
-```
-## Solution
-
-### Java :
-
-```java
-
-
-
-```
-
-
-### Python :
-
-```python
-
-```
-
-# 
-
-## Exercise
-
-
-## Approach:
-```javascript
-
-
-```
-## Solution
-
-### Java :
-
-```java
-
-
-
-```
-
-
-### Python :
-
-```python
-
-```
-
-# 
-
-## Exercise
-
-
-## Approach:
-```javascript
-
-
-```
-## Solution
-
-### Java :
-
-```java
+import java.util.*;
+ 
+public class CodeXam {
+   public static void main(String[]args) {
+       Scanner sc = new Scanner(System.in);
+       System.out.println("Enter your row size");
+       int rows = sc.nextInt(); //taking row size
+       System.out.println("Enter your column size");
+       int cols = sc.nextInt(); //taking column size
+       System.out.println("Enter elements according to your entered size (row x column)");
+       int[][] numbers = new int[rows][cols];//initialize the size according to the user input
+ 
+       //creating or visualize matrix format inside the code
+       for(int i=0; i<rows; i++) { //traverse to our row size
+           //columns
+           for(int j=0; j<cols; j++) { //traverse to our column size
+ 
+               numbers[i][j] = sc.nextInt();
+           }
+       }
+ 
+       //printing the matrix
+       for(int i=0; i<rows; i++) {
+           for(int j=0; j<cols; j++) {
+               System.out.print(numbers[i][j]+" ");
+           }
+           System.out.println();
+       }
+   }
+}
+ 
 
 
 
