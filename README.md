@@ -1878,6 +1878,720 @@ for i in range(0, 5):
     print(" ")
 ```
 
+# 4.(Inverted half Pyramid )
+
+## Exercise
+Print the pattern using for loop
+
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/4p.png?raw=true"/>
+        </p>
+
+## Approach:
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/4p1.png?raw=true"/>
+        </p>
+
+## Solution
+
+### Java :
+
+```java
+public class code_xam {
+    public static void main(String[] args) {
+
+        for (int i = 4 ; i >= 1; i--) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
+            }
+
+            System.out.println();
+        }
+    }
+}
+
+```
+
+
+### Python :
+
+
+```python
+for i in range(4, 0, -1):
+    for j in range(i + 1, 1, -1):
+        print("* ", end="")
+ 
+    print(" ")
+
+```
+# 5.(Inverted & Rotated Half Pyramid )
+
+## Exercise
+Print the pattern using for loop
+
+
+
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/5p.png?raw=true"/>
+        </p>
+
+## Approach:
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/5p1.png?raw=true"/>
+        </p>
+
+## Solution
+
+### Java :
+
+```java
+//Approach -1
+public class code_xam {
+    public static void main(String[] args) {
+        int n = 4;
+ 
+        //For "Row"
+        for (int i = 1; i <= n; i++) {
+ 
+            //For "Space"
+            for (int j = 1; j <= n - i; j++) {
+                System.out.print(" ");}
+           
+            //For "Star"
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
+ 
+ 
+
+//Approach -2
+public class code_xam {
+    public static void main(String[] args) {
+        int n = 4;
+        //For "Row"
+        //similar to Approach -1... 1-4 or 4-1 is same because we have 4 row so if we go backwards, it works fine
+ 
+        for (int i = n; i>=1; i--) {
+            //For "Space"
+ 
+            /*it's also similar to Approach -1...because when i = 4(n) ;
+            the range of the j will be 1-4 that is total 3 space so for the first row second loop will print 3 space like Approach -1
+             */
+            for (int j = 1; j<i ; j++) {
+                System.out.print(" ");}
+ 
+            //For "Star"
+ 
+            /*it's also similar to Approach -1...because when i = 3 ;
+            and the range of the j will be 0 to (n-i) = (4-3) that is total 1 star(*) so for the first row third loop will print 1 star like Approach -1
+            same as
+            i = 2; range of the j 0 to (4-2) so **
+            i = 1; range of the j 0 to (4-1) so ***
+            i = 0; range of the j 0 to (4-0) so ****           */
+            for (int j = 0; j <= n-i; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
+ 
+
+```
+
+
+### Python :
+
+
+```python
+for i in range(1, 5):
+    for j in range(5, 0, -1):
+        if j > i:
+            print(" ", end=" ")
+        else:
+            print("*", end=" ")
+ 
+    print("")
+
+```
+
+# 6.( half Pyramid with Numbers)
+
+## Exercise
+Print the pattern using for loop
+
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        </p>
+
+## Approach:
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/6p1.png?raw=true"/>
+        </p>
+
+## Solution
+
+### Java :
+
+```java
+
+```
+
+
+### Python :
+
+
+```python
+
+```
+
+# 3.
+
+## Exercise
+
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        </p>
+
+## Approach:
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        </p>
+
+## Solution
+
+### Java :
+
+```java
+
+```
+
+
+### Python :
+
+
+```python
+
+```
+
+# 3.
+
+## Exercise
+
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        </p>
+
+## Approach:
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        </p>
+
+## Solution
+
+### Java :
+
+```java
+
+```
+
+
+### Python :
+
+
+```python
+
+```
+
+# 3.
+
+## Exercise
+
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        </p>
+
+## Approach:
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        </p>
+
+## Solution
+
+### Java :
+
+```java
+
+```
+
+
+### Python :
+
+
+```python
+
+```
+
+# 3.
+
+## Exercise
+
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        </p>
+
+## Approach:
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        </p>
+
+## Solution
+
+### Java :
+
+```java
+
+```
+
+
+### Python :
+
+
+```python
+
+```
+
+# 3.
+
+## Exercise
+
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        </p>
+
+## Approach:
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        </p>
+
+## Solution
+
+### Java :
+
+```java
+
+```
+
+
+### Python :
+
+
+```python
+
+```
+
+# 3.
+
+## Exercise
+
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        </p>
+
+## Approach:
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        </p>
+
+## Solution
+
+### Java :
+
+```java
+
+```
+
+
+### Python :
+
+
+```python
+
+```
+
+# 3.
+
+## Exercise
+
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        </p>
+
+## Approach:
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        </p>
+
+## Solution
+
+### Java :
+
+```java
+
+```
+
+
+### Python :
+
+
+```python
+
+```
+
+# 3.
+
+## Exercise
+
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        </p>
+
+## Approach:
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        </p>
+
+## Solution
+
+### Java :
+
+```java
+
+```
+
+
+### Python :
+
+
+```python
+
+```
+
+# 3.
+
+## Exercise
+
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        </p>
+
+## Approach:
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        </p>
+
+## Solution
+
+### Java :
+
+```java
+
+```
+
+
+### Python :
+
+
+```python
+
+```
+
+# 3.
+
+## Exercise
+
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        </p>
+
+## Approach:
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        </p>
+
+## Solution
+
+### Java :
+
+```java
+
+```
+
+
+### Python :
+
+
+```python
+
+```
+
+# 3.
+
+## Exercise
+
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        </p>
+
+## Approach:
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        </p>
+
+## Solution
+
+### Java :
+
+```java
+
+```
+
+
+### Python :
+
+
+```python
+
+```
+
+# 3.
+
+## Exercise
+
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        </p>
+
+## Approach:
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        </p>
+
+## Solution
+
+### Java :
+
+```java
+
+```
+
+
+### Python :
+
+
+```python
+
+```
+
+# 3.
+
+## Exercise
+
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        </p>
+
+## Approach:
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        </p>
+
+## Solution
+
+### Java :
+
+```java
+
+```
+
+
+### Python :
+
+
+```python
+
+```
+
+# 3.
+
+## Exercise
+
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        </p>
+
+## Approach:
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        </p>
+
+## Solution
+
+### Java :
+
+```java
+
+```
+
+
+### Python :
+
+
+```python
+
+```
+
+# 3.
+
+## Exercise
+
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        </p>
+
+## Approach:
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        </p>
+
+## Solution
+
+### Java :
+
+```java
+
+```
+
+
+### Python :
+
+
+```python
+
+```
+
+# 3.
+
+## Exercise
+
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        </p>
+
+## Approach:
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        </p>
+
+## Solution
+
+### Java :
+
+```java
+
+```
+
+
+### Python :
+
+
+```python
+
+```
+
+# 3.
+
+## Exercise
+
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        </p>
+
+## Approach:
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        </p>
+
+## Solution
+
+### Java :
+
+```java
+
+```
+
+
+### Python :
+
+
+```python
+
+```
+
+
+
+
+
+
+
+
+
+
+
 # 
 
 ## Exercise
