@@ -28,7 +28,7 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
 * [**11.(Java)What will be the result of the following expression**](#11javawhat-will-be-the-result-of-the-following-expression)
 
 *****
-#### String -> [Learn About Complete String From Here](https://github.com/Subham-Maity/java-string-data-structure)
+#### String -> Learn About Complete String From [Here](https://github.com/Subham-Maity/java-string-data-structure)
 * [**4.Asks the user to enter his/her name and greets them with “Hello , have a good day” text.**](#4asks-the-user-to-enter-hisher-name-and-greets-them-with-hello-name-have-a-good-day-text)
 * [**12.Convert a string to lowercase.**](#12-convert-a-string-to-lowercase)
 * [**13.Replace spaces with underscores.**](#13-replace-spaces-with-underscores)
@@ -89,7 +89,7 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
   * [**31. Sum first n even numbers using a while loop**](#31-sum-first-n-even-numbers-using-a-while-loop)
   * [**32. Corresponding Series**](#32-corresponding-series)
 *****
-#### Array  
+#### Array  -> Learn About Complete Array From [Here](https://github.com/Subham-Maity/java-arrays-data-structure) 
 * [**34. Create an array of 5 floats and calculate their sum.**](#34-create-an-array-of-5-floats-and-calculate-their-sum)
 * [**35. Integer is present in an array or not**](#35-integer-is-present-in-an-array-or-not)
 * [**36. Averages from an array**](#36-averages-from-an-array)
