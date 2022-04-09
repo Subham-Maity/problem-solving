@@ -98,6 +98,7 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
 * [**39.find the maximum element in an array.**](#39find-the-maximum-element-in-an-array)
 * [**40.Find the minimum element in an array.**](#40find-the-minimum-element-in-an-array)
 * [**41.Find whether an array is sorted or not.**](#41find-whether-an-array-is-sorted-or-not)
+* [**42.Matrix size as an input and printing its elements.**](#42matrix-size-as-an-input-and-printing-its-elements)
 
 *****
   
