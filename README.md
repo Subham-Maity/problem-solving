@@ -2077,7 +2077,7 @@ for i in range(0, 5):
     print(" ")
 ```
 
-# 7.( Inverted half Pyramid with Numbers)
+# 7.Inverted half Pyramid with Numbers
 
 
 ## Exercise
@@ -2248,19 +2248,37 @@ for i in range(1, 6):
 
 ```
 
-# 3.
+# 10.ButterFly
+
 
 ## Exercise
+Print the pattern using for loop
+
 
 
 <p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/10p.png?raw=true"/>
+        </p>
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/101p.png?raw=true"/>
         </p>
 
 ## Approach:
 
+
 <p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/10p1.png?raw=true"/>
+        </p>
+
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/10p2.png?raw=true"/>
+        </p>
+
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/10p3.png?raw=true"/>
         </p>
 
 ## Solution
@@ -2268,6 +2286,69 @@ for i in range(1, 6):
 ### Java :
 
 ```java
+public class CodeXam {
+    public static void main(String args[]) {
+        int n = 4;
+ 
+        //upper part
+        for(int i=1; i<=n; i++) {
+            for(int j=1; j<=i; j++) {
+                System.out.print("*");
+            }
+ 
+            int spaces = 2 * (n-i);
+            for(int j=1; j<=spaces; j++) {
+                System.out.print(" ");
+            }
+ 
+            for(int j=1; j<=i; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+ 
+        //lower part
+        for(int i=n; i>=1; i--) {
+            for(int j=1; j<=i; j++) {
+                System.out.print("*");
+            }
+ 
+            int spaces = 2 * (n-i);
+            for(int j=1; j<=spaces; j++) {
+                System.out.print(" ");
+            }
+ 
+            for(int j=1; j<=i; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }  
+ }
+
+//Using Absolute Function : (Math.abs here math is a class and abs is a method of the math class)
+public class CodeXam
+{
+    public static void main(String[] args)
+    {
+        for(int i=-3;i<=3;i++)
+        {
+            for(int j=1;j<=4-Math.abs(i);j++)
+            {
+                System.out.print("*");
+            }
+            for(int j=1;j<=2*Math.abs(i);j++)
+            {
+                System.out.print(" ");
+            }
+            for(int j=1;j<=4-Math.abs(i);j++)
+            {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
 
 ```
 
@@ -2277,21 +2358,68 @@ for i in range(1, 6):
 
 ```python
 
+# Q1 
+ 
+n = 4
+for i in range(1, n + 1):
+    for j in range(1, i + 1):
+        print("*", end=" ")
+    for space in range(1, (2 * (n - i)) + 1):
+        print(end="  ")
+ 
+    for j in range(i, 0, -1):
+        print("*", end=" ")
+    print()
+ 
+for i in range(n, 0, -1):
+ 
+    for j in range(1, i + 1):
+        print("*", end=" ")
+    for space in range(1, (2 * (n - i)) + 1):
+        print(end="  ")
+ 
+    for j in range(i, 0, -1):
+        print("*", end=" ")
+    print()
+
+
+# Q2
+ 
+n = 3
+for i in range(-n, n+1):
+    for j in range(1, (n+1)-abs(i)+1):
+        print("*", end=" ")
+    for j in range(1, 2*abs(i)+1):
+        print(" ", end=" ")
+    for u in range(1, (n+1)-abs(i)+1):
+        print("*", end=" ")
+    print(" ")
+ 
+
 ```
 
-# 3.
+# 11.Solid Rhombus
 
 ## Exercise
+Print the pattern using for loop
 
 
 <p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/11p.png?raw=true"/>
         </p>
 
 ## Approach:
 
 <p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/11p1.png?raw=true"/>
+        </p>
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/11p2.png?raw=true"/>
+        </p>
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/11p3.png?raw=true"/>
         </p>
 
 ## Solution
@@ -2299,6 +2427,47 @@ for i in range(1, 6):
 ### Java :
 
 ```java
+//Approach - 1
+public class CodeXam {
+   public static void main(String args[]) {
+       int n = 5;
+ 
+       for(int i=1; i<=n; i++) {
+           //spaces
+           for(int j=1; j<=n-i; j++) {
+               System.out.print(" ");
+           }
+ 
+           //stars
+           for(int j=1; j<=n; j++) {
+               System.out.print("*");
+           }
+           System.out.println();
+       }
+   }   
+}
+ 
+ 
+//Approach - 2
+public class CodeXam {
+    public static void main(String args[]) {
+        int n = 5;
+ 
+        for(int i=n; i>=1; i--) {
+            //spaces
+            for(int j=1; j<=i; j++) {
+                System.out.print(" ");
+            }
+ 
+            //stars
+            for(int j=1; j<=n; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
+ 
 
 ```
 
@@ -2307,22 +2476,47 @@ for i in range(1, 6):
 
 
 ```python
+# Approach 1
+ 
+n = 5
+for i in range(n+1, 1, -1):
+    for j in range(1, i):
+        print(" ", end=" ")
+    for j in range(1, n+1):
+        print("*", end=" ")
+    print(" ")
+ 
+ 
+#Approach 2
+n = 5
+for i in range(1, n + 1):
+   for j in range(1, (n-i)+1):
+       print(" ", end=" ")
+   for j in range(1, n+1):
+       print("*", end=" ")
+   print(" ")
+ 
+ 
+ 
+ 
+ 
 
 ```
 
-# 3.
+# 12.Number Pyramid
 
 ## Exercise
+Print the pattern using for loop
 
 
 <p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/12p.png?raw=true"/>
         </p>
 
 ## Approach:
 
 <p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/12p1.png?raw=true"/>
         </p>
 
 ## Solution
@@ -2330,6 +2524,25 @@ for i in range(1, 6):
 ### Java :
 
 ```java
+class code_xam {
+    public static void main(String args[]) {
+        int n = 5;
+ 
+        for(int i=1; i<=n; i++) {
+            //spaces
+            for(int j=1; j<=n-i; j++) {
+                System.out.print(" ");
+            }
+ 
+            //numbers
+            for(int j=1; j<=i; j++) {
+                System.out.print(i+" ");
+            }
+            System.out.println();
+        }
+    }
+}
+ 
 
 ```
 
@@ -2338,22 +2551,30 @@ for i in range(1, 6):
 
 
 ```python
+n = 5
+for i in range(1, n + 1):
+  for j in range(1, (n-i)+1):
+      print(" ", end=" ")
+  for j in range(1, i+1):
+      print(i," " ,end=" ")
+  print(" ")
 
 ```
 
-# 3.
+# 13.Palindromic Pattern
 
 ## Exercise
+Print the pattern using for loop
 
 
 <p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/13p.png?raw=true"/>
         </p>
 
 ## Approach:
 
 <p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/13p1.png?raw=true"/>
         </p>
 
 ## Solution
@@ -2361,6 +2582,29 @@ for i in range(1, 6):
 ### Java :
 
 ```java
+public class CodeXam {
+    public static void main(String[] args) {
+        int n = 5;
+        for(int i=1; i<=n; i++) {
+            //spaces
+            for(int j=1; j<=n-i; j++) {
+                System.out.print(" ");
+            }
+ 
+            //first part
+            for(int j=i; j>=1; j--) {
+                System.out.print(j);
+            }
+ 
+            //second part
+            for(int j=2; j<=i; j++) {
+                System.out.print(j);
+            }
+            System.out.println();
+        }
+    }
+}
+ 
 
 ```
 
@@ -2369,22 +2613,38 @@ for i in range(1, 6):
 
 
 ```python
+n = 5
+ 
+for i in range(1, n+1):
+    for j in range(n, 0, -1):
+        if j > i:
+            print(" ", end=" ")
+ 
+    for j in range(i, 0, -1):
+        print(j, end=" ")
+ 
+    for j in range(2, i + 1):
+        print(j, end=" ")
+ 
+    print()
+ 
 
 ```
 
-# 3.
+# 14.Diamond Pattern
+
 
 ## Exercise
 
 
 <p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/14p.png?raw=true"/>
         </p>
 
 ## Approach:
 
 <p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/14p1.png?raw=true"/>
         </p>
 
 ## Solution
@@ -2392,6 +2652,111 @@ for i in range(1, 6):
 ### Java :
 
 ```java
+// Approach 1
+public class CodeXam {
+    public static void main(String args[]) {
+        int n = 4;
+ 
+        //upper part
+        for(int i=1; i<=n; i++) {
+            //spaces
+            for(int j=1; j<=n-i; j++) {
+                System.out.print(" ");
+            }
+            for(int j=1; j<=2*i-1; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+ 
+        //lower part
+        for(int i=n; i>=1; i--) {
+            //spaces
+            for(int j=1; j<=n-i; j++) {
+                System.out.print(" ");
+            }
+            for(int j=1; j<=2*i-1; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
+// Approach 2
+public class CodeXam {
+   public static void main(String args[]) {
+       int n = 4;
+ 
+       //upper part
+       for(int i=1; i<=n; i++) {
+           //spaces
+           for(int j=n; j>0; j--) {
+               if (j >i)
+               {
+                   System.out.print(" ");}
+           }
+           for(int j=1; j<=2*i-1; j++) {
+               System.out.print("*");
+           }
+           System.out.println();
+       }
+ 
+       //lower part
+       for(int i=n; i>=1; i--) {
+           //spaces
+           for(int j=n; j>0; j--) {
+               if (j >i)
+               {
+                   System.out.print(" ");}
+           }
+           for(int j=1; j<=2*i-1; j++) {
+               System.out.print("*");
+           }
+           System.out.println();
+       }
+   }
+}
+ 
+ 
+// Approach 3
+ 
+public class CodeXam {
+    public static void main(String args[]) {
+        int n = 4;
+ 
+        //upper part
+        for(int i=1; i<=n; i++) {
+            //spaces
+            for(int j=1; j<=2*n-i; j++) {
+                System.out.print(" ");
+            }
+            for(int j=i; j>0; j--) {
+                System.out.print("*");
+            }
+            for(int j=2; j<i+1; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+ 
+        //lower part
+        for(int i=n; i>=1; i--) {
+            //spaces
+            for(int j=1; j<=2*n-i; j++) {
+                System.out.print(" ");
+            }
+            for(int j=i; j>0; j--) {
+                System.out.print("*");
+            }
+            for(int j=2; j<i+1; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
+ 
+ 
 
 ```
 
@@ -2400,22 +2765,96 @@ for i in range(1, 6):
 
 
 ```python
+#Approach 1
+n = 4
+ 
+for i in range(1, n+1):
+    for j in range(n, 0, -1):
+        if j > i:
+            print(" ", end=" ")
+ 
+    for j in range(i, 0, -1):
+        print("*", end=" ")
+ 
+    for j in range(2, i + 1):
+        print("*", end=" ")
+ 
+    print()
+ 
+for i in range(n, 0, -1):
+    for j in range(n, 0, -1):
+        if j > i:
+            print(" ", end=" ")
+ 
+    for j in range(i, 0, -1):
+        print("*", end=" ")
+ 
+    for j in range(2, i + 1):
+        print("*", end=" ")
+ 
+    print()
+ 
+#Approach 2
+n = 4
+ 
+for i in range(1, n+1):
+   for j in range(1, 2*n-i):
+ 
+         print(" ", end=" ")
+ 
+   for j in range(i, 0, -1):
+       print("*", end=" ")
+ 
+   for j in range(2, i + 1):
+       print("*", end=" ")
+ 
+   print()
+ 
+for i in range(n, 0, -1):
+   for j in range(1, 2 * n - i):
+       print(" ", end=" ")
+ 
+   for j in range(i, 0, -1):
+       print("*", end=" ")
+ 
+   for j in range(2, i + 1):
+       print("*", end=" ")
+ 
+   print()
+ 
+# Approach 3
+n = 4
+ 
+for i in range(1, n + 1):
+   for j in range(1, 2 * n - i):
+       print(" ", end=" ")
+   for j in range(1, 2 * i-1 + 1):
+       print("*", end=" ")
+   print()
+ 
+for i in range(n, 0, -1):
+   for j in range(1, 2 * n - i):
+       print(" ", end=" ")
+   for j in range(1, 2 * i-1 + 1):
+       print("*", end=" ")
+   print()
 
 ```
 
-# 3.
+# 15.Hollow butterfly
 
 ## Exercise
 
+Print the pattern using for loop
 
 <p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/15p.png?raw=true"/>
         </p>
 
 ## Approach:
 
 <p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/15p1.png?raw=true"/>
         </p>
 
 ## Solution
@@ -2423,6 +2862,64 @@ for i in range(1, 6):
 ### Java :
 
 ```java
+public class CodeXam {
+   public static void main(String args[]) {
+      int n =5;
+      
+       for (int i = 1; i <= n; i++) { // 1st outer loop
+ 
+           for (int j = 1; j <= i; j++) { // Star Printing - 2nd inner loop
+               if(j==1 || j==i )
+                   System.out.print("*");
+               else
+                   System.out.print(" ");
+           }
+ 
+           int spaces = 2 * (n-i);
+           for(int j=1; j<=spaces; j++) {
+               System.out.print(" ");
+           }
+ 
+           for (int j = 1; j <= i; j++) { // Star Printing - 2nd inner loop
+               if(j==1 || j==i )
+                   System.out.print("*");
+               else
+                   System.out.print(" ");
+           }
+           System.out.println();
+       }
+ 
+       for (int i = n; i >= 1; i--) { // 2nd outer for loop
+ 
+           for (int j = 1; j <= i; j++) { // Stars printing - 2nd inner for
+               // loop
+               if (j == 1 || j == i)
+                   System.out.print("*");
+ 
+               else
+                System.out.print(" ");
+ 
+ 
+           }
+           int spaces = 2 * (n-i);
+           for(int j=1; j<=spaces; j++) {
+               System.out.print(" ");
+           }
+ 
+ 
+           for (int j = 1; j <= i; j++) { // Star Printing - 2nd inner loop
+               if(j==1 || j==i)
+                   System.out.print("*");
+               else
+                   System.out.print(" ");
+           }
+ 
+           System.out.println();
+       }
+   }
+ 
+}
+ 
 
 ```
 
@@ -2431,22 +2928,56 @@ for i in range(1, 6):
 
 
 ```python
+n = 5
+for i in range(1, n + 1):
+   space = 2 * n - 2 * i
+   for j in range(1, i + 1):
+       if j == 1 or j == i:
+           print("*", end='')
+       else:
+           print(" ", end='')
+   for j in range(space):
+       print(" ", end='')
+   for j in range(1, i + 1):
+       if j == 1 or j == i:
+           print("*", end='')
+       else:
+           print(" ", end='')
+   print()
+ 
+for i in range(n, 0, -1):
+   space = 2 * n - 2 * i
+   for j in range(1, i + 1):
+       if j == 1 or j == i:
+           print("*", end='')
+       else:
+           print(" ", end='')
+   for j in range(space):
+       print(" ", end='')
+   for j in range(1, i + 1):
+       if j == 1 or j == i:
+           print("*", end='')
+       else:
+           print(" ", end='')
+   print()
+ 
 
 ```
 
-# 3.
+# 16.Hollow Rhombus
 
 ## Exercise
+Print the pattern using for loop
 
 
 <p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/16p.png?raw=true"/>
         </p>
 
 ## Approach:
 
 <p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/16p1.png?raw=true"/>
         </p>
 
 ## Solution
@@ -2454,6 +2985,31 @@ for i in range(1, 6):
 ### Java :
 
 ```java
+public class CodeXam {
+   public static void main(String args[]) {
+       int n = 5;
+ 
+ 
+       for (int i = 1 ; i <= n; i++ )
+       {
+           for (int j = 1 ; j <= n - i; j++ )
+           {
+               System.out.print(" ");
+           }
+           for (int j = 1 ; j <= n; j++ )
+           {
+               if (i == 1 || i == n || j == 1 || j == n) {
+                   System.out.print("* ");
+               }
+               else {
+                   System.out.print("  ");
+               }
+           }
+           System.out.println();
+       }
+   }
+}
+ 
 
 ```
 
@@ -2462,22 +3018,56 @@ for i in range(1, 6):
 
 
 ```python
+rows = 5
+for i in range(1, rows + 1):
+    for j in range(1, rows - i + 1):
+        print(end=" ")
+ 
+    if i == 1 or i == rows:
+        for j in range(1, rows + 1):
+            print("*", end=" ")
+ 
+    else:
+        for j in range(1, rows + 1):
+            if j == 1 or j == rows:
+                print("*", end=" ")
+            else:
+                print(" ", end=" ")
+    print()
+ 
+#approach
+n = 5
+for i in range(1, n + 1):
+   for j in range(1, n - i + 1):
+       print(" ", end="")
+   for j in range(1, n + 1):
+       if i == 1 or i == n or j == 1 or j == n:
+           print("*", end=" ")
+       else:
+           print(" ", end=" ")
+   print()
+ 
 
 ```
 
-# 3.
+# 17.Print Pascal’s Triangle.
 
 ## Exercise
+Print the pattern using for loop
 
 
 <p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/17p.png?raw=true"/>
         </p>
 
 ## Approach:
 
 <p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/17p1.png?raw=true"/>
+        </p>
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/17p2.gif?raw=true"/>
         </p>
 
 ## Solution
@@ -2485,6 +3075,22 @@ for i in range(1, 6):
 ### Java :
 
 ```java
+public class CodeXam {
+   public static void main(String args[]) {
+         int n =5;
+       for (int i = 0; i < n; i++) {
+           for (int j= n; j> i;j--)
+               System.out.print(" ");
+          
+           int num=1;
+           for (int j = 0; j <= i; j++) {
+               System.out.print(num  + " ");
+               num = num * (i - j) / (j + 1);
+           }
+           System.out.println(" ");
+       }
+   }
+}
 
 ```
 
@@ -2493,22 +3099,35 @@ for i in range(1, 6):
 
 
 ```python
+n = 4
+ 
+for i in range(0, n + 1):
+   for j in range(0, (n - i) + 1):
+       num = 1
+       print(" ", end=" ")
+   for j in range(0, i + 1):
+       print(int(num), " ", end=" ")
+       num *= (i - j) / (j + 1)
+ 
+   print()
 
 ```
 
-# 3.
+# 18.Print half Pyramid.
+
 
 ## Exercise
 
+Print the pattern using for loop
 
 <p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/18p.png?raw=true"/>
         </p>
 
 ## Approach:
 
 <p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/18p1.png?raw=true"/>
         </p>
 
 ## Solution
@@ -2516,6 +3135,14 @@ for i in range(1, 6):
 ### Java :
 
 ```java
+public class CodeXam {
+   public static void main(String args[]) {
+       int n = 5;
+       for (int i = 0; i <= n; i++) {
+           for (int j = 1; j <= i; j++)
+               System.out.print(j);
+           System.out.println();
+       }}}
 
 ```
 
@@ -2524,22 +3151,30 @@ for i in range(1, 6):
 
 
 ```python
+n = 5
+for i in range(0, n + 1):
+   for j in range(1, i + 1):
+       print(j, end=" ")
+ 
+   print(" ")
+ 
 
 ```
 
-# 3.
+# 19.Print Inverted Half Pyramid.
 
 ## Exercise
+Print the pattern using for loop
 
 
 <p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/19p.png?raw=true"/>
         </p>
 
 ## Approach:
 
 <p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/19p1.png?raw=true"/>
         </p>
 
 ## Solution
@@ -2547,6 +3182,16 @@ for i in range(1, 6):
 ### Java :
 
 ```java
+public class CodeXam {
+   public static void main(String args[]) {
+       int n = 4;
+       for (int i = 1; i <= 4; i++) {
+           for (int j = n; j >= i ; j--)
+ 
+               System.out.print(i + " ");
+           System.out.println();
+       }
+   }}
 
 ```
 
@@ -2555,6 +3200,12 @@ for i in range(1, 6):
 
 
 ```python
+n = 5
+for i in range(1, n + 1):
+   for j in range(n, i, -1):
+       print(i, end=" ")
+ 
+   print(" ")
 
 ```
 
