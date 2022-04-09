@@ -3304,22 +3304,46 @@ for i in range(1, n + 1):
 ```
 
 
+# 27. Rock, Paper Scissors game
 
-
-
-
-
-
-
-
-
-# 
 
 ## Exercise
+Create a simple Rock, Paper Scissors game
 
 
 ## Approach:
 ```javascript
+So here we did like this
+Rules and Main approach:
+ Rock wins against scissors
+ paper wins against rock
+ scissors wins against paper
+ Here 0 = ROCK 1 = Paper 2 = Scissors, 
+If
+Case 1 When user enter 0 Rock(0) wins against scissors(2) so user_input == 0 && comp_input == 2 So user win here
+Case 2 When user enter 1 paper(1) wins against rock(0) so user_input == 1 && comp_input == 0 So user win 
+Case 3 When user enter 2 scissors(2) wins against paper(1) so user_input == 2 && comp_input == 1 So user win
+Else Any other case(except case1/case2/case3) computer win 
+ 
+ 
+ 
+ 
+In java :
+I use switch case and first make scanner class and random method 
+Step 1: For user (scanner class takes input as 0 1 2)
+       
+Step 2: For pc (scanner class takes input as 0 1 2) scanner class takes input from the random method(where bound is 3)
+Step 3:I use while loop for 3 times game play
+Step 4: Total 3 case for user and total 3 case for Pc
+Step 5:Now I compare the cases between user and pc
+For user win
+Case 1 When user enter 0 Rock(0) wins against scissors(2) so user_input == 0 && comp_input == 2 So user win here
+Case 2 When user enter 1 paper(1) wins against rock(0) so user_input == 1 && comp_input == 0 So user win 
+Case 3 When user enter 2 scissors(2) wins against paper(1) so user_input == 2 && comp_input == 1 So user win
+For pc win
+Any other case(except case1/case2/case3) computer win 
+Step 6:Now just print the counter for how many times user win
+ 
 
 
 ```
@@ -3328,6 +3352,83 @@ for i in range(1, n + 1):
 ### Java :
 
 ```java
+import java.util.Random;
+import java.util.Scanner;
+public class CodeXam {
+   public static void main(String[] args) {
+       System.out.println("Welcome to Rock:Paper:Scissor Game");
+       System.out.println("Rules:\n Rock wins against scissors\n paper wins against rock\n and scissors wins against paper\n ");
+       System.out.println("enter\n 0:ROCK\n 1:Paper\n 2:Scissors ");
+       Scanner sc = new Scanner(System.in);
+       Random rd = new Random();
+ 
+ 
+       int n = 1; // initialize n = 1
+       int count = 0; // counter or terminator
+ 
+       while (n <= 3) { //Condition 1<=3 means 3 times our loop runs means user play against computer total three times (1-2-3)
+           System.out.println("Your turn enter number");
+           int user_input = sc.nextInt(); //taking input from the user
+           switch (user_input) {
+               case 0: { // if user enter zero
+                   System.out.println("You select Rock");
+               }
+               break;
+ 
+               case 1: { // if user enter one
+                   System.out.println("You select Paper");
+               }
+               break;
+               case 2: { // if user enter two
+                   System.out.println("You select Scissor");
+               }
+               break;
+           }
+           System.out.println("Computer's turn ");
+ 
+           //nextInt(int n) is used to get a random number between 0(inclusive) and the number passed in this argument(n) here the bound is 3
+           int comp_input = rd.nextInt(3); //taking input from the computer(0-3)
+           switch (comp_input) {
+               case 0: { // if our random program generate zero
+                   System.out.println("Computer select Rock");
+               }
+               break;
+ 
+               case 1: { // if our random program generate one
+                   System.out.println("Computer select Paper");
+               }
+               break;
+               case 2: { // if our random program generate two
+                   System.out.println("Computer select Scissor");
+               }
+               break;
+           }
+           if (user_input == comp_input) { // if our random program's generate number = user's given number
+               System.out.println("Draw match");
+                  /* Rules:
+                   Here 0 = ROCK 1 = Paper 2 = Scissors,
+ 
+                   Rock(0) wins against scissors(2) so user_input == 0 && comp_input == 2 So user win
+                   paper(1) wins against rock(0) so user_input == 1 && comp_input == 0 So user win
+                   scissors(2) wins against paper(1) so user_input == 2 && comp_input == 1 So user win
+                   */
+           } else if ((user_input == 0 && comp_input == 2) || (user_input == 1 && comp_input == 0) || (user_input == 2 && comp_input == 1)) {
+               System.out.println("Congratulations! You win the match :( ");
+               count++; //Counter is the iterator for update 0-3
+ 
+ 
+           } else { // If above three combinations(0-2 , 1-0 , 2 -1 ) are false , Computer win
+               System.out.println("You lose! Haha,Better luck next time");
+           }
+           n++; //n++ is the iterator for update the match again (total 3 times play 1 - 2 - 3)
+ 
+       }
+       System.out.println("you won match " + count + " times"); //It can track users match record
+ 
+ 
+   }
+ 
+}
 
 
 
@@ -3337,15 +3438,74 @@ for i in range(1, n + 1):
 ### Python :
 
 ```python
+import random
+ 
+print("Welcome to Rock:Paper:Scissor Game")
+print("Rules:\n Rock wins against scissors\n paper wins against rock\n and scissors wins against paper\n ")
+print("enter\n Rock\n Paper\n Scissors ")
+ 
+n = 0
+user_point = 0
+computer_point = 0
+ 
+while n < 3:
+   user_action = input("Enter a choice (rock, paper, scissor): ")
+ 
+   possible_actions = ["rock", "paper", "scissor"]
+   computer_action = random.choice(possible_actions)
+   print(f"\nYou chose {user_action}, computer chose {computer_action}.\n")
+ 
+   if user_action == computer_action:
+       print(f"Both players selected {user_action}. It's a tie!")
+   elif user_action == "rock":
+       if computer_action == "scissor":
+           print("Rock smashes scissors! You win!")
+           user_point += 1
+       else:
+           print("Paper covers rock! You lose.")
+           computer_point += 1
+   elif user_action == "paper":
+       if computer_action == "rock":
+           print("Paper covers rock! You win!")
+           user_point += 1
+       else:
+           print("Scissors cuts paper! You lose.")
+           computer_point += 1
+   elif user_action == "scissor":
+       if computer_action == "paper":
+           print("Scissors cuts paper! You win!")
+           user_point += 1
+       else:
+           print("Rock smashes scissors! You lose.")
+           computer_point += 1
+   n += 1
+ 
+if user_point == computer_point:
+   print("It's a Tie")
+elif user_point > computer_point:
+   print(f"You've won {user_point}")
+else:
+   print(f"Computer won {computer_point}")
 
 ```
 
-# 
+# 28. Do-while loop , while loop.
 
 ## Exercise
+Write a program to print first n natural numbers using a do-while loop and while loop
 
 
 ## Approach:
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/281.png?raw=true"/>
+        </p>
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/282.png?raw=true"/>
+        </p>
+
+
 ```javascript
 
 
