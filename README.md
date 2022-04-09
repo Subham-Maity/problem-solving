@@ -2044,6 +2044,22 @@ Print the pattern using for loop
 ### Java :
 
 ```java
+public class code_xam {
+    public static void main(String[] args) {
+        int n = 5;
+ 
+        //For "Row"
+        for (int i = 1; i <= n; i++) {
+ 
+            //For "Column"
+            for (int j = 1; j <= i ; j++) {
+                System.out.print(j);}
+            System.out.println();
+ 
+            }
+            System.out.println();
+        }
+    }
 
 ```
 
@@ -2052,22 +2068,30 @@ Print the pattern using for loop
 
 
 ```python
-
+for i in range(0, 5):
+    num = 1
+    for j in range(0, i+1):
+        print(num, end=" ")
+        num += 1
+ 
+    print(" ")
 ```
 
-# 3.
+# 7.( Inverted half Pyramid with Numbers)
+
 
 ## Exercise
+Print the pattern using for loop
 
 
 <p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/7p.png?raw=true"/>
         </p>
 
 ## Approach:
 
 <p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/7p1.png?raw=true"/>
         </p>
 
 ## Solution
@@ -2075,6 +2099,22 @@ Print the pattern using for loop
 ### Java :
 
 ```java
+public class code_xam {
+    public static void main(String[] args) {
+        int n = 5;
+ 
+        //For "Row"
+        for (int i = n; i >= 1; i--) {
+ 
+            //For "Column"
+            for (int j = 1; j <= i ; j++) {
+                System.out.print(j);}
+            System.out.println();
+ 
+            }
+            System.out.println();
+        }
+    }
 
 ```
 
@@ -2083,22 +2123,31 @@ Print the pattern using for loop
 
 
 ```python
-
+for i in range(5, 0, -1):
+    num = 1
+    for j in range(i + 1, 1, -1):
+        print(num, end=" ")
+        num += 1
+ 
+    print(" ")
 ```
 
-# 3.
+# 8.Floyd’s triangle
+
 
 ## Exercise
+Print the pattern using for loop
+
 
 
 <p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/8p.png?raw=true"/>
         </p>
 
 ## Approach:
 
 <p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/8p1.png?raw=true"/>
         </p>
 
 ## Solution
@@ -2106,6 +2155,20 @@ Print the pattern using for loop
 ### Java :
 
 ```java
+public class code_xam {
+    public static void main(String args[]) {
+        int n = 5;
+        int number = 1;
+ 
+        for(int i=1; i<=n; i++) {
+            for(int j=1; j<=i; j++) {
+                System.out.print(number++ + "  "); //  System.out.print(number+" "); number++;
+ 
+            }
+            System.out.println();
+        }
+    }
+}
 
 ```
 
@@ -2114,22 +2177,32 @@ Print the pattern using for loop
 
 
 ```python
-
+for i in range(1, 6):
+    for j in range(1, i+1):
+        print(num, end="  ")
+        num += 1
+    print("  ")
 ```
 
-# 3.
+# 9.(0-1) Triangle
+
 
 ## Exercise
+Print the pattern using for loop
 
 
 <p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/9p.png?raw=true"/>
         </p>
 
 ## Approach:
 
 <p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/9p1.png?raw=true"/>
+        </p>
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/9p2.png?raw=true"/>
         </p>
 
 ## Solution
@@ -2137,6 +2210,24 @@ Print the pattern using for loop
 ### Java :
 
 ```java
+public class code_xam {
+    public static void main(String args[]) {
+        int n = 5;
+        int sum;
+ 
+        for(int i=1; i<=n; i++) {
+            for(int j=1; j<=i; j++) {
+                sum = i+j;
+                if((sum) % 2 == 0) {
+                    System.out.print(1+" ");
+                } else {
+                    System.out.print(0+" ");
+                }
+            }
+            System.out.println();
+        }
+    }
+}
 
 ```
 
@@ -2145,6 +2236,15 @@ Print the pattern using for loop
 
 
 ```python
+for i in range(1, 6):
+    for j in range(1, i+1):
+        sums = i + j
+        if sums % 2 == 0:
+            print(1, end=" ")
+        else:
+            print(0, end=" ")
+    print(" ")
+   
 
 ```
 
