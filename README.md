@@ -2195,6 +2195,7 @@ public class code_xam {
 
 
 ```python
+num = 1
 for i in range(5, 0, -1):
     num = 1
     for j in range(i + 1, 1, -1):
@@ -2253,6 +2254,7 @@ public class code_xam {
 
 
 ```python
+num = 1
 for i in range(1, 6):
     for j in range(1, i+1):
         print(num, end="  ")
@@ -4190,7 +4192,7 @@ n = int(input("Which multiplication table it is ?\n-> "))
 total_sum = 0
 for i in range(1, 11):
    total_sum += (n * i)
-print(f"The sum of the numbers in the multiplication [({n} * 1) to ({n} * 10)] table {n} is {total_sum}"
+print(f"The sum of the numbers in the multiplication [({n} * 1) to ({n} * 10)] table {n} is {total_sum}")
 
 ```
 
