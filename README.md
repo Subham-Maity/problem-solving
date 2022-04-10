@@ -4,7 +4,9 @@
 ## **[Subham Maity](https://github.com/Subham-Maity)** who is contributing on **Java** part
 ## **[Subhasish Negel](https://github.com/Subhasish-Negel)** who is contributing on **Python** part
 
-## Stargazers over time
+<hr>
+
+<h2 align=center>Contributors✨</h2>
 
 Thanks to these **Wonderful People** 👨🏻‍💻 <br>
 **Contributions** of any kind are welcome! 🚀
