@@ -4,6 +4,22 @@
 ## **[Subham Maity](https://github.com/Subham-Maity)** who is contributing on **Java** part
 ## **[Subhasish Negel](https://github.com/Subhasish-Negel)** who is contributing on **Python** part
 
+## Stargazers over time
+
+Thanks to these **Wonderful People** 👨🏻‍💻 <br>
+**Contributions** of any kind are welcome! 🚀
+
+<table>
+	<tr>
+		 <td>
+ <a href="https://github.com/Subham-Maity/java-python-problem-solving-series/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Subham-Maity/java-python-problem-solving-series" />
+</a>
+  </a>
+		</td>
+	</tr>
+</table>
+
 
 **Welcome to this book on "Learning JAVA- Python Problem Series For Beginners"**
 
@@ -17,7 +33,7 @@
 ## Chapters
 *******
 
-### Problem List 
+### Problem List
 #### Operators
 * [**1.Board Percentage Calculator :**](#1board-percentage-calculator-)
 * [**2.Sum of three numbers :**](#2sum-of-three-numbers-)
@@ -52,13 +68,13 @@
 #### Escape sequence
 * [**17.(Escape sequence) format the following sentence using escape sequence characters only**](#17escape-sequence-format-the-following-sentence-using-escape-sequence-characters-only)
 *****
-#### Case Switch 
+#### Case Switch
 * [**19.Print the name of the month.**](#19print-the-name-of-the-month)
 * [**18.Make a Calculator.**](#18make-a-calculator)
 * [**27. Rock, Paper Scissors game**](#27-rock-paper-scissors-game)
 *****
 #### Loop
-  #### for loop
+#### for loop
 * [26.For Loop - Pattern Problems](#26-pattern)
   * [**1.Solid Rectangle**](#1solid-rectangle)
   * [**2.Hollow Rectangle**](#2hollow-rectangle)
@@ -81,7 +97,7 @@
   * [**19.Print Inverted Half Pyramid.**](#19print-inverted-half-pyramid)
 * [**33. Calculate the sum of the numbers occurring in the multiplication table**](#33-calculate-the-sum-of-the-numbers-occurring-in-the-multiplication-table)
 
-   #### Do While and While Loop 
+  #### Do While and While Loop
   * [**28. Do-while loop , while loop.**](#28-do-while-loop--while-loop)
   #### Break
   * [**29. Break in For and Do While Loop 1**](#29-break-in-for-and-do-while-loop-1)
@@ -90,7 +106,7 @@
   * [**31. Sum first n even numbers using a while loop**](#31-sum-first-n-even-numbers-using-a-while-loop)
   * [**32. Corresponding Series**](#32-corresponding-series)
 *****
-#### Array  -> Learn About Complete Array From [Here](https://github.com/Subham-Maity/java-arrays-data-structure) 
+#### Array  -> Learn About Complete Array From [Here](https://github.com/Subham-Maity/java-arrays-data-structure)
 * [**34. Create an array of 5 floats and calculate their sum.**](#34-create-an-array-of-5-floats-and-calculate-their-sum)
 * [**35. Integer is present in an array or not**](#35-integer-is-present-in-an-array-or-not)
 * [**36. Averages from an array**](#36-averages-from-an-array)
@@ -102,11 +118,11 @@
 * [**42.Matrix size as an input and printing its elements.**](#42matrix-size-as-an-input-and-printing-its-elements)
 
 *****
-  
+
 
 # 1.Board Percentage Calculator :
 
-## Exercise 
+## Exercise
 
 Write a program to calculate the percentage of a given student in a board exam. His marks from 5 subjects must be taken as input from the keyboard. (Marks are out of 100)
 
@@ -118,7 +134,7 @@ Marks Percentage =
 ```
 ## Solution
 
-### Java : 
+### Java :
 
 ```java
 import java.util.Scanner;
@@ -149,7 +165,7 @@ public class CodeXam { //our class is CodeXam
 ```
 
 
-### Python : 
+### Python :
 
 ```python
 maximum_numbers = int(input("Enter The Maximum Marks of One Subject (example: Physics 100) : "))
@@ -946,7 +962,7 @@ print(txt.index("   "))
 # 16. Check if a String contains only whitespaces
 
 ## Exercise
-Check if a String given by the user contains only whitespaces or not if the string has only whitespace print 
+Check if a String given by the user contains only whitespaces or not if the string has only whitespace print
 “ It is only whitespace” if not print “It’s a sentence ”
 
 ## Approach:
@@ -1333,7 +1349,7 @@ P.S. To uninstall any kinda pip package just type “pip uninstall package_name�
 <p align="center">
         <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/20.png?raw=true"/>
         </p>
-    
+
 ## Solution
 
 ### Java :
@@ -2195,7 +2211,6 @@ public class code_xam {
 
 
 ```python
-num = 1
 for i in range(5, 0, -1):
     num = 1
     for j in range(i + 1, 1, -1):
@@ -2254,7 +2269,6 @@ public class code_xam {
 
 
 ```python
-num = 1
 for i in range(1, 6):
     for j in range(1, i+1):
         print(num, end="  ")
@@ -3690,39 +3704,38 @@ public class CodeXam{
 import java.util.Scanner;
 public class CodeXam{
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter Your Name");
-        String name = sc.nextLine();
-        System.out.println("In order to stop printing at any number of times before 10 times printing your name, you can enter yes then enter number otherwise type no for 10 times printing your name ");
-        String answer_1 = sc.next();
-        if ( (answer_1.equalsIgnoreCase("Yes"))) {
-            System.out.println("Enter the number");
-            int n = sc.nextInt();
-            int i = 0;
-            do {
-                i++;
+      Scanner sc = new Scanner(System.in);
+      System.out.println("Enter Your Name");
+      String name = sc.nextLine();
+      System.out.println("In order to stop printing at any number of times before 10 times printing your name, you can enter yes then enter number otherwise type no for 10 times printing your name ");
+      String answer_1 = sc.next();
+      if ((answer_1.equalsIgnoreCase("Yes"))) {
+        System.out.println("Enter the number");
+        int n = sc.nextInt();
+        int i = 0;
+        do {
+          i++;
 
-                if (i == n) {
+          if (i == n) {
 
-                    System.out.println("You want to stop at " + n + " so I stop here");
-                    break;   //break the loop
-                }
-                System.out.println(name);
-            }
-            while (i < 10);
+            System.out.println("You want to stop at " + n + " so I stop here");
+            break;   //break the loop
+          }
+          System.out.println(name);
         }
-        else {
+        while (i < 10);
+      } else {
 
-            int i = 1;
-            do {
-                i++;
-                System.out.println(name);
-            }
-
-            while (i <= 10) ;
+        int i = 1;
+        do {
+          i++;
+          System.out.println(name);
         }
 
-    }
+        while (i <= 10);
+      }
+
+    }}
 
 
 ```
@@ -4192,7 +4205,7 @@ n = int(input("Which multiplication table it is ?\n-> "))
 total_sum = 0
 for i in range(1, 11):
    total_sum += (n * i)
-print(f"The sum of the numbers in the multiplication [({n} * 1) to ({n} * 10)] table {n} is {total_sum}")
+print(f"The sum of the numbers in the multiplication [({n} * 1) to ({n} * 10)] table {n} is {total_sum}"
 
 ```
 
@@ -4218,16 +4231,16 @@ Then using for each loop for print the array
 
 ```java
 public class CodeXam {
-   public static void main(String args[]) {
-       float[]numbers = {45.7f, 67.8f, 63.4f, 99.2f, 100.0f};
-       float sum = 0;
-       for(float element:numbers){ //for each loop
-           sum = sum + element;
-       }
-       System.out.println("The value of sum is " + sum);
-   }
+  public static void main(String args[]) {
+    float[]numbers = {45.7f, 67.8f, 63.4f, 99.2f, 100.0f};
+    float sum = 0;
+    for(float element:numbers){ //for each loop
+      sum = sum + element;
+    }
+    System.out.println("The value of sum is " + sum);
+  }
 }
- 
+
 
 
 
@@ -4276,25 +4289,25 @@ returning true will store in isInArray.
 ```java
 import java.util.Scanner;
 public class CodeXam {
-   public static void main(String args[]) {
-       float [] marks = {45.7f, 67.8f, 63.4f, 99.2f, 100.0f};
-       Scanner sc = new Scanner(System.in);
-       System.out.println("Enter number");
-       float num = sc.nextFloat();
-       boolean isInArray = false;
-       for(float element:marks){
-           if(num==element){
-               isInArray = true;
-               break;
-           }
-       }
-       if(isInArray){
-           System.out.println("The value is present in the array");
-       }
-       else{
-           System.out.println("The value is not present in the array");
-       }
-   }
+  public static void main(String args[]) {
+    float [] marks = {45.7f, 67.8f, 63.4f, 99.2f, 100.0f};
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Enter number");
+    float num = sc.nextFloat();
+    boolean isInArray = false;
+    for(float element:marks){
+      if(num==element){
+        isInArray = true;
+        break;
+      }
+    }
+    if(isInArray){
+      System.out.println("The value is present in the array");
+    }
+    else{
+      System.out.println("The value is not present in the array");
+    }
+  }
 }
 
 
@@ -4353,18 +4366,18 @@ Sum / marks.length (n size means here 5)
 
 ```java
 public class CodeXam {
-   public static void main(String[] args) {
- 
-       {
-           float[] marks = {45.7f, 67.8f, 63.4f, 99.2f, 100.0f};
-           float sum = 0;
-           for (float element : marks) {//for each loop
-               sum = sum + element;
-           }
-           System.out.println("The value of average marks is " + sum / marks.length);
-             }
-           }
-       }
+  public static void main(String[] args) {
+
+    {
+      float[] marks = {45.7f, 67.8f, 63.4f, 99.2f, 100.0f};
+      float sum = 0;
+      for (float element : marks) {//for each loop
+        sum = sum + element;
+      }
+      System.out.println("The value of average marks is " + sum / marks.length);
+    }
+  }
+}
 
 
 
@@ -4437,30 +4450,30 @@ Like this
 
 ```java
 public class CodeXam {
-   public static void main(String[] args) {
-       {
-           int[][] mat1 = {{5, 10, 20}, //Multidimensional Arrays
-                           {8, 6, 5}};
-           int[][] mat2 = {{3, 8, 5},
-                           {2, 9, 3}};
- 
-           int[][] result = {{0, 0, 0},
-                            {0, 0, 0}};
- 
-           for (int i = 0; i < mat1.length; i++) { // row number of times
-               for (int j = 0; j < mat1[i].length; j++) { // column number of time
-                   System.out.format(" Setting value for i=%d and j=%d\n", i, j);
-                   result[i][j] = mat1[i][j] + mat2[i][j];
-               }
-           }
-           for (int i = 0; i < mat1.length; i++) { // row number of times
-               for (int j = 0; j < mat1[i].length; j++) { // column number of time
-                   System.out.print(result[i][j]+" ");
-                   result[i][j] = mat1[i][j] + mat2[i][j];}
-               System.out.println();
-           }
-       }
-   }}
+  public static void main(String[] args) {
+    {
+      int[][] mat1 = {{5, 10, 20}, //Multidimensional Arrays
+              {8, 6, 5}};
+      int[][] mat2 = {{3, 8, 5},
+              {2, 9, 3}};
+
+      int[][] result = {{0, 0, 0},
+              {0, 0, 0}};
+
+      for (int i = 0; i < mat1.length; i++) { // row number of times
+        for (int j = 0; j < mat1[i].length; j++) { // column number of time
+          System.out.format(" Setting value for i=%d and j=%d\n", i, j);
+          result[i][j] = mat1[i][j] + mat2[i][j];
+        }
+      }
+      for (int i = 0; i < mat1.length; i++) { // row number of times
+        for (int j = 0; j < mat1[i].length; j++) { // column number of time
+          System.out.print(result[i][j]+" ");
+          result[i][j] = mat1[i][j] + mat2[i][j];}
+        System.out.println();
+      }
+    }
+  }}
 
 
 
@@ -4498,7 +4511,7 @@ Return Value: This method returns the largest (closest to positive infinity) int
 <p align="center">
         <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/381.png?raw=true"/>
         </p>
- 
+
 
 
 
@@ -4508,30 +4521,30 @@ Return Value: This method returns the largest (closest to positive infinity) int
 
 ```java
 public class CodeXam {
-   public static void main(String[] args) {
-       {
-           int [] arr = {1, 21, 3, 4, 5, 34, 67};
-           int lengths = arr.length;
-           //we can use this also int n = lengths/2;
-           int n = Math.floorDiv(lengths, 2); //mid find
- 
-           int temp;
- 
-           for(int i=0; i<n; i++){
-               // Swap a[i] and a[l-1-i]
-               // a   b   temp
-               // |4| |3| ||
-               temp = arr[i];
-               arr[i] = arr[lengths-i-1];
-               arr[lengths-i-1] = temp;
-           }
- 
-           for(int element: arr){
-               System.out.print(element + " ");
-           }
-           }
-       }
-   }
+  public static void main(String[] args) {
+    {
+      int [] arr = {1, 21, 3, 4, 5, 34, 67};
+      int lengths = arr.length;
+      //we can use this also int n = lengths/2;
+      int n = Math.floorDiv(lengths, 2); //mid find
+
+      int temp;
+
+      for(int i=0; i<n; i++){
+        // Swap a[i] and a[l-1-i]
+        // a   b   temp
+        // |4| |3| ||
+        temp = arr[i];
+        arr[i] = arr[lengths-i-1];
+        arr[lengths-i-1] = temp;
+      }
+
+      for(int element: arr){
+        System.out.print(element + " ");
+      }
+    }
+  }
+}
 
 
 
@@ -4575,39 +4588,39 @@ Now if any element is greater than Max then stop and make it Max
 
 ```java
 // Without Function 
- 
+
 public class CodeXam  {
-   public static void main(String[] args) {
-       int [] arr = {1, 2100, 3, 455, 5, 34, 67,565569};
-       int max = arr[0];
-       for(int e: arr){ //for each loop
+  public static void main(String[] args) {
+    int [] arr = {1, 2100, 3, 455, 5, 34, 67,565569};
+    int max = arr[0];
+    for(int e: arr){ //for each loop
  
            /* We also write like this
               for (int i = 0; i < arr.length; i++) {
               if(arr[i] > max)
               max = arr[i];
               */
- 
-           if(e>max){
-               max = e;
- 
-           }}
-       System.out.println("The value of the maximum element in this array is: "+ max);
- 
-   }
-   }
- 
- 
+
+      if(e>max){
+        max = e;
+
+      }}
+    System.out.println("The value of the maximum element in this array is: "+ max);
+
+  }
+}
+
+
 
 // Using function
 
 import java.util.Arrays;
 public class CodeXam  {
-   public static void main(String[] args) {
-       int [] arr = {1, 2100, 3, 455, 5, 34, 67,565569};
-       System.out.println("The value of the maximum element in this array is: " + Arrays.stream(arr).max().getAsInt());
-   }
-   }
+  public static void main(String[] args) {
+    int [] arr = {1, 2100, 3, 455, 5, 34, 67,565569};
+    System.out.println("The value of the maximum element in this array is: " + Arrays.stream(arr).max().getAsInt());
+  }
+}
 
 
 
@@ -4649,38 +4662,38 @@ Now if any element is less than min then stop and make it min
 ```java
 //Without Function 
 public class CodeXam  {
-   public static void main(String[] args) {
-       int [] arr = { 2100, 3, 455, 5, 34, 67,565569};
-       int min = arr[0];
-       for(int e: arr){ //for each loop
+  public static void main(String[] args) {
+    int [] arr = { 2100, 3, 455, 5, 34, 67,565569};
+    int min = arr[0];
+    for(int e: arr){ //for each loop
  
           /* We also write like this
              for (int i = 0; i < arr.length; i++) {
              if(arr[i] < min)
              min = arr[i];
              */
- 
-           if(e<min){
-               min = e;
- 
-           }}
-       System.out.println("The value of the minimum element in this array is: "+ min);
- 
-   }
+
+      if(e<min){
+        min = e;
+
+      }}
+    System.out.println("The value of the minimum element in this array is: "+ min);
+
+  }
 }
- 
- 
- 
+
+
+
 
 //Using function
 import java.util.Arrays;
 public class CodeXam  {
-   public static void main(String[] args) {
-       int [] arr = {2100, 3, 455, 5, 34, 67,565569};
-       System.out.println("The value of the maximum element in this array is: " + Arrays.stream(arr).min().getAsInt());
-   }
+  public static void main(String[] args) {
+    int [] arr = {2100, 3, 455, 5, 34, 67,565569};
+    System.out.println("The value of the maximum element in this array is: " + Arrays.stream(arr).min().getAsInt());
+  }
 }
- 
+
 
 
 
@@ -4721,25 +4734,25 @@ It is always shorter than i+1. If it's false and comes out to the loop then it's
 
 ```java
 public class CodeXam  {
-   public static void main(String[] args) {
-       boolean isSorted = true;
-       int [] arr = {1, 2, 3, 4, 5, 34, 67};
+  public static void main(String[] args) {
+    boolean isSorted = true;
+    int [] arr = {1, 2, 3, 4, 5, 34, 67};
 //we can’t compare for 67 with something, so we have to decrease the length one
-       for(int i=0;i<arr.length-1;i++){
- 
- 
-           if(arr[i] > arr[i+1]){
-               isSorted = false;
-               break;
-           }
-       }
-       if(isSorted){
-           System.out.println("The Array is sorted");
-       }
-       else{
-           System.out.println("The Array is not sorted");
-       }
-   }
+    for(int i=0;i<arr.length-1;i++){
+
+
+      if(arr[i] > arr[i+1]){
+        isSorted = false;
+        break;
+      }
+    }
+    if(isSorted){
+      System.out.println("The Array is sorted");
+    }
+    else{
+      System.out.println("The Array is not sorted");
+    }
+  }
 }
 
 
@@ -4787,36 +4800,36 @@ Taking row size then column size then initialize the range according to the row 
 
 ```java
 import java.util.*;
- 
+
 public class CodeXam {
-   public static void main(String[]args) {
-       Scanner sc = new Scanner(System.in);
-       System.out.println("Enter your row size");
-       int rows = sc.nextInt(); //taking row size
-       System.out.println("Enter your column size");
-       int cols = sc.nextInt(); //taking column size
-       System.out.println("Enter elements according to your entered size (row x column)");
-       int[][] numbers = new int[rows][cols];//initialize the size according to the user input
- 
-       //creating or visualize matrix format inside the code
-       for(int i=0; i<rows; i++) { //traverse to our row size
-           //columns
-           for(int j=0; j<cols; j++) { //traverse to our column size
- 
-               numbers[i][j] = sc.nextInt();
-           }
-       }
- 
-       //printing the matrix
-       for(int i=0; i<rows; i++) {
-           for(int j=0; j<cols; j++) {
-               System.out.print(numbers[i][j]+" ");
-           }
-           System.out.println();
-       }
-   }
+  public static void main(String[]args) {
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Enter your row size");
+    int rows = sc.nextInt(); //taking row size
+    System.out.println("Enter your column size");
+    int cols = sc.nextInt(); //taking column size
+    System.out.println("Enter elements according to your entered size (row x column)");
+    int[][] numbers = new int[rows][cols];//initialize the size according to the user input
+
+    //creating or visualize matrix format inside the code
+    for(int i=0; i<rows; i++) { //traverse to our row size
+      //columns
+      for(int j=0; j<cols; j++) { //traverse to our column size
+
+        numbers[i][j] = sc.nextInt();
+      }
+    }
+
+    //printing the matrix
+    for(int i=0; i<rows; i++) {
+      for(int j=0; j<cols; j++) {
+        System.out.print(numbers[i][j]+" ");
+      }
+      System.out.println();
+    }
+  }
 }
- 
+
 
 
 
