@@ -4485,7 +4485,37 @@ public class CodeXam {
 ### Python :
 
 ```python
+# Program to add two matrices using nested loop
 
+X = [[12, 32, 34],
+     [65, 35, 23],
+     [43, 45, 21]]
+
+Y = [[10, 21, 23],
+     [17, 54, 75],
+     [24, 54, 75]]
+
+result = [[0, 0, 0],
+          [0, 0, 0],
+          [0, 0, 0]]
+# printing the matrices
+print('Matrix 1 :')
+for i in X:
+    print(i)
+    
+print('\nMatrix 2 :')
+for i in Y:
+    print(i)
+    
+# iterate through rows
+for i in range(len(X)):
+    # iterate through columns
+    for j in range(len(X[0])):
+        result[i][j] = X[i][j] + Y[i][j]
+
+print('\nThe result is: ')
+for r in result:
+    print(r)
 ```
 
 # 38. Reverse an array Iterative way.
@@ -4841,7 +4871,21 @@ public class CodeXam {
 ### Python :
 
 ```python
+row = int(input("Enter number of rows you want: "))
+col = int(input("Enter number of columns you want: "))
+mat = []
+for m in range(row):
+    a = []
+    for n in range(col):
+        a.append(0)
+    mat.append(a)
 
+for i in range(len(mat)):
+    for j in range(len(mat[0])):
+        mat[i][j] = int(input("Input element: "))
+print("Your Matrix is :")
+for i in mat:
+    print(i)
 ```
 
 # 
