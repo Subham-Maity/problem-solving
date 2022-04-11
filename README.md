@@ -4866,7 +4866,9 @@ public class CodeXam {
 
 
 ```
-
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q42-java-output%20.png?raw=true"/>
+        </p>
 
 ### Python :
 
@@ -4911,6 +4913,10 @@ for i in mat:
 
 ```
 
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
 
 ### Python :
 
@@ -4921,3 +4927,5130 @@ for i in mat:
 <p align="center">
         <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
         </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+# 
+
+## Exercise
+
+
+## Approach:
+```javascript
+
+
+```
+## Solution
+
+### Java :
+
+```java
+
+
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        </p>
+
+
+### Python :
+
+```python
+
+```
+
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+
