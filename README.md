@@ -4520,6 +4520,10 @@ print('\nThe result is: ')
 for r in result:
     print(r)
 ```
+<p align="center">
+        <img src="https://github.com/Subhasish-Negel/problem-solving/blob/master/Code_Outputs/Q37-Python-Output.png?raw=true"/>
+        </p>	
+
 
 # 38. Reverse an array Iterative way.
 
