@@ -4893,7 +4893,8 @@ for i in mat:
         <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q42-Python-Output.png?raw=true"/>
         </p>
 
-# 
+# 43.Searching for an element x in a matrix.
+
 
 ## Exercise
 
