@@ -4977,12 +4977,16 @@ public class CodeXam {
 
 
 
-# 
+# 44.Spiral order matrix as output for a given matrix of numbers.
+
 
 ## Exercise
-
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q44-java-output%20.png?raw=true"/>
+        </p>
 
 ## Approach:
+## Ref GFG Video [Here](https://www.youtube.com/watch?v=qEZoUVOqOs8&ab_channel=GeeksforGeeks) (Recommend : 1.5x video Speed)
 ```javascript
 
 
