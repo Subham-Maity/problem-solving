@@ -5221,11 +5221,11 @@ public class CodeXam {
         </p>
 
 
-# 45. Transpose of a Matrix
+# 45. 
 
 
 ## Exercise
-For a given matrix of N x M, print its transpose
+
 
 <p align="center">
         <img src="https://github.com/Subham-Maity/problem-solving/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
