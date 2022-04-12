@@ -5145,7 +5145,8 @@ For a given matrix of N x M, print its transpose
 
 ## Approach:
 ```javascript
-
+First we run the loop for row and then for column, 
+but here we will do the opposite for column first, then row 
 
 ```
 ## Solution
@@ -5153,13 +5154,52 @@ For a given matrix of N x M, print its transpose
 ### Java :
 
 ```java
+/*
+ time complexity of O(n + m),
+ where n is the number of columns and m is the number of non-zero elements in the matrix.
+ The computational time for transpose of a matrix using identity matrix as reference matrix is O(m*n).
+  Suppose, if the given matrix is a square matrix, the running time will be O(n2).
+*/
+import java.util.*;
+
+public class CodeXam {
+
+
+    // first part same as problem 43.Searching for an element x in a matrix.
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the row size");
+        int rows = sc.nextInt();//taking row size
+        System.out.println("Enter the Column size");
+        int cols = sc.nextInt();//taking column size
+        System.out.println("Insert elements(numbers) for your matrix [ Matrix size will be " + rows + "x" +cols +" ]");
+        int matrix[][] = new int[rows][cols];//make this array size according to the user input
+        // initialize the matrix
+        //rows
+        for(int i=0; i<rows; i++) {
+            //columns
+            for(int j=0; j<cols; j++) {
+                matrix[i][j] = sc.nextInt();///taking element from user here
+            }
+        }
+
+            System.out.println("The transpose is : ");
+            //To print transpose just interchange the sequence
+            for(int j=0; j<cols ;j++) { //just run first loop for column
+                for(int i=0; i<rows; i++) {//just run 2nd loop for row
+                    System.out.print(matrix[i][j]+" ");
+                }
+                System.out.println();
+            }
+        }
+    }
 
 
 
 ```
 
 <p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q45-java-output%20.png?raw=true"/>
         </p>
 
 
