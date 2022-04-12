@@ -5132,9 +5132,15 @@ public class CodeXam {
 
 
 
-# 
+# Transpose of a Matrix
+
 
 ## Exercise
+For a given matrix of N x M, print its transpose
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q45-java-output.png?raw=true"/>
+        </p>
 
 
 ## Approach:
