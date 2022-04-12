@@ -4982,7 +4982,7 @@ public class CodeXam {
 
 ## Exercise
 <p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q44-java-output%20.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
         </p>
 
 ## Approach:
