@@ -5030,12 +5030,87 @@ and column_start <= column_end.
 
 ```java
 
+//Time complexity O(m X n)
+
+import java.util.*;
+
+public class CodeXam {
+
+
+    // first part same as problem 43.Searching for an element x in a matrix.
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the row size");
+        int rows = sc.nextInt();//taking row size
+        System.out.println("Enter the Column size");
+        int cols = sc.nextInt();//taking column size
+        System.out.println("Insert elements(numbers) for your matrix [ Matrix size will be " + rows + "x" +cols +" ]");
+        int matrix[][] = new int[rows][cols];//make this array size according to the user input
+        // initialize the matrix
+        //rows
+        for(int i=0; i<rows; i++) {
+            //columns
+            for(int j=0; j<cols; j++) {
+                matrix[i][j] = sc.nextInt();///taking element from user here
+            }
+        }
+
+
+    //2nd part
+
+        System.out.println("The Spiral Order Matrix is : ");
+
+        //main code
+
+        int rowStart = 0;//row_start - initialized with 0 (check approach box)
+        int rowEnd = rows-1;//row_end - initialized with n-1 (check approach box)
+        int colStart = 0;//column_start - initialized with 0 (check approach box)
+        int colEnd = cols-1;//column_end - initialized with m-1.(check approach box)
+
+        //To print spiral order matrix
+        while(rowStart <= rowEnd && colStart <= colEnd) { //checking Condition or base case
+
+            /* left to right*/
+
+            for(int col=colStart; col<=colEnd; col++) {//First, we will traverse column_star to column_end
+                System.out.print(matrix[rowStart][col] + " "); //row start col end(it wil print first row 5 6 3 6 8 according to the picture and row start always same but column wil change)
+            }
+            rowStart++; //now increase the row means 0 -> 1 -> 2 ->3 -> 4
+
+            /* Down- right column */
+
+            for(int row=rowStart; row<=rowEnd; row++) { //row start is now for remaining row
+                System.out.print(matrix[row][colEnd] +" "); //row start col end(4 8 8 according to the picture)
+            }
+            colEnd--; //now decrease the column means reduce the array
+
+
+
+
+
+            /* Right - Print the last row from the remaining rows*/
+
+            for(int col=colEnd; col>=colStart; col--) {
+                System.out.print(matrix[rowEnd][col] + " ");
+            }
+            rowEnd--;
+
+            // Toward the up-> Print the first column from the remaining column
+            for(int row=rowEnd; row>=rowStart; row--) {
+                System.out.print(matrix[row][colStart] + " ");
+            }
+            colStart++;
+
+            System.out.println();
+        }
+    }
+}
 
 
 ```
 
 <p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q44-java-output%20.png?raw=true"/>
         </p>
 
 
