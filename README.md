@@ -4981,13 +4981,46 @@ public class CodeXam {
 
 
 ## Exercise
+Print the spiral order matrix as output for a given matrix of numbers.
+
 <p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q44-java-output.png?raw=true"/>
         </p>
 
 ## Approach:
 ## Ref GFG Video [Here](https://www.youtube.com/watch?v=qEZoUVOqOs8&ab_channel=GeeksforGeeks) (Recommend : 1.5x video Speed)
 ```javascript
+APPROACH : 
+Algorithm: (We are given a 2D matrix of rows X cols ).
+
+1. We will need 4 variables:
+-------------------------------
+a. row_start - initialized with 0.
+b. row_end - initialized with n-1.
+c. column_start - initialized with 0.
+d. column_end - initialized with m-1.
+
+
+
+2. First of all, we will traverse in the row row_start from column_start
+to column_end and we will increase the row_start with 1 as we have
+traversed the starting row.
+
+
+3. Then we will traverse in the column column_end from row_start to
+row_end and decrease the column_end by 1.
+
+
+4. Then we will traverse in the row row_end from column_end to
+column_start and decrease the row_end by 1.
+
+
+5. Then we will traverse in the column column_start from row_end to
+row_start and increase the column_start by 1.
+
+
+6. We will do the above steps from 2 to 5 until row_start <= row_end
+and column_start <= column_end.
 
 
 ```
