@@ -4795,7 +4795,7 @@ public class CodeXam  {
 ```
 
 <p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q42-java-output%20.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/problem-solving/blob/master/Code_Outputs/Q41-java-output%20.png?raw=true"/>
         </p>
 
 
@@ -5228,14 +5228,12 @@ public class CodeXam {
 For a given matrix of N x M, print its transpose
 
 <p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q45-java-output.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/problem-solving/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
         </p>
 
 
 ## Approach:
 ```javascript
-First we run the loop for row and then for column, 
-but here we will do the opposite for column first, then row 
 
 ```
 ## Solution
@@ -5247,7 +5245,7 @@ but here we will do the opposite for column first, then row
 ```
 
 <p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q45-java-output%20.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
         </p>
 
 
@@ -5258,7 +5256,7 @@ but here we will do the opposite for column first, then row
 ```
 
 <p align="center">
-        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/problem-solving/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
         </p>
 
 
