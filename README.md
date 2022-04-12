@@ -4897,12 +4897,13 @@ for i in mat:
 
 
 ## Exercise
-
+Searching for an element x in a matrix.
 
 ## Approach:
 ```javascript
-
-
+1. The simple idea is to traverse the array and to search elements one by one.
+2. Run a nested loop, outer loop for row and inner loop for the column
+3. Check every element with x and if the element is found then print “element found”
 ```
 ## Solution
 
@@ -4910,12 +4911,52 @@ for i in mat:
 
 ```java
 
+import java.util.*;
 
+public class CodeXam {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the row size");
+        int rows = sc.nextInt();//taking row size
+        System.out.println("Enter the Column size");
+        int cols = sc.nextInt();//taking column size
+
+        System.out.println("Insert elements(numbers) for your matrix [ Matrix size will be " + rows + "x" +cols +" ]");
+
+        int[][] numbers = new int[rows][cols];//make this array size according to the user input
+
+        // initialize the matrix
+        //rows
+        for(int i=0; i<rows; i++) {
+
+        //columns
+            for(int j=0; j<cols; j++) {
+
+
+                numbers[i][j] = sc.nextInt();//taking element from user here
+            }
+        }
+        System.out.println("If you want to search for a specific element in the matrix, enter the element here.");
+        int x = sc.nextInt(); //taking the target
+
+        //iterate
+        for(int i=0; i<rows; i++) {
+            for(int j=0; j<cols; j++) {
+
+                //compare with x
+                if(numbers[i][j] == x) { //if found x while iterating just print the location
+                    System.out.println("x found at location (" + i + ", " + j + ")");
+                }
+            }
+        }
+
+    }
+}
 
 ```
 
 <p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q43-java-output%20.png?raw=true"/>
         </p>
 
 
