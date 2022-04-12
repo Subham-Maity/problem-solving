@@ -118,6 +118,9 @@ Thanks to these **Wonderful People** 👨🏻‍💻 <br>
 * [**40.Find the minimum element in an array.**](#40find-the-minimum-element-in-an-array)
 * [**41.Find whether an array is sorted or not.**](#41find-whether-an-array-is-sorted-or-not)
 * [**42.Matrix size as an input and printing its elements.**](#42matrix-size-as-an-input-and-printing-its-elements)
+* [**43.Searching for an element x in a matrix.**](#43searching-for-an-element-x-in-a-matrix)
+* [**44.Spiral order matrix as output for a given matrix of numbers.**](#44spiral-order-matrix-as-output-for-a-given-matrix-of-numbers)
+* [**45.Transpose of a Matrix**](#45-transpose-of-a-matrix)
 
 *****
 
@@ -5132,7 +5135,7 @@ public class CodeXam {
 
 
 
-# Transpose of a Matrix
+# 45. Transpose of a Matrix
 
 
 ## Exercise
