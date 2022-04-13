@@ -4976,11 +4976,32 @@ public class CodeXam {
 ### Python :
 
 ```python
+row = int(input("Enter number of rows you want: "))
+col = int(input("Enter number of columns you want: "))
+mat = []
+for m in range(row):
+    a = []
+    for n in range(col):
+        a.append(0)
+    mat.append(a)
 
+for i in range(len(mat)):
+    for j in range(len(mat[0])):
+        mat[i][j] = int(input("Input element: "))
+print("Your Matrix is :")
+for i in mat:
+    print(i)
+
+d = int(input('Enter the element which you want to search for in the matrix : '))
+
+for m, e in enumerate(mat):
+    for n, ee in enumerate(e):
+        if d == ee:
+            print(f'{d} fount at location ({m},{n})')
 ```
 
 <p align="center">
-        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q43-python-output.png?raw=true"/>
         </p>
 
 
