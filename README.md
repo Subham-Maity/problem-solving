@@ -5225,31 +5225,68 @@ public class CodeXam {
         </p>
 
 
-#  
+#  Given an array A of size N, print the reverse of it.
 
 
 ## Exercise
 
+## Solve [here](https://practice.geeksforgeeks.org/problems/reverse-an-array/0#) 
 
-<p align="center">
-        <img src="https://github.com/Subham-Maity/problem-solving/blob/master/Code_Outputs/Q-java-output.png?raw=true"/>
-        </p>
 
 
 ## Approach:
 ```javascript
+1.No of Test case "Suppose We are gonna teste once so input is 1"
 
+2.Traverse 0 to no of Testcase 
+
+3.now taking the size of the array 
+
+4.array size declare according to the input 
+
+5.Traverse to Size of the array to take the element and map them according to the index position
+
+6.taking elements while traversing (suppose for 0 index take a element 1)
+
+
+7.Reverse the array - traverse length to index 0 
 ```
 ## Solution
 
 ### Java :
 
 ```java
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class GFG {
+   
+    
+	public static void main (String[] args) {
+	    Scanner sc = new Scanner(System.in);
+	    int T = sc.nextInt(); //No of Test case "Suppose We are gonna teste once so input is 1"
+	    for(int i=0; i<T; i++){ //Traverse 0 to no of Testcase 
+	        int N = sc.nextInt();//now taking the size of the array 
+	        int arr[] = new int[N];//array size declare according to the input 
+	        for(int j=0; j<N; j++){//Traverse to Size of the array to take the element and map them according to the index position
+	            arr[j]=sc.nextInt();//taking elements while traversing (suppose for 0 index take a element 1)
+	        }
+	        
+	       //Reverse the array 
+	       
+	        for(int j=N-1; j>=0; j--){
+	            System.out.print(arr[j]+" ");
+	        }
+	        System.out.println();
+	    }
+	}
+}
 
 ```
 
 <p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q46-java-output%20.png?raw=true"/>
         </p>
 
 
