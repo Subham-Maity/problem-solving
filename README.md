@@ -5230,7 +5230,7 @@ public class CodeXam {
 
 ## Exercise
 
-## Solve [here](https://practice.geeksforgeeks.org/problems/reverse-an-array/0#) 
+### Solve [here](https://practice.geeksforgeeks.org/problems/reverse-an-array/0#) 
 
 
 
@@ -5305,26 +5305,52 @@ class GFG {
 
 
 
-#  
+# Maximum and Minimum element in an array - O(N)
 
 
 ## Exercise
 
+### Solve [here](https://practice.geeksforgeeks.org/problems/find-minimum-and-maximum-element-in-an-array4428/1)
 
-<p align="center">
-        <img src="https://github.com/Subham-Maity/problem-solving/blob/master/Code_Outputs/Q-java-output.png?raw=true"/>
-        </p>
 
 
 ## Approach:
-```javascript
 
-```
+### Same As Problem no 39 and 40 just combine them 
+* [39.find the maximum element in an array.](#39find-the-maximum-element-in-an-array)
+* [40.Find the minimum element in an array.](#40find-the-minimum-element-in-an-array)
+
+
 ## Solution
 
 ### Java :
 
 ```java
+class Compute 
+{
+    static pair getMinMax(long a[], long n)  
+    {
+    long min=0, max=0;//min maxinitialize with  zer
+    
+       if(n > 0){//array size in n here  
+           min = a[0]; 
+           max = a[0];
+           for(long x : a){ //for each loop
+               if(min > x){
+                   min = x;
+               }
+               if(max < x){
+                   max = x;
+               }
+           }
+       }
+       
+       //pair p = new pair(min, max); //same 
+       
+       return new pair(min, max);
+       
+   }
+}
 
 ```
 
