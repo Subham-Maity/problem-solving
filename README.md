@@ -5001,7 +5001,7 @@ for m, e in enumerate(mat):
 ```
 
 <p align="center">
-        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q43-python-output%20.png?raw=true"/>
+        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q43-python-output.png?raw=true"/>
         </p>
 
 
