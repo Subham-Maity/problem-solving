@@ -121,6 +121,9 @@ Thanks to these **Wonderful People** 👨🏻‍💻 <br>
 * [**43.Searching for an element x in a matrix.**](#43searching-for-an-element-x-in-a-matrix)
 * [**44.Spiral order matrix as output for a given matrix of numbers.**](#44spiral-order-matrix-as-output-for-a-given-matrix-of-numbers)
 * [**45.Transpose of a Matrix**](#45-transpose-of-a-matrix)
+* [**46. Given an array A of size N, print the reverse of it.**](#46-given-an-array-a-of-size-n-print-the-reverse-of-it)
+* [**47. Maximum and Minimum element in an array - O(N)**](#47-maximum-and-minimum-element-in-an-array---on)
+* [**48.Kth smallest element**](#48kth-smallest-element)
 
 *****
 
