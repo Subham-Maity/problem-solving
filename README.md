@@ -5225,7 +5225,7 @@ public class CodeXam {
         </p>
 
 
-#  Given an array A of size N, print the reverse of it.
+# 46. Given an array A of size N, print the reverse of it.
 
 
 ## Exercise
@@ -5305,7 +5305,7 @@ class GFG {
 
 
 
-# Maximum and Minimum element in an array - O(N)
+# 47. Maximum and Minimum element in an array - O(N)
 
 
 ## Exercise
@@ -5355,7 +5355,7 @@ class Compute
 ```
 
 <p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q47-java-output%20.png?raw=true"/>
         </p>
 
 
