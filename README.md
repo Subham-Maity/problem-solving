@@ -5374,31 +5374,109 @@ class Compute
 
 
 
-#  
+#  48.Kth smallest element
 
 
 ## Exercise
+Given an array arr[] and an integer K where K is smaller than size of array, the task is to find the Kth smallest element in the given array. It is given that all array elements are distinct.
+
+### Do it [Here](https://practice.geeksforgeeks.org/problems/kth-smallest-element5635/1#)
 
 
-<p align="center">
-        <img src="https://github.com/Subham-Maity/problem-solving/blob/master/Code_Outputs/Q-java-output.png?raw=true"/>
-        </p>
 
 
 ## Approach:
-```javascript
 
+### Watch [this video](https://www.youtube.com/watch?v=yAs3tONaf3s&ab_channel=AnujBhaiya) 
+
+```js
+
+Use PriorityQueue
 ```
+
 ## Solution
 
 ### Java :
 
 ```java
+class Solution{
+  public static int kthSmallest(int[] arr, int l, int r, int k) 
+    
+    /*
+    
+    //Approach -1 (basic)
+    {
+        //sort this array then just return the index element 
+      Arrays.sort(arr);
+        return(arr[k-1]);
+    } 
+    */
+
+
+
+  /**
+
+
+   //Approach -2 (Follow this one)
+   {
+   PriorityQueue<Integer> pq=new PriorityQueue<>(); //Integer type priority queue 
+
+   // a min heap by default is created in java
+
+   //traverse 0-arr.length
+   for(int i=0;i<arr.length;i++)
+   {
+   pq.add(arr[i]); //add elements in Priority Queue 
+   }
+
+   //again iterate 
+
+   for(int i=0;i<k-1;i++)
+   {
+
+
+   // The peek() method only retrieved the element 
+   // at the head but the poll() also removes the element 
+   //along with the retrieval
+
+   // Also you can use remove
+
+
+
+   pq.remove();
+   }
+   return pq.peek();
+   }
+
+   */
+
+  //almost same
+
+  {
+    //Your code here
+    int n = r-l+1;
+    Queue<Integer> pq = new PriorityQueue<>();
+    for(int i = 0; i < n; i++) {
+      pq.add(arr[i]);
+    }
+    int K = 0;
+    while(!pq.isEmpty() && K < k - 1) {
+      pq.poll();
+      K++;
+    }
+    int ans = -1;
+    if (!pq.isEmpty()) {
+      ans = pq.poll();
+    }
+    return ans;
+  }
+}
+
 
 ```
 
 <p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q48-java-output%20.png?raw=true"/>
         </p>
 
 
