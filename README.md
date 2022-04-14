@@ -5840,7 +5840,7 @@ class Solution {
 ```
 
 <p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q49-java-output%20.png?raw=true"/>
         </p>
 
 
