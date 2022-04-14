@@ -5844,15 +5844,6 @@ class Solution {
         </p>
 
 
-### Python :
-
-```python
-
-```
-
-<p align="center">
-        <img src="https://github.com/Subhasish-Negel/problem-solving/blob/master/Code_Outputs/Q-Python-Output.png?raw=true"/>
-        </p>	
 
 
 
