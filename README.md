@@ -5530,7 +5530,7 @@ class Solution{
 Given a matrix if an element in the matrix is 0 then you will have to set its entire column and row to 0 and then return the matrix.
 
 <p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q73.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/problem-solving/blob/master/Image(ignore)/73.png?raw=true"/>
         </p>
 
 ```javascript
