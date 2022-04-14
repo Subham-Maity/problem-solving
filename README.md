@@ -5525,7 +5525,7 @@ class Solution{
 
 ## Exercise
 
-### Solve [Here](https://leetcode.com/problems/set-matrix-zeroes/)
+### leetcode Solve [Here](https://leetcode.com/problems/set-matrix-zeroes/)
 
 Given a matrix if an element in the matrix is 0 then you will have to set its entire column and row to 0 and then return the matrix.
 
@@ -5546,7 +5546,7 @@ Explanation:Since matrix[0][0]=0 and matrix[0][3]=0. Therefore 1st row, 1st colu
 
 ```
 
-
+### Solution Video [Here](https://www.youtube.com/watch?v=zgaOU5aInOc&t=499s&ab_channel=Pepcoding)
 
 ## Approach 1:(Using brute force)
 ```javascript
