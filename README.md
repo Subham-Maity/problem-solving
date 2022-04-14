@@ -5551,7 +5551,7 @@ Explanation:Since matrix[0][0]=0 and matrix[0][3]=0. Therefore 1st row, 1st colu
 ```
 
 ### Solution Video [Here](https://www.youtube.com/watch?v=M65xBewcqcI&ab_channel=takeUforward)
-
+### Solution Video(Hindi) [Here](https://www.youtube.com/watch?v=zgaOU5aInOc&t=341s&ab_channel=Pepcoding)
 ## Approach 1:(Using brute force)
 ```javascript
 
@@ -5748,7 +5748,93 @@ class CodeXam{
 
 ### Java :
 ```java
+class Solution {
+    public void setZeroes(int[][] matrix) {
+        int n = matrix.length;
+        int m = matrix[0].length;
+        
+        
+        boolean row=false, col=false;
+        
+        
+        
+        //we are checking the first column 
+        
+        for(int i=0;i<n;i++)if(matrix[i][0]==0)col=true;
+        
+        
+        //we are checking the first row 
+        
+        for(int j=0;j<m;j++)if(matrix[0][j]==0) row=true;
+        
+        
+        
+//** now we are working for remain matrix 
+        
+        for(int i=1;i<n;i++){
+        for(int j=1;j<m;j++){
+            
+            if(matrix[i][j]==0){
+                matrix[0][j]=0; 
+                matrix[i][0]=0;
+                
+                
+                
+            }
+        }           
+        
+    }
+        
+        //if column element is zero then fill the entire row with zero
+        
+        for(int i=1;i<n;i++){
+        if (matrix[i][0] == 0) {
+            
+           for(int j=0;j<m;j++){
+              matrix[i][j] = 0; 
+            
+            }
+         }
+        
+        }
+         //if traverse for column 
+        
+        for(int j=1;j<m;j++){
+           if(matrix[0][j] == 0){
+               
+           for(int i=0;i<n;i++){
+            matrix[i][j] = 0; 
 
+           }
+           }
+        }
+       
+        
+        
+       // now we are checking is the row and column false or true 
+        
+        if(row){ //if row zero make all zero 
+             for(int j=0;j<m;j++){
+              matrix[0][j] = 0; 
+                 
+             }
+        }
+        
+         if(col){ //if row zero make all zero 
+             for(int i=0;i<n;i++){
+              matrix[i][0] = 0; 
+                 
+             }
+        }
+        
+        
+        
+        
+        
+        
+        
+    }
+}
 
 
 ```
