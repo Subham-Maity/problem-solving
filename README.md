@@ -5550,7 +5550,7 @@ Explanation:Since matrix[0][0]=0 and matrix[0][3]=0. Therefore 1st row, 1st colu
 
 ```
 
-### Solution Video [Here](https://www.youtube.com/watch?v=zgaOU5aInOc&t=499s&ab_channel=Pepcoding)
+### Solution Video [Here](https://www.youtube.com/watch?v=M65xBewcqcI&ab_channel=takeUforward)
 
 ## Approach 1:(Using brute force)
 ```javascript
