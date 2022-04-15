@@ -97,6 +97,7 @@ Thanks to these **Wonderful People** 👨🏻‍💻 <br>
   * [**17.Print Pascal’s Triangle.**](#17print-pascals-triangle)
   * [**18.Print half Pyramid.**](#18print-half-pyramid)
   * [**19.Print Inverted Half Pyramid.**](#19print-inverted-half-pyramid)
+
 * [**33. Calculate the sum of the numbers occurring in the multiplication table**](#33-calculate-the-sum-of-the-numbers-occurring-in-the-multiplication-table)
 
   #### Do While and While Loop
@@ -125,6 +126,7 @@ Thanks to these **Wonderful People** 👨🏻‍💻 <br>
 * [**47. Maximum and Minimum element in an array - O(N)**](#47-maximum-and-minimum-element-in-an-array---on)
 * [**48.Kth smallest element**](#48kth-smallest-element)
 * [**49.Set Matrix Zeroes**](#49-set-matrix-zeroes)
+* [**50.Pascal's Triangle**](#49-set-matrix-zeroes)
 
 *****
 
@@ -5850,21 +5852,79 @@ class Solution {
 
 
 
-#  
+# Pascal's Triangle
 
 
 ## Exercise
 
+Given an integer numRows, return the first numRows of Pascal's triangle.
+In Pascal's triangle, each number is the sum of the two numbers directly above it as shown:
 
 <p align="center">
-        <img src="https://github.com/Subham-Maity/problem-solving/blob/master/Code_Outputs/Q-java-output.png?raw=true"/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif"/>
         </p>
 
-
-## Approach:
 ```javascript
+Example 1:
+
+Input: numRows = 5
+Output: [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]]
+Example 2:
+
+Input: numRows = 1
+Output: [[1]]
+```
+
+
+## visualize :
+```javascript
+Input Format: N = 5
+
+Result:
+    1
+   1 1
+  1 2 1
+ 1 3 3 1
+1 4 6 4 1
+
+Explanation: There are 5 rows in the output matrix. Each row corresponds to each one of the rows in the image shown above.
+
+
+
+
+Input Format: N = 1
+
+Result: 
+    1
 
 ```
+**Intuition:**
+
+```javascript
+When you see the image above, you get a pretty good idea of what you are supposed to do here.
+Think about the image as a matrix now where each line is basically a row in the matrix. 
+So, first things first, if you are at the edge of the matrix, the value is 1, 
+that’s for sure. Now, what about the inner elements? Well, any inner element is 
+obtained by doing the sum of the 2 values present in the row just above it, i.e., 
+if the element is at index (i, j), then matrix[i][j] 
+can be obtained by doing matrix[i – 1][j – 1] + matrix[i – 1][j].
+```
+
+
+<p><strong>Approach</strong>: To solve the problem, we need to first create an array of size <strong>N</strong> or <strong>numRows</strong> (input value). This array is used to store each of the rows expected in the output, so, for example, array[1] = [1,1]. In this array, the number of columns (say, numCols) is equal to the number of the i-th row + 1 (Since, 0-indexed), i.e., for 0-th row, numCols = 1. So, the number of columns is different for each row.</p>
+<p>Next, we need to run a loop from i = 0 to numRows &#8211; 1 (inclusive) in order to store each row in our array. For each of iteration of this loop, we follow the below steps:</p>
+<ul><li>Create an array of size (i + 1) (<em>For some languages such as C++, you need to create a 2D array at the start of the program and resize array[i] to (i + 1)</em>).</li><li>Set the first and last value of array[i] to 1.</li><li>Run another loop from j = 1 to i &#8211; 1 (inclusive) and for each iteration put array[i][j] = array[i &#8211; 1][j &#8211; 1] + array[i &#8211; 1][j].</li></ul>
+<p>After iterating numRows times, you return the array.</p>
+<p><strong>Dry Run</strong>: Let&#8217;s do a dry run to understand it in a much better way.</p>
+<p><em>Input:</em> numRows = 5</p>
+<ul><li>Step &#8211; I: Initialized an array of size numRows, array = [[],[],[],[],[]]</li><li>Step &#8211; II: Run a loop from i = 0 to numRows &#8211; 1<ul><li>At i = 0:<ul><li>We resize the first row of the array to (i + 1) = (0 + 1) = 1, so array = [[0],[],[],[],[]].</li><li>Set the first and last value of array[i] = 1, so, array[0][0] = 1 and array[0][i] = 1. Therefore, array = [[1],[],[],[],[]]</li><li>Since, i = 0, the nested for loop does not satisfy the running criteria and hence does not get executed.</li></ul></li><li>At i = 1:<ul><li>We resize the second row of the array to (i + 1) = (1 + 1) = 2, so array = [[1],[0,0],[],[],[]].</li><li>Set the first and last value of array[i] = 1, so, array[1][0] = 1 and array[1][i] = 1. Therefore, array = [[1],[1,1],[],[],[]]</li><li>Since, i = 1, the nested for loop does not satisfy the running criteria and hence does not get executed.</li></ul></li><li>At i = 2:<ul><li>We resize the third row of the array to (i + 1) = (2 + 1) = 3, so array = [[1],[1,1],[0,0,0],[],[]].</li><li>Set the first and last value of array[i] = 1, so, array[2][0] = 1 and array[2][i] = 1. Therefore, array = [[1],[1,1],[1,0,1],[],[]]</li><li>Run a loop from j = 1 to i &#8211; 1:<ul><li>At j = 1:<ul><li>array[i][j] = array[i &#8211; 1][j &#8211; 1] + array[i &#8211; 1][j]</li></ul></li></ul></li></ul></li></ul></li></ul>
+<p>&nbsp;&nbsp;&nbsp;= array[1][0] + array[1][1] = 1 + 1 = 2</p>
+<p>So, array = [[1],[1,1],[1,2,1],[],[]]</p>
+<ul><li>At i = 3 and i = 4, we follow the same approach to fill the two rows of the array and get array = [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]].</li><li>Step &#8211; III: Return array.</li></ul>
+<p><strong>Time Complexity: </strong>We are creating a 2D array of size (numRows * numCols) (where 1 &lt;= numCols &lt;= numRows), and we are traversing through each of the cells to update it with its correct value, so Time Complexity = O(numRows<sup>2</sup>).</p>
+<p><strong>Space Complexity: </strong>Since we are creating a 2D array, space complexity = O(numRows<sup>2</sup>).</p>
+
+
 ## Solution
 
 ### Java :
