@@ -126,7 +126,7 @@ Thanks to these **Wonderful People** 👨🏻‍💻 <br>
 * [**47. Maximum and Minimum element in an array - O(N)**](#47-maximum-and-minimum-element-in-an-array---on)
 * [**48.Kth smallest element**](#48kth-smallest-element)
 * [**49.Set Matrix Zeroes**](#49-set-matrix-zeroes)
-* [**50.Pascal's Triangle**](#49-set-matrix-zeroes)
+* [**50.Pascal's Triangle**](#50pascals-triangle)
 
 *****
 
@@ -5852,7 +5852,7 @@ class Solution {
 
 
 
-# Pascal's Triangle
+# 50.Pascal's Triangle
 
 
 ## Exercise
