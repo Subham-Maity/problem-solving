@@ -5856,6 +5856,7 @@ class Solution {
 
 
 ## Exercise
+## (Leetcode)Solve [Here](https://leetcode.com/problems/pascals-triangle/) 
 
 Given an integer numRows, return the first numRows of Pascal's triangle.
 In Pascal's triangle, each number is the sum of the two numbers directly above it as shown:
@@ -5930,11 +5931,66 @@ can be obtained by doing matrix[i – 1][j – 1] + matrix[i – 1][j].
 ### Java :
 
 ```java
+class Solution {
+  public List<List<Integer>> generate(int numRows) {
+       /* 
+       List(Index)    row
+        0              1
+        1              2
+        2              3
+        3              4
+        4              5
+        
+        
+       if we wanna make a row(n)=5 we have to set the list as (n-2) means (5-2)=3 
+       so index 3 means row 5
+       
+       
+       */
 
+
+
+
+
+    if(numRows==0) return new ArrayList();
+    List<List<Integer>> result = new ArrayList(); //array list result of result 
+
+
+    //all rows 
+
+
+
+    for(int i=1;i<=numRows; i++){//we need to feel out entire 5 rows assume that numrow = 5
+      List<Integer> row = new ArrayList();//4th-for single row  
+      for(int j=0;j<i;j++){//2nd we need to make 5 rows means less than 5 index
+        if(j==0 || j==i-1){//6th -first and last position always 1(base case)
+          row.add(1);//7th- simple add if index position is 0 nd i-1
+        }else{
+                     
+                     /*
+                     lookat the image for last row 1 4 6 4 1 
+                     //1 element  ----- previous rows' 0 + 1(index)
+                     //2 element  ----- previous rows' 1 + 2(index)
+                     //3 element  ----- previous rows' 2 + 3(index)
+                     
+                    ****we need 4th row for develop the 5th row so already i told you we need (n-2)=3 position for that 5th row
+                     */
+
+          //8th -  i-2 = for develop 5th row 
+          //if we want to build an eement (suppose 3 = 2+3),we need that element(j)with previous element(j-1)
+
+          row.add(result.get(i-2).get(j)+result.get(i-2).get(j-1));//main element(from previous row)+previous element(from previous row)
+        }
+      }
+      result.add(row); //1 2 3 4 5 //5th add this row for result 
+    }
+    return result; //3rd-return result 
+  }
+}
 ```
 
 <p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q-java-output%20.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q50-java-output%20.png?raw=true"/>
         </p>
 
 
