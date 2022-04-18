@@ -5215,7 +5215,7 @@ spiralPrint(R, C, a)
 ```
 
 <p align="center">
-        <img src="https://github.com/Subhasish-Negel/java-python-problem-solving-series/blob/master/Code_Outputs/Q-python-output%20.png?raw=true"/>
+        <img src="https://github.com/Subhasish-Negel/problem-solving/blob/master/Code_Outputs/Q44-python-output.jpg?raw=true"/>
         </p>
 
 
