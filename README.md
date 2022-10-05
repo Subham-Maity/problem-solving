@@ -92,7 +92,7 @@ Thanks to these **Wonderful People** 👨🏻‍💻 <br>
   * [**17.Print Pascal’s Triangle.**](#17print-pascals-triangle)
   * [**18.Print half Pyramid.**](#18print-half-pyramid)
   * [**19.Print Inverted Half Pyramid.**](#19print-inverted-half-pyramid)
-  * [**20.Factorial of a Number.**](#20factorial-of-a-number)
+  * [**20.Factorial of a Number Using For Loop.**](#20factorial-of-a-number-for-loop)
 
 * [**33. Calculate the sum of the numbers occurring in the multiplication table**](#33-calculate-the-sum-of-the-numbers-occurring-in-the-multiplication-table)
 
