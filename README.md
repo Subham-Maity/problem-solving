@@ -92,6 +92,7 @@ Thanks to these **Wonderful People** 👨🏻‍💻 <br>
   * [**17.Print Pascal’s Triangle.**](#17print-pascals-triangle)
   * [**18.Print half Pyramid.**](#18print-half-pyramid)
   * [**19.Print Inverted Half Pyramid.**](#19print-inverted-half-pyramid)
+  * [**20.Factorial of a Number.**](#20factorial-of-a-number)
 
 * [**33. Calculate the sum of the numbers occurring in the multiplication table**](#33-calculate-the-sum-of-the-numbers-occurring-in-the-multiplication-table)
 
@@ -3350,7 +3351,36 @@ for i in range(1, n + 1):
    print(" ")
 
 ```
+# 20. Factorial of a Number
 
+## Exercise
+Find the factorial of a number
+
+## Approach:
+In this program instead of going by recursion method I would be using for loop for this problem.This is an excellent problem to understand the usage of for loop in programming for beginners.
+
+## Solution
+### Java :
+
+```java
+public class code_xam
+{
+	public static void main(String[] args) {
+	    int fact=1,num=10;
+	    for (int i=2;i<=num;i++){
+	        fact=fact*i;
+	    }
+	    System.out.println("Factorial of "+num+" is "+fact);
+	}
+}
+```
+### Python :
+```python
+fact,num=1,5
+for i in range(1,num+1):
+    fact=fact*i
+print(f"Factorial of {num} is {fact}")    
+```
 
 # 27. Rock, Paper Scissors game
 
