@@ -1,8 +1,4 @@
 # JAVA- Python Problem Series For Beginners
-## I cover all type of problems of Java-Python from Basic to Pro Level.
-# Writer Intro
-## **[Subham Maity](https://github.com/Subham-Maity)** who is contributing on **Java** part
-## **[Subhasish Negel](https://github.com/Subhasish-Negel)** who is contributing on **Python** part
 
 <hr>
 
