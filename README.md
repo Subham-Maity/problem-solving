@@ -31,7 +31,6 @@ Thanks to these **Wonderful People** 👨🏻‍💻 <br>
 
 ### Help us improve this guide - Fork, Pull Requests, Shares and Likes are recommended !
 
-### [Raw Document](https://docs.google.com/document/d/1PzsEHJE54b2QDDNra34MY7-9XOabJOct7ffi0-ywiuk/edit?usp=sharing)
 ## Chapters
 *******
 
