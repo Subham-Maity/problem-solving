@@ -92,10 +92,8 @@ Thanks to these **Wonderful People** 👨🏻‍💻 <br>
   * [**17.Print Pascal’s Triangle.**](#17print-pascals-triangle)
   * [**18.Print half Pyramid.**](#18print-half-pyramid)
   * [**19.Print Inverted Half Pyramid.**](#19print-inverted-half-pyramid)
-  * [**20.Factorial of a Number Using For Loop.**](#20factorial-of-a-number-for-loop)
-
 * [**33. Calculate the sum of the numbers occurring in the multiplication table**](#33-calculate-the-sum-of-the-numbers-occurring-in-the-multiplication-table)
-
+* [**51.Factorial of a Number :**](#51factorial-of-a-number)
   #### Do While and While Loop
   * [**28. Do-while loop , while loop.**](#28-do-while-loop--while-loop)
   #### Break
@@ -123,7 +121,7 @@ Thanks to these **Wonderful People** 👨🏻‍💻 <br>
 * [**48.Kth smallest element**](#48kth-smallest-element)
 * [**49.Set Matrix Zeroes**](#49-set-matrix-zeroes)
 * [**50.Pascal's Triangle**](#50pascals-triangle)
-* [**51.Factorial of a Number**](#51-factorial-of-a-number)
+
 
 *****
 
@@ -6703,12 +6701,12 @@ class Solution {
 
 
 
-# 51.Factorial of a Number using For Loop
+# 51.Factorial of a Number:
 ## Exercise
 Find the factorial of a number
 
 ## Approach:
-In this program instead of going by recursion method I would be using for loop for this problem.This is an excellent problem to understand the usage of for loop in programming for beginners.
+Here at first two variables are being initialized one is fact which is initializedd to 1 and it would contain the result that we would be printing, the second one is the num variable which contains the value we want to find the factorial of which can be hardcoded(as I have done in this example) or can be taken as a input from the user. After that a for loop is executed from 2 to the number i.e. n and finally the result is returned since 5!=5*4*3*2*1
 
 ## Solution
 ### Java :
