@@ -6038,6 +6038,37 @@ class Solution {
   }
 }
 ```
+# 51.Factorial of a Number:
+## Exercise
+Find the factorial of a number
+
+## Approach:
+```javascript
+Here at first two variables are being initialized one is fact which is initialized to 1 and it would contain the result that we would be printing, the second one is the num variable which contains the value we want to find the factorial of which can be hardcoded(as I have done in this example) or can be taken as a input from the user. After that a for loop is executed from 2 to the number i.e. n and finally the result is returned since 5!=5*4*3*2*1
+```
+## Solution
+### Java :
+
+```java
+public class code_xam
+{
+	public static void main(String[] args) {
+	    int fact=1,num=10;
+	    for (int i=2;i<=num;i++){
+	        fact=fact*i;
+	    }
+	    System.out.println("Factorial of "+num+" is "+fact);
+	}
+}
+```
+### Python :
+```python
+fact,num=1,5
+for i in range(1,num+1):
+    fact=fact*i
+print(f"Factorial of {num} is {fact}")    
+```
+
 
 <p align="center">
         <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Code_Outputs/Q50-java-output%20.png?raw=true"/>
@@ -6701,35 +6732,7 @@ class Solution {
 
 
 
-# 51.Factorial of a Number:
-## Exercise
-Find the factorial of a number
 
-## Approach:
-Here at first two variables are being initialized one is fact which is initializedd to 1 and it would contain the result that we would be printing, the second one is the num variable which contains the value we want to find the factorial of which can be hardcoded(as I have done in this example) or can be taken as a input from the user. After that a for loop is executed from 2 to the number i.e. n and finally the result is returned since 5!=5*4*3*2*1
-
-## Solution
-### Java :
-
-```java
-public class code_xam
-{
-	public static void main(String[] args) {
-	    int fact=1,num=10;
-	    for (int i=2;i<=num;i++){
-	        fact=fact*i;
-	    }
-	    System.out.println("Factorial of "+num+" is "+fact);
-	}
-}
-```
-### Python :
-```python
-fact,num=1,5
-for i in range(1,num+1):
-    fact=fact*i
-print(f"Factorial of {num} is {fact}")    
-```
 
 
 
