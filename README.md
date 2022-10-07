@@ -42,6 +42,12 @@ Thanks to these **Wonderful People** 👨🏻‍💻 <br>
 * [**11.(Java)What will be the result of the following expression**](#11javawhat-will-be-the-result-of-the-following-expression)
 
 *****
+#### Functions 
+
+* [**52.The sum of odd numbers**]
+(#52-The-sum-of-odd-numbers)
+
+*****
 #### String -> Learn About Complete String From [Here](https://github.com/Subham-Maity/java-string-data-structure)
 * [**4.Asks the user to enter his/her name and greets them with “Hello , have a good day” text.**](#4asks-the-user-to-enter-hisher-name-and-greets-them-with-hello-name-have-a-good-day-text)
 * [**12.Convert a string to lowercase.**](#12-convert-a-string-to-lowercase)
@@ -6069,12 +6075,75 @@ for i in range(1,num+1):
     fact=fact*i
 print(f"Factorial of {num} is {fact}")    
 ```
-	
+# 52.The sum of odd numbers:
+## Exercise
+Find The sum of odd numbers from 1 to n (input from the)
+## Approach:
+```java
+Take N as input from user and store it in an integer variable.
+Using for loop, iterate from 0 to N.
+For every number i, check whether it is an odd number or not. if(i%2 == 1) then i is odd number else even.
+Add all even numbers in a sum variable.
+```
+## Solution
+### Java (using loop):
+``` java
+import java.util.*;
+ 
+public class OddNumberSum {
+    public static void main(String args[]) {
+        int N, i, sum = 0;
+ 
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter a number");
+        N = in.nextInt();
+ 
+        for(i = 0; i <= N; i++){
+            if((i%2) == 1){
+                sum += i;
+            }
+        }
+     
+        System.out.print("Sum of all odd numbers between 0 to "
+            + N + " = " + sum);
+    }
+}
+```
+### Java (using Function):
+```java
+import java.util.*;
 
+//Write a function to print the sum of all odd numbers from 1 to n.
 
-
-
-
+public class AddOddNum {
+    public static int sumOddNum(int n) {
+        int sum = 0;
+        for (int i = 1; i <= n; i++) {
+            if (i % 2 != 0) {
+                sum = sum + i;
+            }
+        }
+        return sum;
+    }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a number(n): ");
+        int n = sc.nextInt();
+        System.out.println("The sum of odd numbers from 1 to n is: " + sumOddNum(n));
+    }
+}
+```
+python :
+```py
+# Python Program to Calculate Sum of Odd Numbers from 1 to N
+  
+n = int(input("Enter the end number : ")) 
+oddsum = 0 
+for i in range(1, n+1): 
+  if i % 2 != 0: 
+    oddsum += i 
+print(oddsum) 
+```
 
 
 
