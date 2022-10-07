@@ -10,8 +10,8 @@ Thanks to these **Wonderful People** 👨🏻‍💻 <br>
 <table>
 	<tr>
 		 <td>
- <a href="https://github.com/Subham-Maity/java-python-problem-solving-series/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Subham-Maity/java-python-problem-solving-series" />
+ <a href="https://github.com/Subham-Maity/problem-solving/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Subham-Maity/problem-solving" />
 </a>
   </a>
 		</td>
