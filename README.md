@@ -1,4 +1,4 @@
-# JAVA- Python Problem Series For Beginners
+# Coding Problem Series For Beginners
 
 <hr>
 
