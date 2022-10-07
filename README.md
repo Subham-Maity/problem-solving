@@ -44,8 +44,7 @@ Thanks to these **Wonderful People** 👨🏻‍💻 <br>
 *****
 #### Functions 
 
-* [**52.The sum of odd numbers**]
-(#52-The-sum-of-odd-numbers)
+* [**52.The sum of odd numbers**](#52the-sum-of-odd-numbers)
 
 *****
 #### String -> Learn About Complete String From [Here](https://github.com/Subham-Maity/java-string-data-structure)
