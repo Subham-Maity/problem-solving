@@ -42,6 +42,14 @@ Thanks to these **Wonderful People** 👨🏻‍💻 <br>
 * [**11.(Java)What will be the result of the following expression**](#11javawhat-will-be-the-result-of-the-following-expression)
 
 *****
+#### Functions 
+
+* [**51.Factorial of a Number:**](#51factorial-of-a-number)
+* [**52.The sum of odd numbers**](#52the-sum-of-odd-numbers)
+* [**53.Circumference of a circle**](#53circumference-of-a-circle)
+* [**54.Count checker**](#54count-checker)
+
+*****
 #### String -> Learn About Complete String From [Here](https://github.com/Subham-Maity/java-string-data-structure)
 * [**4.Asks the user to enter his/her name and greets them with “Hello , have a good day” text.**](#4asks-the-user-to-enter-hisher-name-and-greets-them-with-hello-name-have-a-good-day-text)
 * [**12.Convert a string to lowercase.**](#12-convert-a-string-to-lowercase)
@@ -72,7 +80,7 @@ Thanks to these **Wonderful People** 👨🏻‍💻 <br>
 *****
 #### Loop
 #### for loop
-* [26.For Loop - Pattern Problems](#26-pattern)
+* [**26.For Loop - Pattern Problems**](#26-pattern)
   * [**1.Solid Rectangle**](#1solid-rectangle)
   * [**2.Hollow Rectangle**](#2hollow-rectangle)
   * [**3.Half Pyramid**](#3half-pyramid)
@@ -6069,13 +6077,198 @@ for i in range(1,num+1):
     fact=fact*i
 print(f"Factorial of {num} is {fact}")    
 ```
-	
+# 52.The sum of odd numbers:
+## Exercise
+Find The sum of odd numbers from 1 to n (input from the)
+## Approach:
+```java
+Take N as input from user and store it in an integer variable.
+Using for loop, iterate from 0 to N.
+For every number i, check whether it is an odd number or not. if(i%2 == 1) then i is odd number else even.
+Add all even numbers in a sum variable.
+```
+## Solution
+### Java (using loop):
+``` java
+import java.util.*;
+ 
+public class OddNumberSum {
+    public static void main(String args[]) {
+        int N, i, sum = 0;
+ 
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter a number");
+        N = in.nextInt();
+ 
+        for(i = 0; i <= N; i++){
+            if((i%2) == 1){
+                sum += i;
+            }
+        }
+     
+        System.out.print("Sum of all odd numbers between 0 to "
+            + N + " = " + sum);
+    }
+}
+```
+### Java (using Function):
+```java
+import java.util.*;
 
+//Write a function to print the sum of all odd numbers from 1 to n.
 
+public class AddOddNum {
+    public static int sumOddNum(int n) {
+        int sum = 0;
+        for (int i = 1; i <= n; i++) {
+            if (i % 2 != 0) {
+                sum = sum + i;
+            }
+        }
+        return sum;
+    }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a number(n): ");
+        int n = sc.nextInt();
+        System.out.println("The sum of odd numbers from 1 to n is: " + sumOddNum(n));
+    }
+}
+```
+python :
+```py
+# Python Program to Calculate Sum of Odd Numbers from 1 to N
+  
+n = int(input("Enter the end number : ")) 
+oddsum = 0 
+for i in range(1, n+1): 
+  if i % 2 != 0: 
+    oddsum += i 
+print(oddsum) 
+```
 
+# 53.circumference of a circle.
+## Exercise
+Find The sum of odd numbers from 1 to n (input from the)
+## Approach:
+```java
+ A circle, points lie in the boundary of a circle are at same distance from its center. This distance is called radius. Circumference of a circle can simply be evaluated using following formula. 
+Circumference = 2*pi*r
+where r is the radius of circle 
+and value of pi = 3.1415.
+```
+## Solution
+### Java
+```java 
+import java.util.Scanner;
 
+//Write a function that takes in the radius as input and returns the circumference of a circle.
 
+public class CircleCircumference {
+    public static double circleCircumference(int radius) {
+        double circumference = (2 * radius * 3.14);
+        return circumference;
+    }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the radios: ");
+        int radius = sc.nextInt();
+        System.out.println("The circumference of a circle with radius " + radius + " is " + circleCircumference(radius));
+    }
+}
+```
+### python 
+```py 
+PI = 3.14
+radius = float(input(' Please Enter the radius of a circle: '))
 
+diameter = 2 * radius
+circumference = 2 * PI * radius
+area = PI * radius * radius
+
+print(" \nDiameter Of a Circle = %.2f" %diameter)
+print(" Circumference Of a Circle = %.2f" %circumference)
+print(" Area Of a Circle = %.2f" %area)
+```
+# 54.Count checker
+## Exercise
+Write a program to enter the numbers till the user wants and at the end it should display the count of positive, negative and zeros entered.
+## Approach:
+```java
+ We ask the user to enter the maximum numbers he or she wants to enter, and store it inside variable limit. Now we iterate the while loop limit number of times. Inside the while loop, for each iteration, until limit is equal to zero, we keep asking the user to enter a number. Once the user enters the number we check if its greater than 0, if its true we’ll increment the value of variable positive by one. If the user entered number is less than 0, then we increment the value of variable negative by one. If the user entered number is neither greater than 0 nor less than 0, then its a zero – so we increment the value of variable zero by one.
+
+For each iteration of the while loop, we decrement the value of variable limit by one. Once the value of variable limit is 0, control exits the while loop and the result will be printed. That is, the number of positives, negatives and the zeros entered by the user.
+```
+## Solution
+### C
+```C : 
+#include < stdio.h >  
+  
+int main()  
+{  
+    int limit, num, positive = 0, negative = 0, zero = 0;  
+  
+    printf("Enter the limit\n");  
+    scanf("%d", &limit);  
+  
+    printf("Enter %d numbers\n", limit);  
+  
+    while(limit)  
+    {  
+        scanf("%d", &num);  
+  
+        if(num > 0)  
+        {  
+            positive++;  
+        }  
+        else if(num < 0)  
+        {  
+            negative++;  
+        }  
+        else  
+        {  
+            zero++;  
+        }  
+  
+        limit--;  
+    }  
+  
+    printf("\nPositive Numbers: %d\n", positive);  
+    printf("Negative Numbers: %d\n", negative);  
+    printf("Number of zero: %d\n", zero);  
+  
+    return 0;  
+}  
+```
+### java : 
+```java 
+import java.util.*;
+//Write a program to enter the numbers till the user wants and at the end it should display the count of positive, negative and zeros entered.
+public class CountCheck {
+    public static int CheckNum(int n){
+        if (n>0) {
+            return 1;
+        } else if (n<0) {
+            return -1;
+        } else {
+            return 0;
+        }
+    }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter numbers: ");
+        int n = sc.nextInt();
+        if (CheckNum(n) == 1) {
+            System.out.println("Positive");
+        } else if (CheckNum(n) == -1) {
+            System.out.println("Negative");
+        } else {
+            System.out.println("Zero");
+        }
+
+    }
+}
+```
 
 
 
