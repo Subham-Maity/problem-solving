@@ -121,6 +121,18 @@ Thanks to these **Wonderful People** 👨🏻‍💻 <br>
 * [**48.Kth smallest element**](#48kth-smallest-element)
 * [**49.Set Matrix Zeroes**](#49-set-matrix-zeroes)
 * [**50.Pascal's Triangle**](#50pascals-triangle)
+* [**52.Two-Sum**](#52-two-sum)
+* [**53.Majority Element**](#53-majority-element)
+* [**54.Most Frequent Element**](#54-most-frequent-element)
+* [**55.Missing Element**](#55-missing-element)
+* [**56.Power of Four**](#56-power-of-four)
+* [**57.Greatest Common Divisor of an array**](#57-greatest-common-divisor-of-an-array)
+* [**58.Contains Duplicate**](#58-contains-duplicate)
+* [**59.Squares of a Sorted Array**](#59-squares-of-a-sorted-array)
+* [**60.Binary Search**](#60-binary-search)
+* [**61.Print all subarrays of a given array**](#61-print-all-subarrays-of- a-given-array)
+* [**62.Rotate Array**](#62-rotate-array)
+* [**63.Remove Element**](#63-remove-element)
 
 
 *****
@@ -6070,12 +6082,662 @@ for i in range(1,num+1):
 print(f"Factorial of {num} is {fact}")    
 ```
 	
+# 52.Two Sum:
+## Exercise
+Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+
+## Approach:
+```javascript
+The idea is to iterate through the array and suppose for an index i,having value nums[i],we need to check the presence of target-nums[i] inside the array nums.If found, the result is returned.
+```
+```
+
+```
+## Solution
+### Java :
+
+```java
+public class Solution
+{
+	public final ArrayList<Integer> twoSum(ArrayList<Integer> nums, int target)
+	{
+		ArrayList<Integer> result = new ArrayList<Integer>();
+		for (var i = 0 ; i < nums.size(); i++)
+		{
+			var itr = find(nums.iterator(),nums.end(),(target - nums.get(i)));
+			if (itr != nums.end() && i != itr - nums.iterator())
+			{
+				result.add(i);
+				result.add(itr - nums.iterator());
+				break;
+			}
+		}
+		 return new ArrayList<Integer>(result);
+	}
+}
+
+```
+### Python :
+```python
+class Solution:
+    def twoSum(self, nums, target):
+        result = []
+        i = 0
+        while i <len(nums):
+            itr = find(nums.begin(),nums.end(),(target - nums[i]))
+            if itr is not nums.end() and i is not itr-nums.begin():
+                result.append(i)
+                result.append(itr-nums.begin())
+                break
+            i += 1
+        return list(result) 
+```
+# 53.Majority Element:
+## Exercise
+Given an array nums of size n, return the majority element.
+(The majority element is the element that appears more than ⌊n / 2⌋ times. You may assume that the majority element always exists in the array.)
+
+Example:
+Input: nums = [2,2,1,1,1,2,2]
+Output: 2
+
+## Approach:
+```javascript
+We use a hashmap that stores the element and its respective frequency as key-value pairs.We then iterate through the map and check for the first occurence of the element having frequency greater than |_n/2_| times and return it.
+```
+## Solution
+### Java :
+
+```java
+public class Solution
+{
+	public final int majorityElement(ArrayList<Integer> nums)
+	{
+		HashMap<Integer,Integer> a = new HashMap<Integer,Integer>();
+		for (var i : nums)
+		{
+			a.get(i)++;
+		}
+		int maxi = Integer.MIN_VALUE;
+		int ans;
+		for (var i = a.iterator();i != a.end();i++)
+		{
+			if (i.second > maxi)
+			{
+				maxi = i.second;
+				ans = i.first;
+			}
+		}
+		return ans;
+	}
+}
+
+```
+### Python :
+```python
+class Solution:
+    def majorityElement(self, nums):
+        a = {}
+        for i in nums:
+            a[i] += 1
+        maxi = numeric_limits.lowest()
+        ans = None
+        i = a.begin()
+        while i!=a.end():
+            if i.second> maxi:
+                maxi = i.second
+                ans = i.first
+            i += 1
+        return ans
+```
+
+# 54.Most Frequent Element:
+## Exercise
+Given an array nums of size n, return the most frequent element.
+(If multiple elements have the same frequency,return the minimum of them)
+
+Example:
+Input: nums = [2,2,1,1,1,2,2,5,5,3,7,3]
+Output: 2
+
+## Approach:
+```javascript
+We use a hashmap that stores the element and its respective frequency as key-value pairs.We then iterate through the map and calculate the max frequency (checking for the minimum no. at each instance) and return it.
+```
+## Solution
+### Java :
+
+```java
+public class Solution
+{
+	public final int majorityElement(ArrayList<Integer> nums)
+	{
+		HashMap<Integer,Integer> a = new HashMap<Integer,Integer>();
+		for (var i : nums)
+		{
+			a.get(i)++;
+		}
+		int maxi = Integer.MIN_VALUE;
+		int ans = Integer.MIN_VALUE;
+		for (var i = a.iterator();i != a.end();i++)
+		{
+			if (i.second > maxi)
+			{
+				maxi = i.second;
+				if (i.first < ans)
+                    ans=i.first
+			}
+		}
+		return ans;
+	}
+}
+
+```
+### Python :
+```python
+class Solution:
+    def majorityElement(self, nums):
+        a = {}
+        for i in nums:
+            a[i] += 1
+        maxi = numeric_limits.lowest()
+        ans = numeric_limits.highest()
+        i = a.begin()
+        while i!=a.end():
+            if i.second> maxi:
+                maxi = i.second
+                if i.first<ans:
+                    ans=i.first
+            i += 1
+        return ans
+```
+# 55.Missing Element:
+## Exercise
+Given an array nums containing n distinct numbers in the range [0, n], return the only number in the range that is missing from the array.
+
+Example:
+Input: nums = [9,6,4,2,3,5,7,0,1]
+Output: 8
+
+## Approach:
+```javascript
+We use the concept of sum of n natural numbers.We calculate the sum of the array and subtract this from x*(x+1)/2 ,where x is the array size.(the product gives the addition of sum of the array and the missing element)
+```
+## Solution
+### Java :
+
+```java
+
+public class Solution
+{
+	public final int missingNumber(ArrayList<Integer> nums)
+	{
+		int sum = 0;
+		for (int i = 0;i < nums.size();i++)
+		{
+			sum += nums.get(i);
+		}
+		int x = nums.size();
+		return x * (x + 1) / 2 - sum;
+	}
+}
+
+```
+### Python :
+```python
+import math
+
+class Solution:
+    def missingNumber(self, nums):
+        sum = 0
+        i = 0
+        while i<len(nums):
+            sum+=nums[i]
+            i += 1
+        x = len(nums)
+        return math.trunc(x*(x+1) / float(2))-sum
+
+```
+# 56.Power of Four:
+## Exercise
+Given an integer n, return true if it is a power of four. Otherwise, return false.
+
+Example:
+Input: n = 16
+Output: true
+
+Input: n = 5
+Output: false
+
+## Approach:
+```javascript
+The logic is to compute the integer logarithm to base 2 of the imput number. Then we check whether the logarithm is even or not.
+We return true for even value and false for odd value.
+```
+## Solution
+### Java :
+
+```java
+
+public class Solution
+{
+	public final boolean isPowerOfFour(int n)
+	{
+		if (n <= 0)
+		{
+			return false;
+		}
+		else
+		{
+		double d = log2(n) / 2;
+		if (d == Math.floor(d))
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+		}
+	}
+}
+
+
+```
+### Python :
+```python
+import math
+
+class Solution:
+    def isPowerOfFour(self, n):
+        if n<=0:
+            return False
+        else:
+            d = log2(n)/2
+            if d == math.floor(d):
+                return True
+            else:
+                return False
+
+
+```
+
+# 57.Greatest Common Divisor of an array:
+## Exercise
+Given an integer array nums, return the greatest common divisor of the smallest number and largest number in nums.
+
+Example:
+Input: nums = [2,5,6,9,10]
+Output: 2
+
+## Approach:
+```javascript
+We use Euclid's division algorithm to calculate the GCD of the maximum and minimum elemnt of the array.
+For Example:
+GCD(12,8) can be calculated as follows.
+12=8*1+4
+8=4*2+0;
+
+We keep on dividing until the remainder becomes zero.
+In this case,since remainder is 0,the GCD is 4(the previous remainder).
+```
+## Solution
+### Java :
+
+```java
+
+public class Solution
+{
+	public final int findGCD(ArrayList<Integer> nums)
+	{
+		Collections.sort(nums);
+		if (nums.get(nums.size() - 1) % nums.get(0) == 0)
+		{
+			return nums.get(0);
+		}
+		else
+		{
+			int temp;
+			int max = nums.get(nums.size() - 1);
+			int min = nums.get(0);
+			while (min != 0)
+			{
+				temp = max;
+				max = min;
+				min = temp % min;
+			}
+			return max;
+		}
+	}
+}
 
 
 
+```
+### Python :
+```python
+import math
+
+class Solution:
+    def findGCD(self, nums):
+        nums.sort()
+        if math.fmod(nums[len(nums)-1], nums[0]) == 0:
+            return nums[0]
+        else:
+            temp = None
+            max = nums[len(nums)-1]
+            min = nums[0]
+            while min!=0:
+                temp = max
+                max = min
+                min = math.fmod(temp, min)
+            return max
+
+```
+
+# 58.Contains Duplicate:
+## Exercise
+Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
+
+Example:
+Input: nums = [1,2,3,1]
+Output: true
+
+## Approach:
+```javascript
+We first sort the array and check if adjacent elements are equal or not throughout the array.
+```
+## Solution
+### Java :
+
+```java
+
+public class Solution
+{
+	public final boolean containsDuplicate(ArrayList<Integer> nums)
+	{
+		Collections.sort(nums);
+		int c = 0;
+		for (int i = 0;i < nums.size() - 1;i++)
+		{
+			if (nums.get(i) == nums.get(i + 1))
+			{
+				return true;
+			}
+		}
+		return false;
+	}
+}
 
 
 
+```
+### Python :
+```python
+class Solution:
+    def containsDuplicate(self, nums):
+        nums.sort()
+        c = 0
+        i = 0
+        while i<len(nums)-1:
+            if nums[i] == nums[i+1]:
+                return True;
+            i += 1
+        return False
+
+
+```
+
+# 59.Squares of a Sorted Array:
+## Exercise
+Given an integer array nums sorted in non-decreasing order, return an array of the squares of each number sorted in non-decreasing order.
+
+Example:
+Input: nums = [-4,-1,0,3,10]
+Output: [0,1,9,16,100]
+
+## Approach:
+```javascript
+Compute the squares of individual elements and then sort the array
+```
+## Solution
+### Java :
+
+```java
+
+public class Solution
+{
+	public final ArrayList<Integer> sortedSquares(ArrayList<Integer> nums)
+	{
+		for (int i = 0;i < nums.size();i++)
+		{
+			nums.set(i, nums.get(i) * nums.get(i));
+		}
+		Collections.sort(nums);
+		return nums;
+	}
+}
 
 
 
+```
+### Python :
+```python
+class Solution:
+    def sortedSquares(self, nums):
+        i = 0
+        while i<len(nums):
+            nums[i] = nums[i]*nums[i]
+            i += 1
+        nums.sort()
+        return nums
+
+```
+
+# 60.Binary Search:
+## Exercise
+Given an integer array nums, search for an element x from the array using Binary Search.
+
+Example:
+Input: nums = [-4,-1,0,3,10] , x = 0
+Output: 2
+
+## Approach:
+```javascript
+sort the array and use two pointers high and low.
+update high and low depending on the value to be found.
+Calculate middle element.
+If x>nums[mid],update low
+If x<nums[mid],update high
+If x==nums[mid],return index.
+```
+```java
+
+class Solution
+{
+    int binarySearch(int arr[], int x)
+    {
+        int l = 0, r = arr.length - 1;
+        while (l <= r) 
+        {
+            int m = l + (r - l) / 2;
+            if (arr[m] == x)
+                return m+1;
+            if (arr[m] < x)
+                l = m + 1;
+            else
+                r = m - 1;
+        }
+        return -1;
+    }
+
+```
+### Python :
+```python
+def binary_search(arr, x):
+    low = 0
+    high = len(arr) - 1
+    mid = 0
+    while high >= low:
+        mid = (high + low) // 2
+        if arr[mid] == x:
+            return mid+1
+        elif arr[mid] > x:
+            high = mid - 1
+        else:
+            low = mid + 1
+    else:
+        return -1
+
+```
+
+# 61.Print all subarrays of a given array:
+## Exercise
+Given an integer array nums, print all subarrays of nums.
+
+Example:
+Input: nums = [1,2,3,4] 
+Output: [[1],[1,2],[1,2,3],[1,2,3,4],[2],[2,3],[2,3,4],[3],[3,4],[4]]
+
+## Approach:
+```javascript
+Three nested loops will be used.
+The outer loop will be used to take the first element of the subarray.
+The middle loop will be used to take the last element of the subarray.
+The inner loop will be used to print the subarray from starting element
+to ending element
+```
+```java
+
+public class Globals
+{
+	public static void main(String[] args) throwsIOException
+	{
+		int n;
+        BufferedReader br=new BufferedReader(new InputStreamReader(System.in))
+		n = Integer.parseInt(br.readLine());
+		int[] arr = new int[n];
+		for (int i = 0; i <= n; i++)
+		{
+			arr[i] = Integer.parseInt(br.readLine());
+		}
+		for (int i = 0; i < n; i++)
+		{
+			for (int j = i; j < n; j++)
+			{
+				for (int k = i; k <= j; k++)
+				{
+					System.out.print(arr[k]);
+					System.out.print(" ");
+				}
+				System.out.print("\n");
+			}
+		}
+	}
+}
+
+```
+### Python :
+```python
+def sub_lists (l):
+    lists = [[]]
+    for i in range(len(l) + 1):
+        for j in range(i):
+            lists.append(l[j: i])
+    return lists
+
+```
+
+# 62.Rotate Array:
+## Exercise
+Given an array, rotate the array to the right by k steps, where k is non-negative.
+
+Example:
+Input: nums = [1,2,3,4,5,6,7], k = 3
+Output: [5,6,7,1,2,3,4]
+
+## Approach:
+```javascript
+Reverse the last k elements.
+Reverse the first nums.size()-k elements.
+Reverse the entire array now.
+```
+```java
+
+public class Solution
+{
+	public final void rotate(ArrayList<Integer> nums, int k)
+	{
+		k = k % (nums.size());
+		reverse(nums.end() - k,nums.end());
+		reverse(nums.iterator(),nums.end() - k);
+		Collections.reverse(nums);
+	}
+}
+
+
+```
+### Python :
+```python
+import math
+class Solution:
+    def rotate(self, nums, k):
+        k = math.fmod(k, (len(nums)))
+        reverse(nums.end()-k,nums.end())
+        reverse(nums.begin(),nums.end()-k)
+        nums.reverse()
+
+```
+
+# 63.Remove Element:
+## Exercise
+Given an integer array nums and an integer val, remove all occurrences of val in nums in-place. The relative order of the elements may be changed.
+
+Example:
+Input: nums = [3,2,2,3], val = 3
+Output: 2
+
+## Approach:
+```javascript
+Iterate throughout the array and if traversed element doesnt equal given value,update this value from the start of array and keep incrementing.
+```
+```java
+
+public class Solution
+{
+	public final int removeElement(ArrayList<Integer> nums, int val)
+	{
+		int c = 0;
+		int i;
+		int j = 0;
+		int l = nums.size();
+		for (i = 0;i < l;i++)
+		{
+			if (nums.get(i) != val)
+			{
+				nums.set(j++, nums.get(i));
+			}
+		}
+		return j;
+	}
+}
+
+
+
+```
+### Python :
+```python
+class Solution:
+    def removeElement(self, nums, val):
+        c = 0
+        i = None
+        j = 0
+        l = len(nums)
+        for i in range(0, l):
+            if nums[i]!=val:
+                nums[j] = nums[i]
+                j += 1
+        return j
+
+
+```
